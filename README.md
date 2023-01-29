@@ -1,2 +1,2 @@
-# Visual-Tradex
+# Visual Tradex
 Visual Tradex Website
