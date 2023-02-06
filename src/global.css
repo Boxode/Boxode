@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .VTX div:first-child {
+        @apply rotate-45 translate-y-1.5
+    }
+        .VTX div:last-child {
+        @apply -rotate-45 -translate-y-1
+    }
+}
