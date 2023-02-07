@@ -10,3 +10,7 @@
         @apply -rotate-45 -translate-y-1
     }
 }
+
+.btn-contact {
+    @apply bg-purple-500 text-black hover:bg-gray-800 ease-in duration-150 font-sans tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
+}
