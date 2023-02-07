@@ -1,3 +1,8 @@
 node_modules
 package-lock.json
+
+# Ignore build folder of Astro
+/dist
+
+# Dummy files
 .DS_Store
