@@ -26,8 +26,5 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
-  },
-  "compilerOptions": {
-    "importsNotUsedAsValues": "error"
   }
 }
