@@ -11,6 +11,17 @@
     }
 }
 
+@layer base {
+    @font-face {
+        font-family: SegoeUI;
+        src: url(/Fonts/SegoeUI.woff) format("woff");
+    }
+    @font-face {
+        font-family: SegoeBold;
+        src: url(/Fonts/SegoeBold.woff) format("woff");
+    }
+}
+
 .btn-contact {
-    @apply bg-purple-500 text-black hover:bg-gray-800 ease-in duration-150 font-sans tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
+    @apply bg-cyan-500 text-black hover:bg-gray-800 ease-in duration-150 font-[SegoeBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
 }
