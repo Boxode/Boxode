@@ -45,7 +45,7 @@ return (
           </ul>
         </div>
         <div>
-          <h2 className='mb-6 text-[15px] font-medium text-gray-500 uppercase font-[SegoeUI]'>Compañia</h2>
+          <h2 className='mb-6 text-[15px] font-medium text-gray-500 uppercase font-[SegoeBold]'>Compañia</h2>
           <ul className='text-gray-500 text-[11px]'>
             <li className='mb-4 font-[SegoeUI]'>
                 <a href='/careers' className='hover:underline'>Trabajos</a>
