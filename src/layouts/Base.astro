@@ -38,11 +38,6 @@ const { title } = Astro.props;
 <body>
 	<slot />
 </body>
-<script>
-	var date = new Date().getFullYear(),
-    year = document.getElementById('year')
-    if (year) {
-        document.getElementById('year').innerHTML = date
-    }
-</script>
+<script src="../rellax.js"></script>
+<script src="../rellax.min.js"></script>
 </html>
