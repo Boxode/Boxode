@@ -24,8 +24,8 @@ export const Contact = () => {
       <Toaster />
       <div className='container px-5 py-10 mx-auto'>
         <div className='flex flex-col text-center w-full mb-12'>
-          <h2 className='md:text-4xl text-3xl font-medium title-font mb-4 text-black font-[Tussila] drop-shadow-lg'>¡Contactanos!</h2>
-          <p className='lg:w-2/3 mx-auto leading-relaxed text-lg font-[FBB]'>
+          <h2 className='md:text-4xl text-3xl font-medium title-font mb-4 text-black font-[SegoeBold] drop-shadow-lg'>¡Contactanos!</h2>
+          <p className='lg:w-2/3 mx-auto leading-relaxed text-lg font-[SegoeUI]'>
             ¡Es momento de comenzar a crear!
           </p>
         </div>
@@ -34,7 +34,7 @@ export const Contact = () => {
             <div className='flex flex-wrap -m-2'>
               <div className='p-2 w-1/2'>
                 <div className='relative'>
-                  <label forhtml='name' className='leading-7 text-[20px] text-black font-[Tussila]'>
+                  <label forhtml='name' className='leading-7 text-[20px] text-black font-[SegoeUI]'>
                     Nombre
                   </label>
                   <input required type='text' name='user_name' className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg font-medium outline-none text-black font-[FBB] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out' />
@@ -42,7 +42,7 @@ export const Contact = () => {
               </div>
               <div className='p-2 w-1/2'>
                 <div className='relative'>
-                  <label forhtml='email' className='leading-7 text-[20px] text-black font-[Tussila]'>
+                  <label forhtml='email' className='leading-7 text-[20px] text-black font-[SegoeUI]'>
                     Email
                   </label>
                   <input required type='email' name='user_email' className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg outline-none text-black font-[FBB] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out' />
@@ -50,7 +50,7 @@ export const Contact = () => {
               </div>
               <div className='p-2 w-full'>
                 <div className='relative'>
-                  <label forhtml='message' className='leading-7 text-[20px] text-black font-[Tussila]'>
+                  <label forhtml='message' className='leading-7 text-[20px] text-black font-[SegoeUI]'>
                     Mensaje
                   </label>
                   <textarea required name='message' className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 h-32 text-xl outline-none text-black py-2 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out font-[FBB]'></textarea>
