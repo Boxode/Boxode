@@ -22,6 +22,9 @@ return (
             <li className='mb-4 font-[SegoeUI]'>
                 <a href="https://www.facebook.com/VisualTradex" target="_blank" rel="noopener noreferrer" className='hover:underline'>Facebook</a>
             </li>
+            <li className='mb-4 font-[SegoeUI]'>
+                <a href="https://www.instagram.com/VisualTradex" target="_blank" rel="noopener noreferrer" className='hover:underline'>Instagram</a>
+            </li>
           </ul>
         </div>
         <div>
