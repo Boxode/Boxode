@@ -1,8 +1,8 @@
 const Services = () => {
   return (
-    <div>
+    <section className='min-h-screen'>
         <h1>Services</h1>
-    </div>
+    </section>
   )
 }
 
