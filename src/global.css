@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+	box-sizing: border-box;
+  }
+
 @layer components {
     .VTX div:first-child {
         @apply rotate-45 translate-y-1.5
@@ -24,4 +28,14 @@
 
 .btn-contact {
     @apply bg-cyan-500 text-black hover:bg-gray-800 ease-in duration-150 font-[SegoeBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
+}
+
+.principal {
+	background-color: #111135;
+}
+
+.vtx{
+	background: linear-gradient(140deg,#ef289e,#3b51cb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
