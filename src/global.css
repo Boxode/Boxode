@@ -35,7 +35,20 @@
 }
 
 .vtx{
-	background: linear-gradient(140deg,#ef289e,#3b51cb);
+	background: linear-gradient(140deg,#eda0ce,#7781b9);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+	background: #aba9a9;
+	border-radius: 10px;
+  }
