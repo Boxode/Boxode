@@ -6,6 +6,10 @@
 	box-sizing: border-box;
   }
 
+body {
+	background-color: #000000;
+}
+
 @layer components {
     .VTX div:first-child {
         @apply rotate-45 translate-y-1.5
@@ -24,6 +28,10 @@
         font-family: SegoeBold;
         src: url(/Fonts/SegoeBold.woff) format("woff");
     }
+	@font-face {
+		font-family: Questrial;
+		src: url(/Fonts/Questrial.woff) format("woff");
+	}
 }
 
 .btn-contact {
@@ -31,11 +39,11 @@
 }
 
 .principal {
-	background-color: #111135;
+	background-color: #000000;
 }
 
 .vtx{
-	background: linear-gradient(140deg,#eda0ce,#7781b9);
+	background: linear-gradient(0deg, hsla(0, 0%, 100%, 1) 11%, hsla(0, 0%, 77%, 1) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -51,4 +59,9 @@
   ::-webkit-scrollbar-thumb {
 	background: #aba9a9;
 	border-radius: 10px;
+  }
+
+::selection {
+	background-color: rgba(180, 180, 180, 0.3);
+	filter: blur(10px);
   }
