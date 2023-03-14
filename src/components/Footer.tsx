@@ -1,6 +1,6 @@
 const Footer = () => {
 return (
-  <footer className='bg-black'>
+  <footer className='bg-black border-t border-gray-100/30'>
     <div className='grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4'>
       <div>
         <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>Novedades</h2>
@@ -63,8 +63,10 @@ return (
         <img src="/BoxodeB.svg" alt="Boxode" className='w-24'/>
           <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-[SegoeUI]'>
             <a href=""className='text-[11px] text-gray-100/80 hover:underline'>Ponte en contacto con Boxode</a>
-            <a href=""className='text-[11px] text-gray-100/80 hover:underline'>Privacidad</a>
-            <a href=""className='text-[11px] text-gray-100/80 hover:underline'>Marcas Registradas</a>
+			<a href=""className='text-[11px] text-gray-100/80 hover:underline'>Mapa de sitio</a>
+			<a href=""className='text-[11px] text-gray-100/80 hover:underline'>Privacidad</a>
+			<a href=""className='text-[11px] text-gray-100/80 hover:underline'>Marcas Registradas</a>
+			<a href=""className='text-[11px] text-gray-100/80 hover:underline'>Reciclaje</a>
           <span className='text-[11px] text-gray-100/80 sm:text-center'>© Boxode <span id='year'>2023</span></span>
           </div>
       </div>
