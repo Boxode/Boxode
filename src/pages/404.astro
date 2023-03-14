@@ -1,0 +1,19 @@
+---
+import Base from "@layouts/Base.astro";
+import Header from "@components/Header";
+---
+
+<Base title="404">
+  <Header />
+  <section class='section-error min-h-screen stars'>
+	<img src="/404.svg" alt="404" class="img-error">
+  	<div class="font-[SegoeBold] pt-[5%] text-center">
+  	  <span id="L" class="error flex-row">4</span>
+  	  <span id="I" class="error flex-row px-24">0</span>
+  	  <span id="G" class="error flex-row">4</span>
+  	</div>
+  	<p class="text-white/50 font-[Questrial] text-2xl tracking-widest select-none z-20">Página no encontrada.</p>
+	<p class="text-white/50 font-[Questrial] text-xl tracking-widest select-none z-20"> Comprueba que la ruta este escrita correctamente o si la ruta solicitada no haya sido eliminada.</p>
+	<a href='/' class="text-white/50 font-[Questrial] text-xl tracking-widest select-none underline decoration-white/50 z-20 pt-4">Volver al inicio</a>
+  </section>
+</Base>
