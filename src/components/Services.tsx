@@ -10,10 +10,33 @@ const Services = () => {
 		<div className='mt-16'>
 		  <article className="flex justify-around items-center">
 		  	<div className="relative flex items-center lg:items-start justify-center lg:justify-around flex-col">
-			  <div className='absolute w-52 h-52 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-2xl opacity-30 -z-20'></div>
-		  	  <img src="/hammer.svg" alt="" className='w-16 h-16 mb-5 shadow-md lg:shadow-none'/>
+			  <div className='absolute w-32 h-32 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
+			  <div className='absolute top-10 w-24 h-24 animation-delay-2000 bg-gradient-to-r from-teal-500 to-white rounded-full blur-2xl opacity-30 -z-20 animate-blob text'></div>
+		  	  <img src="/hammer.svg" alt="" className='w-16 h-16 mb-5 drop-shadow-md'/>
 		  	  <h3 className="text-white text-2xl pb-4 lg:text-4xl font-[SegoeBold] leading-relaxed">Desarrollo de Software</h3>
-		  	  <p className='text-white/80 font-[SegoeUI] text-md lg:text-2xl text-center px-6 lg:px-0'>Desarrollamos soluciones escalables para plataformas multidisciplinarias con las más nuevas tecnologías.</p>
+		  	  <p className='text-white/80 font-[SegoeUI] text-md lg:text-xl text-center px-6 lg:px-0'>Desarrollamos soluciones escalables para plataformas multidisciplinarias con las más nuevas tecnologías.</p>
+		  	</div>
+		  </article>
+		</div>
+		<div className='mt-24 text-right'>
+		  <article className="flex justify-around items-center">
+		  	<div className="relative flex items-center lg:items-end justify-center lg:justify-around flex-col">
+			  <div className='absolute w-32 h-32 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
+			  <div className='absolute top-10 w-24 h-24 animation-delay-4000 bg-gradient-to-r from-teal-500 to-white rounded-full blur-2xl opacity-30 -z-20 animate-blob text'></div>
+		  	  <img src="/computer.svg" alt="" className='w-16 h-16 mb-5 drop-shadow-md'/>
+		  	  <h3 className="text-white text-2xl pb-4 lg:text-4xl font-[SegoeBold] leading-relaxed">Desarrollo Web</h3>
+		  	  <p className='text-white/80 font-[SegoeUI] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>Planeamos, diseñamos y programamos aplicaciones web personalizadas utilizando tendencias de desarrollo <br /> actuales y estándares de diseño innovadores.</p>
+		  	</div>
+		  </article>
+		</div>
+		<div className='mt-16'>
+		  <article className="flex justify-around items-center">
+		  	<div className="relative flex items-center lg:items-start justify-center lg:justify-around flex-col">
+			  <div className='absolute w-32 h-32 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
+			  <div className='absolute top-10 w-24 h-24 animation-delay-2000 bg-gradient-to-r from-teal-500 to-white rounded-full blur-2xl opacity-30 -z-20 animate-blob text'></div>
+		  	  <img src="/brush-and-pencil.svg" alt="" className='w-16 h-16 mb-5 drop-shadow-md'/>
+		  	  <h3 className="text-white text-2xl pb-4 lg:text-4xl font-[SegoeBold] leading-relaxed">Diseño UI/UX</h3>
+		  	  <p className='text-white/80 font-[SegoeUI] text-md lg:text-xl text-center lg:text-left px-6 lg:px-0'>Creamos interfaces digitales intuitivas y atractivas para los usuarios, utilizando principios de diseño visual y de <br /> experiencia de usuario para mejorar la usabilidad y la satisfacción del usuario al interactuar <br /> con una aplicación o sitio web.</p>
 		  	</div>
 		  </article>
 		</div>
