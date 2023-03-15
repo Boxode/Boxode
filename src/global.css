@@ -38,6 +38,15 @@ html {
 	}
 }
 
+@layer utilities {
+	.animation-delay-2000 {
+		animation-delay: 2s;
+	}
+	.animation-delay-4000 {
+		animation-delay: 4s;
+	}
+}
+
 .btn-contact {
     @apply bg-cyan-500 text-black hover:bg-gray-800 ease-in duration-150 font-[SegoeBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
 }
@@ -79,6 +88,8 @@ html {
   :root {
 	--white:#f1f1f1
 }
+
+/************ 404 Not Found Page *************/
 
   .section-error{
 	display: flex;
