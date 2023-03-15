@@ -4,7 +4,7 @@
 	<a href="https://boxode.org/templates">Templates</a> ◻ <a href="https://boxode.org/oss">Open Source</a>
 </div>
 
-## Boxode
+## Boxode ⬜
 
 ## Contributing
 
