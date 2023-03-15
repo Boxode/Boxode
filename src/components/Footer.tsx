@@ -1,6 +1,6 @@
 const Footer = () => {
 return (
-  <footer className='bg-black border-t border-gray-100/30'>
+  <footer className='bg-black border-t border-gray-100/10'>
     <div className='grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4'>
       <div>
         <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>Novedades</h2>
@@ -31,13 +31,13 @@ return (
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>Desarrollo y TI</h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4 font-[SegoeUI]'>
-                <a href='/opensource' className='hover:underline'>Código abierto</a>
+                <a href='/oss' className='hover:underline'>Código abierto</a>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
-                <a href='/opensource/contributing' className='hover:underline'>Contribuciones</a>
+                <a href='/oss/contributing' className='hover:underline'>Contribuciones</a>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
-                <a href='/opensource/codeofconduct' className='hover:underline'>Código de Conducta</a>
+                <a href='/oaa/coc' className='hover:underline'>Código de Conducta</a>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
                 <a href="https://github.com/Boxode" target="_blank" rel="noopener noreferrer" className='hover:underline'>GitHub Empresarial</a>
