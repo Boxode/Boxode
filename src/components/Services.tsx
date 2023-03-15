@@ -25,7 +25,7 @@ const Services = () => {
 			  <div className='absolute top-10 w-24 h-24 animation-delay-4000 bg-gradient-to-r from-teal-500 to-white rounded-full blur-2xl opacity-30 -z-20 animate-blob text'></div>
 		  	  <img src="/computer.svg" alt="" className='w-16 h-16 mb-5 drop-shadow-md'/>
 		  	  <h3 className="text-white text-2xl pb-4 lg:text-4xl font-[SegoeBold] leading-relaxed">Desarrollo Web</h3>
-		  	  <p className='text-white/80 font-[SegoeUI] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>Planeamos, diseñamos y programamos aplicaciones web personalizadas utilizando tendencias de desarrollo <br /> actuales y estándares de diseño innovadores.</p>
+		  	  <p className='text-white/80 font-[SegoeUI] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>Planeamos, diseñamos y programamos aplicaciones web personalizadas utilizando tendencias de desarrollo actuales.</p>
 		  	</div>
 		  </article>
 		</div>
@@ -36,7 +36,7 @@ const Services = () => {
 			  <div className='absolute top-10 w-24 h-24 animation-delay-2000 bg-gradient-to-r from-teal-500 to-white rounded-full blur-2xl opacity-30 -z-20 animate-blob text'></div>
 		  	  <img src="/brush-and-pencil.svg" alt="" className='w-16 h-16 mb-5 drop-shadow-md'/>
 		  	  <h3 className="text-white text-2xl pb-4 lg:text-4xl font-[SegoeBold] leading-relaxed">Diseño UI/UX</h3>
-		  	  <p className='text-white/80 font-[SegoeUI] text-md lg:text-xl text-center lg:text-left px-6 lg:px-0'>Creamos interfaces digitales intuitivas y atractivas que mejoran la experiencia del usuario al interactuar <br /> con aplicaciones y sitios web.</p>
+		  	  <p className='text-white/80 font-[SegoeUI] text-md lg:text-xl text-center lg:text-left px-6 lg:px-0'>Creamos interfaces digitales intuitivas y atractivas que mejoren la experiencia del usuario.</p>
 		  	</div>
 		  </article>
 		</div>
