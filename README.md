@@ -9,6 +9,6 @@
 ## Contributing
 
 ## Reference
-- <a href="">Code of Conduct</a>
+- <a href="https://github.com/Boxode/.github/blob/main/CODE_OF_CONDUCT_EN.md">Code of Conduct</a>
 - <a href="">Contributing Guidelines</a>
-- <a href="">Apache 2.0 License</a>
+- <a href="https://github.com/Boxode/Boxode/blob/main/LICENSE">Apache 2.0 License</a>
