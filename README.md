@@ -9,3 +9,6 @@
 ## Contributing
 
 ## Reference
+- <a href="">Code of Conduct</a>
+- <a href="">Contributing Guidelines</a>
+- <a href="">Apache 2.0 License</a>
