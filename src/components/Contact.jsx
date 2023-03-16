@@ -8,7 +8,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm('service_xscl0hr', 'template_fs04mzs', form.current, 'GwgIwvIWFQ55J7gPP')
+    emailjs.sendForm('service_aedmfvv', 'template_fs04mzs', form.current, 'GwgIwvIWFQ55J7gPP')
       .then((result) => {
         console.log(result.text)
         form.current.reset()
@@ -20,14 +20,14 @@ export const Contact = () => {
   }
 
   return (
-    <section id='contact' className='text-white body-font relative border-t border-gray-100/10'>
+    <section id='contact' className='text-white body-font relative border-t border-gray-100/10 my-10'>
       <Toaster />
       <div className='container px-5 mx-auto'>
 	    <div className='flex items-center justify-center flex-col mt-10 mb-10'>
 	  	  <img src="/3.webp" className='w-12 select-none' alt="2" />
 	  	  <h2 className='contact text-6xl lg:text-8xl font-[SegoeBold] tracking-normal p-4 opacity-90 select-none'>Contacto</h2>
 	  	  <p className='text-gray-100/50 text-md px-6 text-center lg:text-2xl font-[Questrial]'>¿Estás interesado en alguno de nuestros servicios?</p>
-			<p className='text-gray-100/50 text-md px-6 text-center lg:text-2xl font-[Questrial]'>¡Fantastico! Puedes llenar el siguiente formulario y nosotros te contactaremos.</p>
+		  <p className='text-gray-100/50 text-md px-6 text-center lg:text-2xl font-[Questrial]'>¡Fantastico! Puedes llenar el siguiente formulario y nosotros te contactaremos.</p>
 	    </div>
         <form ref={form} onSubmit={sendEmail}>
           <div className='lg:w-1/2 md:w-2/3 mx-auto'>
@@ -64,6 +64,11 @@ export const Contact = () => {
             </div>
           </div>
         </form>
+		<div className='mt-5'>
+		  <p className='text-gray-100/50 text-xl px-6 text-center lg:text-4xl font-[Questrial]'>NOTA</p>
+		  <p className='text-gray-100/50 text-md px-6 text-center lg:text-2xl font-[Questrial] my-4'>El servicio de correo vinculado al formulario esta teniendo algunas fallas, por lo que le recomendamos mandar un mensaje a <a href="mailto:contact@boxode.org" className='underline decoration-gray-500/50'>contacto@boxode.org</a> o <a href="mailto:boxodecorporation@gmail.com" className='underline decoration-gray-500/50'>boxodecorporation@gmail.com</a> para cualquier consulta del servicio que desee adquirir.</p>
+		  <p className='text-gray-100/50 text-md px-6 text-center lg:text-2xl font-[Questrial]'>Disculpe las molestias que esto puede generar, estamos trabajando para poder solucionar el problema.</p>
+		</div>
       </div>
     </section>
   )
