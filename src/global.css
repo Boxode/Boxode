@@ -48,7 +48,7 @@ html {
 }
 
 .btn-contact {
-    @apply bg-cyan-500 text-black hover:bg-gray-800 ease-in duration-150 font-[SegoeBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
+    @apply bg-white text-black hover:bg-gray-500/50 ease-in duration-75 font-[SegoeBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
 }
 
 .principal {
@@ -81,6 +81,16 @@ html {
 
   .services {
 	background: -webkit-linear-gradient(65deg,#015eea, #00c0fa);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+  .contact {
+	background: -webkit-linear-gradient(65deg,#FF544F, #FAD126);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+  .about {
+	background: -webkit-linear-gradient(65deg,#EE609C, #6564D9);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   }
