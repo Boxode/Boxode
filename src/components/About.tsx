@@ -25,12 +25,12 @@ return (
   	  	  	  </p>
   	  	  	</div>
   	  	  </div>
-  	  	  <div className="mx-auto">
+  	  	  <div className="mx-auto flex items-center justify-center lg:justify-start">
   	  	  	<div className=" relative md:absolute -z-20">
-  	  	  		<div className="flex image-tech justify-center items-center relative flex-col px-6 sm:px-12 pt-8 w-96 lg:w-[700px] select-none z-20">
-  	  	  		  <div className='relative hidden md:block md:absolute w-40 lg:w-64 h-40 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#EE609C] to-[#6564D9] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
+  	  	  		<div className="flex image-tech justify-center items-center relative flex-col px-6 sm:px-12 pt-8 w-96 lg:w-[700px] select-none z-20  md:hidden lg:block">
+  	  	  		  <div className='relative hidden md:absolute w-40 lg:w-64 h-40 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#EE609C] to-[#6564D9] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
   	  	  		  <img src="/mockup.webp" alt="PC" loading='lazy' />
-  	  	  		  <div className='absolute lg:top-60 w-40 lg:w-64 h-40 lg:h-64 animation-delay-4000 bg-gradient-to-r from-[#EE609C] to-[#6564D9]  rounded-full blur-2xl opacity-30 -z-20 animate-blob text'> </div>
+  	  	  		  <div className='absolute hidden  lg:top-60 w-40 lg:w-64 h-40 lg:h-64 animation-delay-4000 bg-gradient-to-r from-[#EE609C] to-[#6564D9]  rounded-full blur-2xl opacity-30 -z-20 animate-blob text'> </div>
   	  	  		</div>
   	  	  	</div>
   	  	  </div>
@@ -53,12 +53,12 @@ return (
   	  	  	  </p>
   	  	  	</div>
   	  	  </div>
-  	  	  <div className="mx-auto">
+  	  	  <div className="mx-auto flex items-center justify-center lg:justify-start">
   	  	  	<div className=" relative md:absolute -z-20">
-  	  	  		<div className="flex image-tech justify-center items-center relative flex-col px-6 sm:px-12 pt-8 w-96 lg:w-[700px] select-none z-20">
-  	  	  		  <div className='relative hidden md:block md:absolute w-40 lg:w-64 h-40 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#EE609C] to-[#6564D9] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
+  	  	  		<div className="flex image-tech justify-center items-center relative flex-col px-6 sm:px-12 pt-8 w-96 lg:w-[700px] select-none z-20  md:hidden lg:block">
+  	  	  		  <div className='relative hidden md:absolute w-40 lg:w-64 h-40 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#EE609C] to-[#6564D9] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
   	  	  		  <img src="/software-dev.svg" alt="PC" loading='lazy' />
-  	  	  		  <div className='absolute lg:top-60 w-40 lg:w-64 h-40 lg:h-64 animation-delay-4000 bg-gradient-to-r from-[#EE609C] to-[#6564D9]  rounded-full blur-2xl opacity-30 -z-20 animate-blob text'> </div>
+  	  	  		  <div className='absolute hidden lg:top-60 w-40 lg:w-64 h-40 lg:h-64 animation-delay-4000 bg-gradient-to-r from-[#EE609C] to-[#6564D9]  rounded-full blur-2xl opacity-30 -z-20 animate-blob text'> </div>
   	  	  		</div>
   	  	  	</div>
   	  	  </div>
