@@ -1,5 +1,5 @@
 {
-    "name": "Boxode",
+    "name": "Boxode Corporation",
     "short_name": "Boxode",
     "icons": [
         {
@@ -19,7 +19,10 @@
 			"purpose": "any maskable"
 		  }
     ],
+	"id": "?source=pwa",
+	"start_url": "?source=pwa",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "standalone",
+	"scope": "/"
 }
