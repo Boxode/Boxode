@@ -62,11 +62,11 @@ return (
       <div className='px-5 md:px-6 py-6 bg-black md:flex md:items-center md:justify-between'>
         <img src="/BoxodeB.svg" alt="Boxode" className='w-24'/>
           <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-[SegoeUI]'>
-            <a href=""className='text-[11px] text-gray-100/80 hover:underline'>Ponte en contacto con Boxode</a>
-			<a href=""className='text-[11px] text-gray-100/80 hover:underline'>Mapa de sitio</a>
-			<a href=""className='text-[11px] text-gray-100/80 hover:underline'>Privacidad</a>
-			<a href=""className='text-[11px] text-gray-100/80 hover:underline'>Marcas Registradas</a>
-			<a href=""className='text-[11px] text-gray-100/80 hover:underline'>Reciclaje</a>
+            <a href="/contactus"className='text-[11px] text-gray-100/80 hover:underline'>Ponte en contacto con Boxode</a>
+			<a href="/sitemap"className='text-[11px] text-gray-100/80 hover:underline'>Mapa de sitio</a>
+			<a href="/privacystatement"className='text-[11px] text-gray-100/80 hover:underline'>Privacidad</a>
+			<a href="/trademarks"className='text-[11px] text-gray-100/80 hover:underline'>Marcas Registradas</a>
+			<a href="/security-and-eco"className='text-[11px] text-gray-100/80 hover:underline'>Seguridad & Eco</a>
           <span className='text-[11px] text-gray-100/80 sm:text-center'>© Boxode <span id='year'>2023</span></span>
           </div>
       </div>
