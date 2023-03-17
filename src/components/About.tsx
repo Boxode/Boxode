@@ -1,6 +1,6 @@
 const AboutUs = () => {
 return (
-<section id='about' className='border-t border-gray-100/5'>
+<section id='about' className='border-t border-gray-100/5 pt-10'>
   <div>
   	<div className='flex items-center justify-center flex-col mt-16 mb-10'>
   		<img src="/2.webp" className='w-12 select-none' alt="2" />
