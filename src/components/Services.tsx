@@ -58,8 +58,8 @@ const Services = () => {
 		      	  <div className=" relative md:absolute -z-20">
 		      	  	<div className="flex image-tech justify-center items-center relative flex-col pt-4 pb-8 sm:py-10 px-6 sm:px-12 w-96 lg:w-[700px] select-none z-20 md:hidden lg:block">
 		      	  	  <img src="/tech.svg" alt="PC" />
-						  <div className='relative hidden md:block md:absolute w-24 lg:w-52 h-24 lg:h-52 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
-						  <div className='relative hidden md:block bottom-10 md:absolute w-20 lg:w-64 h-20 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
+						  <div className='relative hidden md:absolute w-24 lg:w-52 h-24 lg:h-52 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
+						  <div className='relative hidden bottom-10 md:absolute w-20 lg:w-64 h-20 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
 		      	  	</div>
 		      	  </div>
 		      	</div>
