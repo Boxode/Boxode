@@ -41,6 +41,31 @@ const Services = () => {
 		  	</div>
 		  </article>
 		</div>
+		<div className="pt-24 pb-8 overflow-hidden z-10">
+		  <div className="mx-auto max-w-7xl px-4 sm:px-6">
+		    <div className="lg:grid lg:grid-cols-12 mx-auto lg:gap-16 justify-center">
+		      <div className="relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6">
+		      	<div className="lg:py-24">
+		      	  <p className="mt-3 font-[SegoeBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-lg lg:text-4xl text-neutral-200 sm:mt-5">
+		      	  	Trabajamos con las tecnologías más innovadoras para crear productos de calidad.
+		      	  </p>
+		      	  <p className="mt-3 font-[Questrial] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5">
+		      	    Usamos desde lo más básico hasta lo más avanzado para crear soluciones que se adapten a las necesidades de nuestros clientes.	
+		      	  </p>
+		      	</div>
+		      </div>
+		      	<div className="mx-auto">
+		      	  <div className=" relative md:absolute -z-20">
+		      	  	<div className="flex image-tech justify-center items-center relative flex-col pt-4 pb-8 sm:py-10 px-6 sm:px-12 w-96 lg:w-[700px] select-none z-20">
+		      	  	  <img src="/tech.svg" alt="PC" />
+						  <div className='relative md:absolute w-20 lg:w-64 h-20 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
+			          <div className='absolute lg:top-60 w-56 lg:w-64 h-64 animation-delay-4000 bg-gradient-to-r from-[#015EEA] to-white rounded-full blur-2xl opacity-30 -z-20 animate-blob text'></div>
+		      	  	</div>
+		      	  </div>
+		      	</div>
+		    </div>
+		  </div>
+		</div>
 	  </div>
     </section>
   )
