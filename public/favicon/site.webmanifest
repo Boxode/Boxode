@@ -20,9 +20,10 @@
 		  }
     ],
 	"id": "?source=pwa",
-	"start_url": "?source=pwa",
+	"start_url": "https://boxode.org/",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
-	"scope": "/"
+	"scope": "/",
+	"prefer_related_applications": true
 }
