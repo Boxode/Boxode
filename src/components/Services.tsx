@@ -41,7 +41,7 @@ const Services = () => {
 		  	</div>
 		  </article>
 		</div>
-		<div className="hidden  pt-24 pb-8 overflow-hidden z-10">
+		<div className="pt-24 pb-8 overflow-hidden z-10">
 		  <div className="mx-auto max-w-7xl px-4 sm:px-6">
 		    <div className="lg:grid lg:grid-cols-12 mx-auto lg:gap-16 justify-center">
 		      <div className="relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6">
@@ -54,11 +54,12 @@ const Services = () => {
 		      	  </p>
 		      	</div>
 		      </div>
-		      	<div className="mx-auto">
+		      	<div className="mx-auto flex items-center justify-center lg:justify-start">
 		      	  <div className=" relative md:absolute -z-20">
-		      	  	<div className="flex image-tech justify-center items-center relative flex-col pt-4 pb-8 sm:py-10 px-6 sm:px-12 w-96 lg:w-[700px] select-none z-20">
+		      	  	<div className="flex image-tech justify-center items-center relative flex-col pt-4 pb-8 sm:py-10 px-6 sm:px-12 w-96 lg:w-[700px] select-none z-20 md:hidden lg:block">
 		      	  	  <img src="/tech.svg" alt="PC" />
-						  <div className='relative md:absolute w-20 lg:w-52 h-20 lg:h-52 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
+						  <div className='relative hidden md:block md:absolute w-24 lg:w-52 h-24 lg:h-52 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
+						  <div className='relative hidden md:block bottom-10 md:absolute w-20 lg:w-64 h-20 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob'></div>
 		      	  	</div>
 		      	  </div>
 		      	</div>
