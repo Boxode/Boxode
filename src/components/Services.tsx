@@ -41,7 +41,7 @@ const Services = () => {
 		  	</div>
 		  </article>
 		</div>
-		<div className="hidden pt-24 pb-8 overflow-hidden z-10">
+		<div className="hidden  pt-24 pb-8 overflow-hidden z-10">
 		  <div className="mx-auto max-w-7xl px-4 sm:px-6">
 		    <div className="lg:grid lg:grid-cols-12 mx-auto lg:gap-16 justify-center">
 		      <div className="relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6">
