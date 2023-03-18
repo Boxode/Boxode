@@ -2,6 +2,8 @@
   "extends": ["./node_modules/standard/eslintrc.json", "next/core-web-vitals"],
   "rules": {
     "space-before-function-paren": "off",
-    "multiline-ternary": "off"
+    "multiline-ternary": "off",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
