@@ -7,7 +7,13 @@ export default function Services() {
         <span className='text-white/30 mb-32 font-[Questrial] lg:text-2xl border-2 py-5 px-5 rounded-sm border-gray-100/20'>
           Explora el camino de Boxode
         </span>
-        <Image src='/1.webp' className='w-12 select-none' alt='1' />
+        <Image
+          src='/1.webp'
+          className='w-12 select-none'
+          alt='1'
+          width={100}
+          height={100}
+        />
         <h2 className='services text-6xl lg:text-8xl font-[SegoeBold] tracking-normal p-4 opacity-90 select-none'>
           Servicios
         </h2>
@@ -26,6 +32,8 @@ export default function Services() {
                 src='/hammer.svg'
                 alt=''
                 className='w-16 h-16 mb-5 drop-shadow-md'
+                width={100}
+                height={100}
               />
               <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[SegoeBold] leading-relaxed'>
                 Desarrollo de Software
@@ -46,6 +54,8 @@ export default function Services() {
                 src='/computer.svg'
                 alt=''
                 className='w-16 h-16 mb-5 drop-shadow-md'
+                width={100}
+                height={100}
               />
               <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[SegoeBold] leading-relaxed'>
                 Desarrollo Web
@@ -64,6 +74,8 @@ export default function Services() {
               <div className='absolute top-10 w-24 h-24 animation-delay-2000 bg-gradient-to-r from-teal-500 to-white rounded-full blur-2xl opacity-30 -z-20 animate-blob text' />
               <Image
                 src='/brush-and-pencil.svg'
+                width={100}
+                height={100}
                 alt=''
                 className='w-16 h-16 mb-5 drop-shadow-md'
               />
@@ -96,7 +108,12 @@ export default function Services() {
               <div className='mx-auto flex items-center justify-center lg:justify-start'>
                 <div className=' relative md:absolute -z-20'>
                   <div className='flex image-tech justify-center items-center relative flex-col pt-4 pb-8 sm:py-10 px-6 sm:px-12 w-96 lg:w-[700px] select-none z-20 md:hidden lg:block'>
-                    <Image src='/tech.svg' alt='PC' />
+                    <Image
+                      src='/tech.svg'
+                      alt='Tech'
+                      width={600}
+                      height={600}
+                    />
                     <div className='relative hidden md:absolute w-24 lg:w-52 h-24 lg:h-52 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
                     <div className='relative hidden bottom-10 md:absolute w-20 lg:w-64 h-20 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
                   </div>
