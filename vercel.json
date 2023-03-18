@@ -1,5 +1,5 @@
 {
-  "buildCommand": "next build --output public",
+  "buildCommand": "next build",
   "devCommand": "next dev",
   "cleanUrls": true,
   "framework": "nextjs"
