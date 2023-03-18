@@ -9,7 +9,13 @@ export default function Custom404() {
     <>
       <Header />
       <section class='section-error min-h-screen stars'>
-        <Image src='/404.svg' alt='404' class='img-error' />
+        <Image
+          src='/404.svg'
+          alt='404'
+          class='img-error'
+          width={500}
+          height={500}
+        />
         <div class='font-[SegoeBold] pt-[5%] text-center'>
           <span id='L' class='error flex-row'>
             4
