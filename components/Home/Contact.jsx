@@ -39,7 +39,13 @@ export const Contact = () => {
       <Toaster />
       <div className='container px-5 mx-auto'>
         <div className='flex items-center justify-center flex-col mt-10 mb-10'>
-          <Image src='/3.webp' className='w-12 select-none' alt='2' />
+          <Image
+            src='/3.webp'
+            className='w-12 select-none'
+            alt='2'
+            width={100}
+            height={100}
+          />
           <h2 className='contact text-6xl lg:text-8xl font-[SegoeBold] tracking-normal p-4 opacity-90 select-none'>
             Contacto
           </h2>
@@ -117,22 +123,22 @@ export const Contact = () => {
           <p className='text-gray-100/40 text-lg px-6 text-center font-[Questrial] my-4'>
             En caso de tener algún problema con el envio de su correo por medio
             del formulario, puede mandarlos correo directamente a las siguientes
-            direcciones: <br />{' '}
+            direcciones:
             <span>
               <a
                 href='mailto:contact@boxode.org'
                 className='underline decoration-gray-500/50'
               >
                 contacto@boxode.org
-              </a>{' '}
-              o{' '}
+              </a>
+              o
               <a
                 href='mailto:boxodecorporation@gmail.com'
                 className='underline decoration-gray-500/50'
               >
                 boxodecorporation@gmail.com
               </a>
-            </span>{' '}
+            </span>
             para cualquier consulta del servicio que desee adquirir.
           </p>
         </div>
