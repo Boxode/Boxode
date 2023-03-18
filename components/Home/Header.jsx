@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -7,13 +8,15 @@ export default function Header() {
         <div className='px-6 md:px-12 lg:px-6 lg:py-4'>
           <div className='flex items-center justify-between'>
             <div className='relative z-20'>
-              <a href='#' className='flex items-center'>
+              <Link href='#' className='flex items-center'>
                 <Image
                   src='/BoxodeB.svg'
                   alt='Boxode logo'
                   className='w-40 md:w-44 mr-3'
+                  width={100}
+                  height={100}
                 />
-              </a>
+              </Link>
             </div>
             <div className='flex items-center justify-end lg:border-l-0'>
               <input
@@ -40,54 +43,54 @@ export default function Header() {
                 <div className='flex flex-col h-full lg:flex-row jusfify-between lg:items-center'>
                   <ul className='px-6 pt-32 text-white font-[Questrial] font-medium space-y-8 lg:space-y-0 md:px-12 lg:flex lg:space-x-12 lg:pt-0 font-xl'>
                     <li>
-                      <a
+                      <Link
                         href='#home'
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
                           Inicio
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href='#services'
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
                           Servicios
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href='#clients'
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
                           Nuestros Clientes
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href='#about'
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
                           Nosotros
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href='#contact'
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
                           Contacto
                         </span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
