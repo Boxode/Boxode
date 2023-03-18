@@ -66,7 +66,7 @@ export const Contact = () => {
                     forhtml='name'
                     className='leading-7 text-[20px] text-white font-[Questrial]'
                   >
-                    Nombre
+                    Nombre y Apellido
                   </label>
                   <input
                     required
