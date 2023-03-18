@@ -102,9 +102,9 @@ export default function Footer() {
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4 font-[SegoeUI]'>
-              <link href='/careers' className='hover:underline'>
+              <Link href='/careers' className='hover:underline'>
                 Trabajos
-              </link>
+              </Link>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
               <Link href='/about' className='hover:underline'>
@@ -120,7 +120,13 @@ export default function Footer() {
         </div>
       </div>
       <div className='px-5 md:px-6 py-6 bg-black md:flex md:items-center md:justify-between'>
-        <Image src='/BoxodeB.svg' alt='Boxode' className='w-24' />
+        <Image
+          src='/BoxodeB.svg'
+          alt='Boxode'
+          className='w-24'
+          width={100}
+          height={100}
+        />
         <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-[SegoeUI]'>
           <Link
             href='/contactus'
