@@ -3,6 +3,7 @@
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import toast, { Toaster } from 'react-hot-toast'
+import Image from 'next/image'
 
 export const Contact = () => {
   const form = useRef()
@@ -38,7 +39,7 @@ export const Contact = () => {
       <Toaster />
       <div className='container px-5 mx-auto'>
         <div className='flex items-center justify-center flex-col mt-10 mb-10'>
-          <img src='/3.webp' className='w-12 select-none' alt='2' />
+          <Image src='/3.webp' className='w-12 select-none' alt='2' />
           <h2 className='contact text-6xl lg:text-8xl font-[SegoeBold] tracking-normal p-4 opacity-90 select-none'>
             Contacto
           </h2>
@@ -97,7 +98,7 @@ export const Contact = () => {
                     required
                     name='message'
                     className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 h-32 text-xl outline-none text-black py-2 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out font-[Questrial]'
-                  ></textarea>
+                  />
                 </div>
               </div>
               <div className='p-2 w-full'>
