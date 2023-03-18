@@ -123,7 +123,7 @@ export const Contact = () => {
           <p className='text-gray-100/40 text-lg px-6 text-center font-[Questrial] my-4'>
             En caso de tener algún problema con el envio de su correo por medio
             del formulario, puede mandarlos correo directamente a las siguientes
-            direcciones:
+            direcciones: <br />
             <span>
               <a
                 href='mailto:contact@boxode.org'
@@ -131,7 +131,7 @@ export const Contact = () => {
               >
                 contacto@boxode.org
               </a>
-              o
+              &nbsp; o &nbsp;
               <a
                 href='mailto:boxodecorporation@gmail.com'
                 className='underline decoration-gray-500/50'
@@ -139,7 +139,7 @@ export const Contact = () => {
                 boxodecorporation@gmail.com
               </a>
             </span>
-            para cualquier consulta del servicio que desee adquirir.
+            &nbsp; para cualquier consulta del servicio que desee adquirir.
           </p>
         </div>
       </div>
