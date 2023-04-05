@@ -10,6 +10,10 @@ body {
 	background-color: #000000;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -51,7 +55,7 @@ html {
     @apply bg-white text-black hover:bg-gray-500/50 ease-in duration-75 font-[SegoeBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
 }
 
-.vtx{
+.primary-title{
 	background: linear-gradient(0deg, hsla(0, 0%, 100%, 1) 11%, hsla(0, 0%, 77%, 1) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
