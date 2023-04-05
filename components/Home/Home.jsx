@@ -8,7 +8,7 @@ export default function Home() {
           <div className='lg:flex lg:justify-center lg:items-center lg:flex-col mx-auto lg:gap-16 justify-center'>
             <div className='relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:flex col-span-6'>
               <div className='lg:py-24'>
-                <p className='mt-4 mb-4 text-2xl lg:text-6xl h-full font-[SegoeBold] tracking-tight font-extrabold vtx sm:mt-5 text-center'>
+                <p className='mt-4 mb-4 text-2xl lg:text-6xl h-full font-[SegoeBold] tracking-tight font-extrabold primary-title sm:mt-5 text-center'>
                   Creando soluciones informáticas personalizadas y productos
                   comerciales a pequeñas, medianas y grandes empresas.
                 </p>
