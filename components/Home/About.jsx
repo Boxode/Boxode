@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <section id='about' className='border-t border-gray-100/5 pt-10'>
+    <section id='about' className='pt-10'>
       <div>
         <div className='flex items-center justify-center flex-col mt-16 mb-10'>
           <Image
@@ -15,7 +15,7 @@ export default function About() {
           <h2 className='about text-6xl lg:text-8xl font-[SegoeBold] tracking-normal p-4 opacity-90 select-none'>
             Nosotros
           </h2>
-          <p className='text-gray-100/50 text-md px-6 text-center lg:text-2xl font-[Questrial]'>
+          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Questrial]'>
             Te dejamos un poco de información relevante sobre nuestra misión y
             visión.
           </p>
@@ -46,8 +46,8 @@ export default function About() {
                       src='/mockup.webp'
                       alt='PC'
                       loading='lazy'
-                      width={600}
-                      height={600}
+                      width={500}
+                      height={500}
                     />
                     <div className='absolute hidden  lg:top-60 w-40 lg:w-64 h-40 lg:h-64 animation-delay-4000 bg-gradient-to-r from-[#EE609C] to-[#6564D9]  rounded-full blur-2xl opacity-30 -z-20 animate-blob text' />
                   </div>
@@ -80,13 +80,13 @@ export default function About() {
               <div className='mx-auto flex items-center justify-center lg:justify-start'>
                 <div className=' relative md:absolute -z-20'>
                   <div className='flex image-tech justify-center items-center relative flex-col px-6 sm:px-12 pt-8 w-96 lg:w-[700px] select-none z-20  md:hidden lg:block'>
-                    <div className='relative hidden md:absolute w-40 lg:w-64 h-40 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#EE609C] to-[#6564D9] rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
+                    <div className='relative hidden md:absolute w-32 lg:w-64 h-32 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#EE609C] to-[#6564D9] rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
                     <Image
                       src='/software-dev.svg'
                       alt='PC'
                       loading='lazy'
-                      width={600}
-                      height={600}
+                      width={500}
+                      height={500}
                     />
                     <div className='absolute hidden lg:top-60 w-40 lg:w-64 h-40 lg:h-64 animation-delay-4000 bg-gradient-to-r from-[#EE609C] to-[#6564D9]  rounded-full blur-2xl opacity-30 -z-20 animate-blob text' />
                   </div>

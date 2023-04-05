@@ -34,7 +34,7 @@ export const Contact = () => {
   return (
     <section
       id='contact'
-      className='text-white body-font relative border-t border-gray-100/10 my-10'
+      className='text-white body-font relative my-10'
     >
       <Toaster />
       <div className='container px-5 mx-auto'>
@@ -49,10 +49,10 @@ export const Contact = () => {
           <h2 className='contact text-6xl lg:text-8xl font-[SegoeBold] tracking-normal p-4 opacity-90 select-none'>
             Contacto
           </h2>
-          <p className='text-gray-100/50 text-md px-6 text-center lg:text-2xl font-[Questrial]'>
+          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Questrial]'>
             ¿Estás interesado en alguno de nuestros servicios?
           </p>
-          <p className='text-gray-100/50 text-md px-6 text-center lg:text-2xl font-[Questrial]'>
+          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Questrial]'>
             ¡Fantastico! Puedes llenar el siguiente formulario y nosotros te
             contactaremos.
           </p>

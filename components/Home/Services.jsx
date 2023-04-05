@@ -17,7 +17,7 @@ export default function Services() {
         <h2 className='services text-6xl lg:text-8xl font-[SegoeBold] tracking-normal p-4 opacity-90 select-none'>
           Servicios
         </h2>
-        <p className='text-gray-100/50 text-md px-6 text-center lg:text-2xl font-[Questrial]'>
+        <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Questrial]'>
           En Boxode nuestro primordial objetivo es desarrollar productos de
           calidad y sobre todo que se adapten a tus necesidades.
         </p>
@@ -38,7 +38,7 @@ export default function Services() {
               <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[SegoeBold] leading-relaxed'>
                 Desarrollo de Software
               </h3>
-              <p className='text-white/80 font-[SegoeUI] text-md lg:text-xl text-center px-6 lg:px-0'>
+              <p className='text-white/80 font-[SegoeUI] text-md lg:text-xl px-6 lg:px-0'>
                 Desarrollamos soluciones escalables para plataformas
                 multidisciplinarias con las más nuevas tendencias tecnológicas.
               </p>
@@ -89,34 +89,34 @@ export default function Services() {
             </div>
           </article>
         </div>
-        <div className='pt-24 pb-8 overflow-hidden z-10'>
-          <div className='mx-auto max-w-7xl px-4 sm:px-6'>
-            <div className='lg:grid lg:grid-cols-12 mx-auto lg:gap-16 justify-center'>
-              <div className='relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
-                <div className='lg:py-24'>
-                  <p className='mt-3 font-[SegoeBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-lg lg:text-4xl text-neutral-200 sm:mt-5'>
-                    Trabajamos con las tecnologías más innovadoras para crear
-                    productos de calidad.
-                  </p>
-                  <p className='mt-3 font-[Questrial] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
-                    Usamos desde lo más básico hasta lo más avanzado para crear
-                    soluciones que se adapten a las necesidades de nuestros
-                    clientes.
-                  </p>
-                </div>
+      </div>
+      <div className='pt-24 pb-8 overflow-hidden z-10 flex items-center justify-center'>
+        <div className='mx-auto max-w-7xl px-4 sm:px-6'>
+          <div className='lg:grid lg:grid-cols-12 mx-auto lg:gap-16 justify-center'>
+            <div className='relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
+              <div className='lg:py-24'>
+                <p className='mt-3 font-[SegoeBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-lg lg:text-4xl text-neutral-200 sm:mt-5'>
+                  Trabajamos con las tecnologías más innovadoras para crear
+                  productos de calidad.
+                </p>
+                <p className='mt-3 font-[Questrial] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
+                  Usamos desde lo más básico hasta lo más avanzado para crear
+                  soluciones que se adapten a las necesidades de nuestros
+                  clientes.
+                </p>
               </div>
-              <div className='mx-auto flex items-center justify-center lg:justify-start'>
-                <div className=' relative md:absolute -z-20'>
-                  <div className='flex image-tech justify-center items-center relative flex-col pt-4 pb-8 sm:py-10 px-6 sm:px-12 w-96 lg:w-[700px] select-none z-20 md:hidden lg:block'>
-                    <Image
-                      src='/tech.svg'
-                      alt='Tech'
-                      width={600}
-                      height={600}
-                    />
-                    <div className='relative hidden md:absolute w-24 lg:w-52 h-24 lg:h-52 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
-                    <div className='relative hidden bottom-10 md:absolute w-20 lg:w-64 h-20 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
-                  </div>
+            </div>
+            <div className='mx-auto flex items-center justify-center lg:justify-start'>
+              <div className=' relative md:absolute -z-20'>
+                <div className='flex image-tech min-w justify-center items-center relative flex-col pt-4 pb-8 sm:py-10 px-6 sm:px-12 lg:w-[700px] select-none sm:w-64 z-20 md:hidden lg:block'>
+                  <Image
+                    src='/tech.svg'
+                    alt='Tech'
+                    width={500}
+                    height={500}
+                  />
+                  <div className='relative hidden md:absolute w-24 lg:w-52 h-24 lg:h-52 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
+                  <div className='relative hidden bottom-10 md:absolute w-20 lg:w-64 h-20 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#015EEA] to-[#00C0FA] rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
                 </div>
               </div>
             </div>
