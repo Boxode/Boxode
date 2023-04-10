@@ -49,7 +49,7 @@ export default function HeaderOSS() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Únete
+                          Get involved
                         </span>
                       </Link>
                     </li>
@@ -59,7 +59,7 @@ export default function HeaderOSS() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Proyectos
+                          Projects
                         </span>
                       </Link>
                     </li>
@@ -69,7 +69,7 @@ export default function HeaderOSS() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Ecosistema
+                          Ecosystem
                         </span>
                       </Link>
                     </li>
@@ -79,7 +79,7 @@ export default function HeaderOSS() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Código de conducta
+                          Code of conduct
                         </span>
                       </Link>
                     </li>
@@ -89,7 +89,7 @@ export default function HeaderOSS() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Preguntas frecuentes
+                          FAQ
                         </span>
                       </Link>
                     </li>
