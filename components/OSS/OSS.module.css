@@ -1,0 +1,21 @@
+.OSS {
+	background-image: url(/grid.svg);
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	z-index: -1;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.titleOSS {
+	background: linear-gradient(180deg,#fff,hsla(0,0%,100%,.75));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	opacity: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	@apply h-60 font-[SegoeBold] pt-36 text-4xl text-center md:text-6xl opacity-100
+}
