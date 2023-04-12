@@ -10,7 +10,7 @@
 }
 
 .titleOSS {
-	background: linear-gradient(180deg,#fff,hsla(0,0%,100%,.75));
+	background: linear-gradient(45deg, hsla(0, 0%, 100%, 1) 11%, rgb(175, 175, 175) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	opacity: 1;

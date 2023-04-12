@@ -12,14 +12,28 @@ export default function HomeOSS() {
       </p>
       <div>
         <div>
-          <article>
+          <article className='flex items-center justify-center'>
             <Image
               className='rounded-full border border-gray-900'
               src='/Boxode-circle-logo.png'
               alt='Boxode'
-              width={200}
-              height={200}
+              width={80}
+              height={80}
             />
+            <div className='flex ml-4 flex-col'>
+              <h4 className='text-white flex font-bold '>
+                Boxode Corporation{' '}
+                <Image
+                  className='ml-2'
+                  src='/verified-entity.svg'
+                  alt='Github'
+                  width={25}
+                  height={25}
+                  title='Verified Entity'
+                />
+              </h4>
+              <p className='text-gray-400 text-sm'>github.com/boxode</p>
+            </div>
           </article>
         </div>
       </div>

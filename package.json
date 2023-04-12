@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "@nextui-org/react": "^1.0.0-beta.12",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
