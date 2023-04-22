@@ -93,6 +93,14 @@ export default function FooterOSS() {
                 Github
               </Link>
             </li>
+            <li className='mb-4 font-[SegoeUI]'>
+              <Link
+                href='oss/thanks'
+                className='underline text-[11px] text-gray-100/80'
+              >
+                Thank you for being here!
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
@@ -156,12 +164,6 @@ export default function FooterOSS() {
             className='text-[11px] text-gray-100/80 hover:underline'
           >
             Sefety & Eco
-          </Link>
-          <Link
-            href='oss/thanks'
-            className='underline text-[11px] text-gray-100/80'
-          >
-            Thank you!
           </Link>
           <span className='text-[11px] text-gray-100/80 sm:text-center'>
             © Boxode <span id='year'>2023</span>
