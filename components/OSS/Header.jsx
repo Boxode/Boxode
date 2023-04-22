@@ -21,14 +21,14 @@ export default function HeaderOSS() {
             <div className='flex items-center justify-end lg:border-l-0'>
               <input
                 type='checkbox'
-                name='Boxode'
-                id='Boxode'
+                name='VTX'
+                id='VTX'
                 className='peer'
                 hidden
               />
               <label
-                htmlFor='Boxode'
-                className='peer-checked:Boxode block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden'
+                htmlFor='VTX'
+                className='peer-checked:VTX block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden'
               >
                 <div
                   aria-hidden='true'
@@ -55,7 +55,7 @@ export default function HeaderOSS() {
                     </li>
                     <li>
                       <Link
-                        href='oss/projects'
+                        href='oss/features-projects'
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
