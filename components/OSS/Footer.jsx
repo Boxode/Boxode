@@ -7,26 +7,25 @@ export default function FooterOSS() {
       <div className='grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4'>
         <div>
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>
-            Novedades
+            What's new?
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4'>
               <Link href='#!' className=' hover:underline'>
-                Proximamente
+                Coming Soon
               </Link>
             </li>
           </ul>
         </div>
         <div>
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>
-            Centro de Ayuda
+            Help Center
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4 font-[SegoeUI]'>
               <Link
                 href='https://discord.gg/gdRmAa5xHU'
                 target='_blank'
-                rel='noopener noreferrer'
                 className='hover:underline'
               >
                 Discord Server
@@ -66,22 +65,22 @@ export default function FooterOSS() {
         </div>
         <div>
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>
-            Desarrollo y TI
+            Develop and IT
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4 font-[SegoeUI]'>
               <Link href='/oss' className='hover:underline'>
-                Código abierto
+                Open Source Software
               </Link>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
               <Link href='/oss/contributing' className='hover:underline'>
-                Contribuciones
+                Contribution
               </Link>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
-              <Link href='/oaa/coc' className='hover:underline'>
-                Código de Conducta
+              <Link href='oss/coc' className='hover:underline'>
+                Code of Conduct
               </Link>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
@@ -91,29 +90,29 @@ export default function FooterOSS() {
                 rel='noopener noreferrer'
                 className='hover:underline'
               >
-                GitHub Empresarial
+                Github
               </Link>
             </li>
           </ul>
         </div>
         <div>
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>
-            Compañia
+            Company
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4 font-[SegoeUI]'>
               <Link href='/careers' className='hover:underline'>
-                Trabajos
+                Careers
               </Link>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
               <Link href='/about' className='hover:underline'>
-                Acerca de Boxode
+                About Boxode
               </Link>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
               <Link href='/privacy' className='hover:underline'>
-                Privacidad de Boxode
+                Privacy at Boxode
               </Link>
             </li>
           </ul>
@@ -132,34 +131,38 @@ export default function FooterOSS() {
             href='/contactus'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Ponte en contacto con Boxode
+            Contact Boxode
           </Link>
           <Link
             href='/sitemap'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Mapa de sitio
+            Sitemap
           </Link>
           <Link
             href='/privacystatement'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Privacidad
+            Privacy Statement
           </Link>
           <Link
             href='/trademarks'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Marcas Registradas
+            Trademarks
           </Link>
           <Link
             href='/security-and-eco'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Seguridad & Eco
+            Sefety & Eco
           </Link>
           <span className='text-[11px] text-gray-100/80 sm:text-center'>
-            © Boxode <span id='year'>2023</span>
+            © Boxode{' '}
+            <Link href='oss/thanks' className='underline'>
+              Open Source
+            </Link>{' '}
+            <span id='year'>2023</span>
           </span>
         </div>
       </div>
