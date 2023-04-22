@@ -61,6 +61,44 @@ html {
 	-webkit-text-fill-color: transparent;
 }
 
+.get-improve {
+	background-image: url(/grid.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.our-program{
+	background-image: url(/grid2.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.our-program::before {
+	position: absolute;
+	content: "";
+	z-index: -10;
+	height: 100%;
+	width: 150%;
+	right: -45%;
+	background: url(/noise.webp) repeat,linear-gradient(247.23deg,#4AF2C8 0%,#2F4CB3 100%);
+	background-blend-mode: overlay;
+	-webkit-mask-image: radial-gradient(rgba(0,0,0,.7),transparent 70%);
+}
+
+.get-improve::before {
+    position: absolute;
+    content: "";
+    z-index: -10;
+    height: 100%;
+    width: 150%;
+    left: -45%;
+    background: url(/noise.webp) repeat,linear-gradient(247.23deg,#a231a2 0%,#2669b4 100%);
+    background-blend-mode: overlay;
+    -webkit-mask-image: radial-gradient(rgba(0,0,0,.7),transparent 70%);
+}
+
 ::-webkit-scrollbar {
 	width: 7px;
 }
@@ -75,8 +113,9 @@ html {
   }
 
 ::selection {
-	background-color: rgba(180, 180, 180, 0.3);
+	background-color: #fff;
 	filter: blur(10px);
+	color: #000;
   }
 
   .services {
@@ -102,6 +141,35 @@ html {
 .image-tech{
 	filter: drop-shadow(0px 0px 25px rgba(255, 255, 255, 0.3));
 }
+
+.link {
+	color: #e5e5e5;
+	cursor: pointer;
+	font-weight: 400;
+	text-decoration: none;
+  }
+  
+  .link--arrowed {
+	height: 2rem;
+	line-height: 2rem;
+  }
+  .link--arrowed .arrow-icon {
+	position: relative;
+	top: -1px;
+	transition: transform 0.3s ease;
+	vertical-align: middle;
+  }
+  .link--arrowed .arrow-icon--circle {
+	transition: stroke-dashoffset 0.3s ease;
+	stroke-dasharray: 95;
+	stroke-dashoffset: 95;
+  }
+  .link--arrowed:hover .arrow-icon {
+	transform: translate3d(5px, 0, 0);
+  }
+  .link--arrowed:hover .arrow-icon--circle {
+	stroke-dashoffset: 0;
+  }
 
 /************ 404 Not Found Page *************/
 
