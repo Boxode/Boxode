@@ -3,6 +3,7 @@
     "paths": {
       "@/*": ["./*"],
       "@components/*": ["./components/*"],
+      "@OSS/*": ["./components/OSS/*"]
     }
   }
 }
