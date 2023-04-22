@@ -157,12 +157,14 @@ export default function FooterOSS() {
           >
             Sefety & Eco
           </Link>
+          <Link
+            href='oss/thanks'
+            className='underline text-[11px] text-gray-100/80'
+          >
+            Thank you!
+          </Link>
           <span className='text-[11px] text-gray-100/80 sm:text-center'>
-            © Boxode{' '}
-            <Link href='oss/thanks' className='underline'>
-              Open Source
-            </Link>{' '}
-            <span id='year'>2023</span>
+            © Boxode <span id='year'>2023</span>
           </span>
         </div>
       </div>
