@@ -32,10 +32,7 @@ export const Contact = () => {
   }
 
   return (
-    <section
-      id='contact'
-      className='text-white body-font relative my-10'
-    >
+    <section id='contact' className='text-white body-font relative my-10'>
       <Toaster />
       <div className='container px-5 mx-auto'>
         <div className='flex items-center justify-center flex-col mt-10 mb-10'>
@@ -127,14 +124,14 @@ export const Contact = () => {
             <span>
               <a
                 href='mailto:contact@boxode.org'
-                className='underline decoration-gray-500/50'
+                className='underline decoration-gray-500/50 hover:decoration-white hover:text-white transition duration-200 ease-in-out'
               >
                 contacto@boxode.org
               </a>
               &nbsp; o &nbsp;
               <a
                 href='mailto:boxodecorporation@gmail.com'
-                className='underline decoration-gray-500/50'
+                className='underline decoration-gray-500/50 hover:decoration-white hover:text-white transition duration-200 ease-in-out'
               >
                 boxodecorporation@gmail.com
               </a>
