@@ -80,7 +80,7 @@ export default function Footer() {
               </Link>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
-              <Link href='/oaa/coc' className='hover:underline'>
+              <Link href='/oss/coc' className='hover:underline'>
                 Código de Conducta
               </Link>
             </li>
@@ -129,7 +129,7 @@ export default function Footer() {
         />
         <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-[SegoeUI]'>
           <Link
-            href='/contactus'
+            href='/contact-us'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
             Ponte en contacto con Boxode
@@ -141,7 +141,7 @@ export default function Footer() {
             Mapa de sitio
           </Link>
           <Link
-            href='/privacystatement'
+            href='/privacy-statement'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
             Privacidad
