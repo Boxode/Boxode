@@ -1,4 +1,5 @@
 import '../globals.css'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function RootLayout({ children }) {
   return (
@@ -54,7 +55,10 @@ export default function RootLayout({ children }) {
         <meta property='og:locate' content='es_MX' />
         <meta property='og:site_name' content='Boxode - Open Source Software' />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
