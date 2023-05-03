@@ -1,7 +1,10 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
+import { Tooltip } from '@nextui-org/react'
 
-export default function Verified () {
+export default function Verified() {
   return (
     <section className='min-h-[200px]'>
       <h2 className='text-white font-[SegoeBold] px-10 text-3xl text-center md:text-left'>
@@ -27,14 +30,15 @@ export default function Verified () {
           <div className='flex ml-4 flex-col'>
             <h4 className='text-white flex font-bold '>
               Boxode Corporation{' '}
-              <Image
-                className='ml-2 hover:scale-105 transition'
-                src='/verified-entity.svg'
-                alt='Verified Entity'
-                width={25}
-                height={25}
-                title='Verified Entity'
-              />
+              <Tooltip content='Verified Entity'>
+                <Image
+                  className='ml-2 hover:scale-105 transition'
+                  src='/verified-entity.svg'
+                  alt='Verified Entity'
+                  width={25}
+                  height={25}
+                />
+              </Tooltip>
             </h4>
             <p className='text-gray-400 text-sm'>github.com/boxode</p>
           </div>
@@ -54,14 +58,15 @@ export default function Verified () {
           <div className='flex ml-4 flex-col z-20'>
             <h4 className='text-white flex font-bold '>
               Fabian Herrera{' '}
-              <Image
-                className='ml-2 hover:scale-105 transition'
-                src='/verified-entity.svg'
-                alt='Verified Entity'
-                width={25}
-                height={25}
-                title='Verified Entity'
-              />
+              <Tooltip content='Verified Entity'>
+                <Image
+                  className='ml-2 hover:scale-105 transition'
+                  src='/verified-entity.svg'
+                  alt='Verified Entity'
+                  width={25}
+                  height={25}
+                />
+              </Tooltip>
             </h4>
             <p className='text-gray-400 text-sm'>Founder & CEO</p>
           </div>
