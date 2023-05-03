@@ -33,7 +33,7 @@ export default function FooterOSS() {
             </li>
             <li className='mb-4 font-[SegoeUI]'>
               <Link
-                href='https://twitter.com/_Boxode'
+                href='https://twitter.com/BoxodeHQ'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'
@@ -43,7 +43,7 @@ export default function FooterOSS() {
             </li>
             <li className='mb-4 font-[SegoeUI]'>
               <Link
-                href='https://www.facebook.com/Boxodee'
+                href='https://www.facebook.com/BoxodeHQ'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'
@@ -53,7 +53,7 @@ export default function FooterOSS() {
             </li>
             <li className='mb-4 font-[SegoeUI]'>
               <Link
-                href='https://www.instagram.com/_Boxode'
+                href='https://www.instagram.com/BoxodeHQ'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'
