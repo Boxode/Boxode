@@ -1,9 +1,9 @@
-import HeaderOSS from '@/components/OSS/Header'
-import HomeOSS from '@/components/OSS/Home'
-import Projects from '@/components/OSS/Projects'
-import Verified from '@/components/OSS/Verified'
-import FooterOSS from '@/components/OSS/Footer'
-import Gip from '@/components/OSS/IOP'
+import HeaderOSS from './pages/Header'
+import HomeOSS from './pages/Home'
+import Projects from './pages/Projects'
+import Verified from './pages/Verified'
+import FooterOSS from './pages/Footer'
+import Gip from './pages/IOP'
 
 export default function OSS() {
   return (
