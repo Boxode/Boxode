@@ -1,7 +1,11 @@
+import Header from './pages/Header'
+import Principal from './pages/Prinicipal'
+
 export default function CareersPage() {
   return (
     <>
-      <h1 className='text-white text-5xl'>Careers</h1>
+      <Header />
+      <Principal />
     </>
   )
 }
