@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name='twitter:image'
-          content='https://res.cloudinary.com/dvjzjasfg/image/upload/v1683098548/twitter_large_image_principal_tidcmp.png'
+          content='https://res.cloudinary.com/dvjzjasfg/image/upload/v1683567044/twitter_large_image_careers_uok5cw.png'
         />
       </head>
       <body>
