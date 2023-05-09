@@ -1,0 +1,15 @@
+.wave {
+    background: url(/wave.svg) no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 99%;
+	z-index: -1;
+}
+
+.stars {
+	background-image: url(/stars.png);
+	background-color: #000;
+	position: relative;
+	width: 100%;
+}
