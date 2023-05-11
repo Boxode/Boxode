@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function Gip() {
   return (
     <section>
@@ -12,7 +10,8 @@ export default function Gip() {
                   Our Commitment
                 </h6>
                 <p className='mt-3 font-[Questrial] sm:mx-auto lg:mx-0 max-w-lg lg:text-left text-xl sm:text-4xl text-neutral-200/80 sm:mt-5'>
-                  Our commitment is based on the principles of learning, collaboration, passion and transparency of all our work.
+                  Our commitment is based on the principles of learning,
+                  collaboration, passion and transparency of all our work.
                 </p>
               </div>
             </article>
