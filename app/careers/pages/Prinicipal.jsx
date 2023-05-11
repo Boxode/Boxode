@@ -13,18 +13,18 @@ export default function Principal () {
         <div className='flex flex-col md:flex-row'>
           <Grid.Container gap={3} css={{ justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
             <Grid>
-              <Button css={{ backgroundColor: 'White', color: 'Black' }} size='lg' auto className='hover:scale-105 transition'>
+              <Button css={{ backgroundColor: 'White', color: 'Black' }} size='lg' auto className='hover:scale-105 transition hover:shadow-lg shadow-white -z-0'>
                 Open Positions
               </Button>
             </Grid>
             <Grid>
-              <Button css={{ backgroundColor: '#232323' }} size='lg' auto className='hover:scale-105 transition hover:drop-shadow-lg shadow-white'>
+              <Button css={{ backgroundColor: '#232323' }} size='lg' auto className='hover:scale-105 transition hover:drop-shadow-lg shadow-white -z-0'>
                 Learn More
               </Button>
             </Grid>
           </Grid.Container>
         </div>
-        <Image src='/world_dotted_map.svg' alt='World map' width={1200} height={1200} className='absolute -z-20 md:mt-80 opacity-10' />
+        <Image src='/world_dotted_map.svg' alt='World map' width={1200} height={1200} className='absolute -z-20 md:mt-80 opacity-40 md:opacity-20' />
       </div>
     </section>
   )
