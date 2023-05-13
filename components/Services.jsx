@@ -29,7 +29,7 @@ export default function Services() {
               <div className='absolute w-32 h-32 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
               <div className='absolute top-10 w-24 h-24 animation-delay-2000 bg-gradient-to-r from-teal-500 to-white rounded-full blur-2xl opacity-30 -z-20 animate-blob text' />
               <Image
-                src='/hammer.svg'
+                src='/svg/hammer.svg'
                 alt=''
                 className='w-16 h-16 mb-5 drop-shadow-md'
                 width={100}
@@ -51,7 +51,7 @@ export default function Services() {
               <div className='absolute w-32 h-32 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
               <div className='absolute top-10 w-24 h-24 animation-delay-4000 bg-gradient-to-r from-teal-500 to-white rounded-full blur-2xl opacity-30 -z-20 animate-blob text' />
               <Image
-                src='/computer.svg'
+                src='/svg/computer.svg'
                 alt=''
                 className='w-16 h-16 mb-5 drop-shadow-md'
                 width={100}
@@ -73,7 +73,7 @@ export default function Services() {
               <div className='absolute w-32 h-32 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
               <div className='absolute top-10 w-24 h-24 animation-delay-2000 bg-gradient-to-r from-teal-500 to-white rounded-full blur-2xl opacity-30 -z-20 animate-blob text' />
               <Image
-                src='/brush-and-pencil.svg'
+                src='/svg/brush-and-pencil.svg'
                 width={100}
                 height={100}
                 alt=''
@@ -110,7 +110,7 @@ export default function Services() {
               <div className=' relative md:absolute -z-20'>
                 <div className='flex image-tech min-w justify-center items-center relative flex-col pt-4 pb-8 sm:py-10 px-6 sm:px-12 lg:w-[700px] select-none sm:w-64 z-20 md:hidden lg:block'>
                   <Image
-                    src='/tech.svg'
+                    src='/svg/tech.svg'
                     alt='Tech'
                     width={500}
                     height={500}
