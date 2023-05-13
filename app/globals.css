@@ -62,14 +62,14 @@ html {
 }
 
 .get-improve {
-	background-image: url(/grid.svg);
+	background-image: url(/svg/grid.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .our-program{
-	background-image: url(/grid2.svg);
+	background-image: url(/svg/grid2.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
