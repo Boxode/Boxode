@@ -82,7 +82,7 @@ export default function About() {
                   <div className='flex image-tech justify-center items-center relative flex-col px-6 sm:px-12 pt-8 w-96 lg:w-[700px] select-none z-20  md:hidden lg:block'>
                     <div className='relative hidden md:absolute w-32 lg:w-64 h-32 lg:h-64 amimation-delay-2000 bg-gradient-to-r from-[#EE609C] to-[#6564D9] rounded-full blur-2xl opacity-30 -z-20 animate-blob' />
                     <Image
-                      src='/software-dev.svg'
+                      src='/svg/software-dev.svg'
                       alt='PC'
                       loading='lazy'
                       width={500}
