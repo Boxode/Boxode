@@ -33,7 +33,7 @@ export default function Verified() {
               <Tooltip content='Verified Entity'>
                 <Image
                   className='ml-2 hover:scale-105 transition'
-                  src='/verified-entity.svg'
+                  src='/svg/verified-entity.svg'
                   alt='Verified Entity'
                   width={25}
                   height={25}
@@ -61,7 +61,7 @@ export default function Verified() {
               <Tooltip content='Verified Entity'>
                 <Image
                   className='ml-2 hover:scale-105 transition'
-                  src='/verified-entity.svg'
+                  src='/svg/verified-entity.svg'
                   alt='Verified Entity'
                   width={25}
                   height={25}
