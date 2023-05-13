@@ -10,7 +10,7 @@ export default function HeaderOSS() {
             <div className='relative z-20'>
               <Link href='#' className='flex items-center'>
                 <Image
-                  src='/BoxodeB.svg'
+                  src='/svg/BoxodeB.svg'
                   alt='Boxode logo'
                   className='w-40 md:w-44 mr-3'
                   width={100}
