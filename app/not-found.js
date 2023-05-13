@@ -1,10 +1,10 @@
 'use client'
 
-import Header from '@/components/Home/Header'
+import Header from '@/components/Header'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Custom404() {
+export default function NotFound() {
   return (
     <>
       <Header />
@@ -28,18 +28,17 @@ export default function Custom404() {
           </span>
         </div>
         <p class='text-white/50 font-[Questrial] text-lg lg:text-2xl tracking-widest select-none z-20'>
-          Página no encontrada.
+          Page not found
         </p>
         <p class='text-white/50 font-[Questrial] px-4 lg:px-0 text-md text-center lg:text-left pt-4 lg:text-xl tracking-widest select-none z-20'>
           {' '}
-          Comprueba que la ruta este escrita correctamente o si la ruta
-          solicitada no haya sido eliminada.
+          The page you are looking for does not exist or has been moved.
         </p>
         <Link
           href='/'
           class='text-white/50 font-[Questrial] text-xl tracking-widest select-none underline decoration-white/50 z-20 pt-4'
         >
-          Volver al inicio
+          Go to home
         </Link>
       </section>
     </>
