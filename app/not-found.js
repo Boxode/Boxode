@@ -16,7 +16,7 @@ export default function NotFound() {
           width={500}
           height={500}
         />
-        <div class='font-[SegoeBold] pt-[5%] text-center'>
+        <div className='font-[SegoeBold] pt-[5%] text-center flex flex-col md:flex-row justify-center items-center'>
           <span id='L' className='error flex-row'>
             4
           </span>
