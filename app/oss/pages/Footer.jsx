@@ -128,7 +128,7 @@ export default function FooterOSS() {
       </div>
       <div className='px-5 md:px-6 py-6 bg-black md:flex md:items-center md:justify-between'>
         <Image
-          src='/BoxodeB.svg'
+          src='/svg/BoxodeB.svg'
           alt='Boxode'
           className='w-24'
           width={100}
