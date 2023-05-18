@@ -93,14 +93,6 @@ export default function FooterOSS() {
                 Github
               </Link>
             </li>
-            <li className='mb-4 font-[SegoeUI]'>
-              <Link
-                href='oss/thanks'
-                className='underline text-[11px] text-gray-100/80'
-              >
-                Thank you for being here!
-              </Link>
-            </li>
           </ul>
         </div>
         <div>
