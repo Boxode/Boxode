@@ -106,6 +106,11 @@ export default function FooterOSS() {
               </Link>
             </li>
             <li className='mb-4 font-[SegoeUI]'>
+              <Link href='/ceo' className='hover:underline'>
+                CEO
+              </Link>
+            </li>
+            <li className='mb-4 font-[SegoeUI]'>
               <Link href='/about' className='hover:underline'>
                 About Boxode
               </Link>
