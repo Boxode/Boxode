@@ -2,5 +2,28 @@
   "buildCommand": "next build",
   "devCommand": "next dev",
   "cleanUrls": true,
-  "framework": "nextjs"
+  "framework": "nextjs",
+
+  "redirects": [
+	{
+		"source": "/fb",
+		"destination": "https://www.facebook.com/BoxodeHQ"
+	},
+	{
+		"source": "/tw",
+		"destination": "https://twitter.com/BoxodeHQ"
+	},
+	{
+		"source": "/ig",
+		"destination": "https://www.instagram.com/boxodehq/"
+	},
+	{
+		"source": "/gh",
+		"destination": "https://github.com/Boxode"
+	},
+	{
+		"source": "/li",
+		"destination": "https://www.linkedin.com/company/boxodehqs"
+	}
+  ]
 }

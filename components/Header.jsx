@@ -10,7 +10,7 @@ export default function Header() {
             <div className='relative z-20'>
               <Link href='/' className='flex items-center'>
                 <Image
-                  src='/svg/BoxodeB.svg'
+                  src='/svg/Boxode_white.svg'
                   alt='Boxode logo'
                   className='w-40 md:w-44 mr-3'
                   width={100}
@@ -48,7 +48,7 @@ export default function Header() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Inicio
+                          Home
                         </span>
                       </Link>
                     </li>
@@ -58,7 +58,7 @@ export default function Header() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Servicios
+                          Services
                         </span>
                       </Link>
                     </li>
@@ -68,7 +68,7 @@ export default function Header() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Nuestros Clientes
+                          Customers
                         </span>
                       </Link>
                     </li>
@@ -78,7 +78,7 @@ export default function Header() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Nosotros
+                          About us
                         </span>
                       </Link>
                     </li>
@@ -88,7 +88,7 @@ export default function Header() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Contacto
+                          Contact
                         </span>
                       </Link>
                     </li>
