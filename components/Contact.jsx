@@ -49,6 +49,8 @@ export const Contact = () => {
     }
   }
 
+  const grecaptcha = window.grecaptcha
+
   return (
     <section id='contact' className='text-white body-font relative my-10'>
       <Toaster />
