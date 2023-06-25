@@ -26,7 +26,6 @@ export const Contact = () => {
           if (captchaRef.current.getValue()) {
             console.log(result.text)
             form.current.reset()
-            grecaptcha.reset()
             toast.success('Message sent successfully!')
             setCaptcha(true)
           } else {
