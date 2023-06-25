@@ -5,10 +5,4 @@ const nextConfig = {
   }
 }
 
-module.exports = {
-  javascript: {
-    ignoreBuildErrors: true
-  }
-}
-
 module.exports = nextConfig
