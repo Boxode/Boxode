@@ -16,6 +16,15 @@ In short, our company is dedicated to creating innovative digital solutions that
 
 ## Contributing
 
+
+## Shortcuts
+
+- boxode.org[**/fb**](https://boxode.org/fb) - Facebook
+- boxode.org[**/tw**](https://boxode.org/tw) - Twitter
+- boxode.org[**/ig**](https://boxode.org/ig) - Instagram
+- boxode.org[**/gh**](https://boxode.org/gh) - GitHub
+- boxode.org[**/li**](https://boxode.org/li) - LinkedIn
+
 ## Reference
 - <a href="https://github.com/Boxode/.github/blob/main/CODE_OF_CONDUCT_EN.md">Code of Conduct</a>
 - <a href="">Contributing Guidelines</a>
