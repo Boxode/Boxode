@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <title>Boxode</title>
         <meta
           name='description'
-          content='Creando soluciones informáticas personalizadas y productos comerciales a pequeñas, medianas y grandes empresas.'
+          content='Creating customized IT solutions and commercial products for small, medium and large companies.'
         />
         <link
           rel='apple-touch-icon'
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
         <meta property='og:title' content='Boxode' />
         <meta
           property='og:description'
-          content='Creando soluciones informáticas personalizadas y productos comerciales a pequeñas, medianas y grandes empresas.'
+          content='Creating customized IT solutions and commercial products for small, medium and large companies.'
         />
         <meta property='og:locate' content='es_MX' />
         <meta property='og:site_name' content='Boxode' />
@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
         <meta name='twitter:title' content='Boxode' />
         <meta
           name='twitter:description'
-          content='Creando soluciones informáticas personalizadas y productos comerciales a pequeñas, medianas y grandes empresas.'
+          content='A better way to build software.'
         />
         <meta
           name='twitter:image'
