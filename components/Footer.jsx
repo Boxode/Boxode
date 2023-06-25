@@ -1,38 +1,37 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Footer() {
+export default function FooterOSS() {
   return (
     <footer className='bg-black border-t border-gray-100/10'>
       <div className='grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4'>
         <div>
-          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>
-            Novedades
+          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
+            What's new?
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4'>
-              <Link href='#!' className=' hover:underline'>
-                Proximamente
+              <Link href='/design' className=' hover:underline'>
+                Boxode Design
               </Link>
             </li>
           </ul>
         </div>
         <div>
-          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>
-            Centro de Ayuda
+          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
+            Help Center
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link
                 href='https://discord.gg/gdRmAa5xHU'
                 target='_blank'
-                rel='noopener noreferrer'
                 className='hover:underline'
               >
                 Discord Server
               </Link>
             </li>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link
                 href='https://twitter.com/BoxodeHQ'
                 target='_blank'
@@ -42,7 +41,7 @@ export default function Footer() {
                 Twitter
               </Link>
             </li>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link
                 href='https://www.facebook.com/BoxodeHQ'
                 target='_blank'
@@ -52,7 +51,7 @@ export default function Footer() {
                 Facebook
               </Link>
             </li>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link
                 href='https://www.instagram.com/BoxodeHQ'
                 target='_blank'
@@ -65,60 +64,60 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>
-            Desarrollo y TI
+          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
+            Develop and IT
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link href='/oss' className='hover:underline'>
-                Código abierto
+                Open Source Software
               </Link>
             </li>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link href='/oss/contributing' className='hover:underline'>
-                Contribuciones
+                Contribution
               </Link>
             </li>
-            <li className='mb-4 font-[SegoeUI]'>
-              <Link href='/oss/coc' className='hover:underline'>
-                Código de Conducta
+            <li className='mb-4 font-[Satoshi]'>
+              <Link href='oss/coc' className='hover:underline'>
+                Code of Conduct
               </Link>
             </li>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link
                 href='https://github.com/Boxode'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'
               >
-                GitHub Empresarial
+                Github
               </Link>
             </li>
           </ul>
         </div>
         <div>
-          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold]'>
-            Compañia
+          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
+            Company
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link href='/careers' className='hover:underline'>
-                Trabajos
+                Careers
               </Link>
             </li>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link href='/ceo' className='hover:underline'>
                 CEO
               </Link>
             </li>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link href='/about' className='hover:underline'>
-                Acerca de Boxode
+                About Boxode
               </Link>
             </li>
-            <li className='mb-4 font-[SegoeUI]'>
+            <li className='mb-4 font-[Satoshi]'>
               <Link href='/privacy' className='hover:underline'>
-                Privacidad de Boxode
+                Privacy at Boxode
               </Link>
             </li>
           </ul>
@@ -126,42 +125,42 @@ export default function Footer() {
       </div>
       <div className='px-5 md:px-6 py-6 bg-black md:flex md:items-center md:justify-between'>
         <Image
-          src='/svg/BoxodeB.svg'
+          src='/svg/Boxode_white.svg'
           alt='Boxode'
           className='w-24'
           width={100}
           height={100}
         />
-        <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-[SegoeUI]'>
+        <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-[Satoshi]'>
           <Link
-            href='/contact-us'
+            href='/contactus'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Ponte en contacto con Boxode
+            Contact Boxode
           </Link>
           <Link
             href='/sitemap'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Mapa de sitio
+            Sitemap
           </Link>
           <Link
-            href='/privacy-statement'
+            href='/privacystatement'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Privacidad
+            Privacy Statement
           </Link>
           <Link
             href='/trademarks'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Marcas Registradas
+            Trademarks
           </Link>
           <Link
             href='/security-and-eco'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Seguridad & Eco
+            Sefety & Eco
           </Link>
           <span className='text-[11px] text-gray-100/80 sm:text-center'>
             © Boxode <span id='year'>2023</span>

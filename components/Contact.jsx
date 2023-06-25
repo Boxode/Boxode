@@ -1,34 +1,52 @@
 'use client'
 
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import toast, { Toaster } from 'react-hot-toast'
 import Image from 'next/image'
+import ReCAPTCHA from 'react-google-recaptcha'
 
 export const Contact = () => {
   const form = useRef()
+  const captchaRef = useRef(null)
+  const [captcha, setCaptcha] = useState(null)
 
   const sendEmail = (e) => {
     e.preventDefault()
 
     emailjs
       .sendForm(
-        'service_aedmfvv',
-        'template_fs04mzs',
+        `${process.env.NEXT_PUBLIC_SERVICES_EMAIL_ID}`,
+        `${process.env.NEXT_PUBLIC_SERVICES_TEMPLATE_ID}`,
         form.current,
-        'GwgIwvIWFQ55J7gPP'
+        `${process.env.NEXT_PUBLIC_SERVICES_USER_ID}`
       )
       .then(
         (result) => {
-          console.log(result.text)
-          form.current.reset()
-          toast.success('Message sent successfully!')
+          if (captchaRef.current.getValue()) {
+            console.log(result.text)
+            form.current.reset()
+            grecaptcha.reset()
+            toast.success('Message sent successfully!')
+            setCaptcha(true)
+          } else {
+            console.log('The user has not verified the CAPTCHA.')
+            setCaptcha(false)
+          }
         },
         (error) => {
           console.log(error.text)
-          toast.error('Message failed to send!')
+          toast.error('Something went wrong!')
+          setCaptcha(true)
         }
       )
+  }
+
+  const onChange = () => {
+    if (captchaRef.current.getValue()) {
+      console.log('The user has verified the CAPTCHA.')
+      setCaptcha(true)
+    }
   }
 
   return (
@@ -43,15 +61,15 @@ export const Contact = () => {
             width={100}
             height={100}
           />
-          <h2 className='contact text-6xl lg:text-8xl font-[SegoeBold] tracking-normal p-4 opacity-90 select-none'>
-            Contacto
+          <h2 className='contact text-6xl lg:text-8xl font-[PoppinsBold] tracking-normal p-4 opacity-90 select-none'>
+            Contact
           </h2>
-          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Questrial]'>
-            ¿Estás interesado en alguno de nuestros servicios?
+          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
+            Are you interested in any of our services?
           </p>
-          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Questrial]'>
-            ¡Fantastico! Puedes llenar el siguiente formulario y nosotros te
-            contactaremos.
+          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
+            Fantastic! You can fill out the following form and we will contact
+            you.
           </p>
         </div>
         <form ref={form} onSubmit={sendEmail}>
@@ -61,15 +79,15 @@ export const Contact = () => {
                 <div className='relative'>
                   <label
                     forhtml='name'
-                    className='leading-7 text-[20px] text-white font-[Questrial]'
+                    className='leading-7 text-[20px] text-white font-[Satoshi]'
                   >
-                    Nombre
+                    Name
                   </label>
                   <input
                     required
                     type='text'
                     name='user_name'
-                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg font-[Questrial] outline-none text-black py-2 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg font-[Satoshi] outline-none text-black py-2 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   />
                 </div>
               </div>
@@ -77,7 +95,7 @@ export const Contact = () => {
                 <div className='relative'>
                   <label
                     forhtml='email'
-                    className='leading-7 text-[20px] text-white font-[Questrial]'
+                    className='leading-7 text-[20px] text-white font-[Satoshi]'
                   >
                     Email
                   </label>
@@ -85,7 +103,7 @@ export const Contact = () => {
                     required
                     type='email'
                     name='user_email'
-                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg outline-none text-black font-[Questrial] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg outline-none text-black font-[Satoshi] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   />
                 </div>
               </div>
@@ -93,34 +111,46 @@ export const Contact = () => {
                 <div className='relative'>
                   <label
                     forhtml='message'
-                    className='leading-7 text-[20px] text-white font-[Questrial]'
+                    className='leading-7 text-[20px] text-white font-[Satoshi]'
                   >
-                    Mensaje
+                    Message
                   </label>
                   <textarea
                     required
                     name='message'
-                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 h-32 text-xl outline-none text-black py-2 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out font-[Questrial]'
+                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 h-32 text-xl outline-none text-black py-2 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out font-[Satoshi]'
                   />
                 </div>
+              </div>
+              <div className='ml-2'>
+                <ReCAPTCHA
+                  sitekey={process.env.NEXT_PUBLIC_CAPTCHA_APP_KEY}
+                  onChange={onChange}
+                  theme='dark'
+                  ref={captchaRef}
+                />
+                {captcha === false && (
+                  <p className='text-red-500 font-[Satoshi] mt-2'>
+                    CAPTCHA verification failed. Please try again.
+                  </p>
+                )}
               </div>
               <div className='p-2 w-full'>
                 <button
                   type='submit'
                   value='Send'
-                  className='flex mx-auto btn-contact font-[SegoeBold]'
+                  className='flex mx-auto btn-contact'
                 >
-                  Enviar Mensaje
+                  Send Message
                 </button>
               </div>
             </div>
           </div>
         </form>
         <div className='mt-5'>
-          <p className='text-gray-100/40 text-lg px-6 text-center font-[Questrial] my-4'>
-            En caso de tener algún problema con el envio de su correo por medio
-            del formulario, puede mandarlos correo directamente a las siguientes
-            direcciones: <br />
+          <p className='text-gray-100/40 text-lg px-6 text-center font-[Satoshi] my-4'>
+            In case you have any problem with sending your email through the
+            form, you can send them directly to the following addresses: <br />{' '}
             <span>
               <a
                 href='mailto:contact@boxode.org'
@@ -130,13 +160,13 @@ export const Contact = () => {
               </a>
               &nbsp; o &nbsp;
               <a
-                href='mailto:boxodecorporation@gmail.com'
+                href='mailto:boxodehq@gmail.com'
                 className='underline decoration-gray-500/50 hover:decoration-white hover:text-white transition duration-200 ease-in-out'
               >
-                boxodecorporation@gmail.com
+                boxodehq@gmail.com
               </a>
             </span>
-            &nbsp; para cualquier consulta del servicio que desee adquirir.
+            &nbsp; for any query about the service you wish to purchase.
           </p>
         </div>
       </div>

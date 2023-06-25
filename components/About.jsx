@@ -12,12 +12,11 @@ export default function About() {
             width={100}
             height={100}
           />
-          <h2 className='about text-6xl lg:text-8xl font-[SegoeBold] tracking-normal p-4 opacity-90 select-none'>
-            Nosotros
+          <h2 className='about text-6xl lg:text-8xl font-[PoppinsBold] tracking-normal p-4 opacity-90 select-none'>
+            About Us
           </h2>
-          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Questrial]'>
-            Te dejamos un poco de información relevante sobre nuestra misión y
-            visión.
+          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
+            We leave you some relevant information about our mission and vision.
           </p>
         </div>
         <div className='pt-10 pb-8 overflow-hidden z-10'>
@@ -25,16 +24,15 @@ export default function About() {
             <div className='lg:grid lg:grid-cols-12 mx-auto lg:gap-16 justify-center'>
               <div className='relative z-10 px-4 sm:px-6 sm:text-center lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
                 <div className='lg:py-24'>
-                  <p className='mt-3 font-[SegoeBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-4xl lg:text-6xl text-neutral-200 sm:mt-5'>
-                    Misión
+                  <p className='mt-3 font-[PoppinsBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-4xl lg:text-6xl text-neutral-200 sm:mt-5'>
+                    Mission
                   </p>
-                  <p className='mt-3 font-[Questrial] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
-                    Proporcionar soluciones de software innovadoras y de alta
-                    calidad a nuestros clientes, mejorando sus procesos
-                    empresariales y ayudándoles a alcanzar sus objetivos de
-                    negocio de manera eficiente y rentable. Nuestro compromiso
-                    es crear una experiencia de usuario excelente y brindar un
-                    servicio al cliente inigualable.
+                  <p className='mt-3 font-[Satoshi] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
+                    To provide high-quality and innovative software solutions to
+                    our clients, improving their business processes and helping
+                    them achieve their business goals efficiently and
+                    profitably. We are committed to creating an excellent user
+                    experience and providing unmatched customer service.
                   </p>
                 </div>
               </div>
@@ -61,19 +59,16 @@ export default function About() {
             <div className='lg:grid lg:grid-cols-12 mx-auto lg:gap-16 justify-center'>
               <div className='relative z-10 px-4 sm:px-6 sm:text-center lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
                 <div className='lg:py-24'>
-                  <p className='mt-3 font-[SegoeBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-4xl lg:text-6xl text-neutral-200 sm:mt-5'>
-                    Visión
+                  <p className='mt-3 font-[PoppinsBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-4xl lg:text-6xl text-neutral-200 sm:mt-5'>
+                    Vision
                   </p>
-                  <p className='mt-3 font-[Questrial] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
-                    Ser la empresa preferida por los clientes en el desarrollo
-                    de soluciones de software y web, ofreciendo productos y
-                    servicios de alta calidad y tecnología avanzada. Nos
-                    esforzamos por ser una fuente de innovación y excelencia en
-                    el mercado, y por establecer relaciones duraderas y
-                    confiables con nuestros clientes. Buscamos fomentar un
-                    ambiente de trabajo colaborativo y motivador para nuestros
-                    empleados, alentándolos a alcanzar su máximo potencial y
-                    brindar un servicio impecable a nuestros clientes.
+                  <p className='mt-3 font-[Satoshi] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
+                    To be the company preferred by clients in the development of
+                    software and web solutions, offering high quality products
+                    and services and advanced technology. We strive to be a
+                    source of innovation and excellence in the marketplace, and
+                    to build long-lasting, trusted relationships with our
+                    customers.
                   </p>
                 </div>
               </div>
