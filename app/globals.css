@@ -10,9 +10,6 @@ body {
 	background-color: #000000;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
 
 html {
     scroll-behavior: smooth;
@@ -28,17 +25,15 @@ html {
 }
 
 @layer base {
-    @font-face {
-        font-family: SegoeUI;
-        src: url(/Fonts/SegoeUI.woff) format("woff");
-    }
-    @font-face {
-        font-family: SegoeBold;
-        src: url(/Fonts/SegoeBold.woff) format("woff");
-    }
+
 	@font-face {
-		font-family: Questrial;
-		src: url(/Fonts/Questrial.woff) format("woff");
+		font-family: PoppinsBold;
+		src: url(/Fonts/Poppins-Bold.woff2) format("woff2");
+	}
+
+	@font-face {
+		font-family: Satoshi;
+		src: url(/Fonts/Satoshi-Regular.woff2) format("woff2");
 	}
 }
 
@@ -52,13 +47,15 @@ html {
 }
 
 .btn-contact {
-    @apply bg-white text-black hover:bg-gray-500/50 ease-in duration-75 font-[SegoeBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
+    @apply bg-white text-black hover:bg-gray-500/50 transition-colors ease-in duration-75 font-[PoppinsBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
 }
 
 .primary-title{
-	background: linear-gradient(180deg,#fff,hsla(0,0%,100%,.75));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    background: linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: unset;
 }
 
 .get-improve {
@@ -104,7 +101,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-	background: #f1f1f1;
+	background: #000;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -113,9 +110,8 @@ html {
   }
 
 ::selection {
-	background-color: #fff;
-	filter: blur(10px);
-	color: #000;
+	background-color: #1d69a099;
+	color: #fff;
   }
 
   .services {
