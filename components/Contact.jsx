@@ -49,7 +49,10 @@ export const Contact = () => {
     }
   }
 
-  const grecaptcha = window.grecaptcha
+  const grecaptcha = () => {
+    ReCAPTCHA.reset()
+    console.log('CAPTCHA reset.')
+  }
 
   return (
     <section id='contact' className='text-white body-font relative my-10'>
