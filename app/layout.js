@@ -7,7 +7,6 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet='utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <script src='https://www.google.com/recaptcha/api.js' async defer />
         <meta
           name='keywords'
           content='boxode, boxode.org, boxode open source software, boxode oss, boxode open source, boxode software, software, software development, software development company, software development services, software development company in mexico, web development, web development company, uiux development, uiux development company, uiux development company in mexico, uiux development services, uiux development services in mexico'
