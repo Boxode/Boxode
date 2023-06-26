@@ -7,10 +7,10 @@ import { Tooltip } from '@nextui-org/react'
 export default function Verified() {
   return (
     <section className='min-h-[200px]'>
-      <h2 className='text-white font-[SegoeBold] px-10 text-3xl text-center md:text-left'>
+      <h2 className='text-white font-[PoppinsBold] px-10 text-3xl text-center md:text-left'>
         Verified Entities
       </h2>
-      <p className='text-white font-[Questrial] opacity-40 text-xs md:text-base text-center md:text-left px-10 mt-2'>
+      <p className='text-white font-[Satoshi] opacity-40 text-xs md:text-base text-center md:text-left px-10 mt-2'>
         verified entities are those that are known for their outstanding work
         and have become known for their contributions to OSS*
       </p>
@@ -28,7 +28,7 @@ export default function Verified() {
             height={80}
           />
           <div className='flex ml-4 flex-col'>
-            <h4 className='text-white flex font-bold '>
+            <h4 className='text-white flex font-[PoppinsBold]'>
               Boxode Corporation{' '}
               <Tooltip content='Verified Entity'>
                 <Image
@@ -40,7 +40,9 @@ export default function Verified() {
                 />
               </Tooltip>
             </h4>
-            <p className='text-gray-400 text-sm'>github.com/boxode</p>
+            <p className='text-gray-400 text-sm font-[Satoshi]'>
+              github.com/boxode
+            </p>
           </div>
         </Link>
         <Link
@@ -56,7 +58,7 @@ export default function Verified() {
             height={80}
           />
           <div className='flex ml-4 flex-col z-20'>
-            <h4 className='text-white flex font-bold '>
+            <h4 className='text-white flex font-[PoppinsBold]'>
               Fabian Herrera{' '}
               <Tooltip content='Verified Entity'>
                 <Image
@@ -68,7 +70,9 @@ export default function Verified() {
                 />
               </Tooltip>
             </h4>
-            <p className='text-gray-400 text-sm'>Founder & CEO</p>
+            <p className='text-gray-400 text-sm font-[Satoshi]'>
+              Founder & CEO
+            </p>
           </div>
         </Link>
       </div>
