@@ -11,13 +11,14 @@
 }
 
 .titleOSS {
-	background: linear-gradient(45deg, hsla(0, 0%, 100%, 1) 11%, rgb(175, 175, 175) 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	opacity: 1;
+    background: linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: unset;
 	display: flex;
 	justify-content: center;
 	user-select: none;
 	align-items: center;
-	@apply h-60 font-[SegoeBold] text-7xl text-center md:text-8xl opacity-100
+	@apply h-60 font-[PoppinsBold] text-7xl text-center md:text-8xl opacity-100
 }

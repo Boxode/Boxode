@@ -28,7 +28,8 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx",
-    "app/ceo/page.jsx"
+    "app/ceo/page.jsx",
+    "app/careers/components/World.tsx"
   ],
   "exclude": ["node_modules"]
 }
