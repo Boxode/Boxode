@@ -16,7 +16,7 @@ export default function NotFound() {
           width={500}
           height={500}
         />
-        <div className='font-[SegoeBold] pt-[5%] text-center flex flex-col md:flex-row justify-center items-center'>
+        <div className='font-[PoppinsBold] pt-[5%] text-center flex flex-col md:flex-row justify-center items-center'>
           <span id='L' className='error flex-row'>
             4
           </span>
@@ -27,16 +27,16 @@ export default function NotFound() {
             4
           </span>
         </div>
-        <p className='text-white/50 font-[Questrial] text-lg lg:text-2xl tracking-widest select-none z-20'>
+        <p className='text-white/50 font-[Satoshi] text-lg lg:text-2xl tracking-widest select-none z-20'>
           Page not found
         </p>
-        <p className='text-white/50 font-[Questrial] px-4 lg:px-0 text-md text-center lg:text-left pt-4 lg:text-xl tracking-widest select-none z-20'>
+        <p className='text-white/50 font-[Satoshi] px-4 lg:px-0 text-md text-center lg:text-left pt-4 lg:text-xl tracking-widest select-none z-20'>
           {' '}
           The page you are looking for does not exist or has been moved.
         </p>
         <Link
           href='/'
-          className='text-white/50 font-[Questrial] text-xl tracking-widest select-none underline decoration-white/50 z-20 pt-4'
+          className='text-white/50 font-[Satoshi] text-xl tracking-widest select-none underline decoration-white/50 z-20 pt-4'
         >
           Go to home
         </Link>
