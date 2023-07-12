@@ -14,8 +14,8 @@ export default function App() {
       width: 600 * 2,
       height: 600 * 2,
       phi: 0,
-      theta: 0,
-      dark: 1,
+      theta: 0.2,
+      dark: 1.1,
       diffuse: 3,
       mapSamples: 16000,
       mapBrightness: 3,
@@ -44,7 +44,7 @@ export default function App() {
         // Called on every animation frame.
         // `state` will be an empty object, return updated params.
         state.phi = phi
-        phi += 0.01
+        phi += 0.003
       }
     })
 
