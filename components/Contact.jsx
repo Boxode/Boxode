@@ -157,7 +157,7 @@ export const Contact = () => {
               >
                 contacto@boxode.org
               </a>
-              &nbsp; o &nbsp;
+              &nbsp; or &nbsp;
               <a
                 href='mailto:boxodehq@gmail.com'
                 className='underline decoration-gray-500/50 hover:decoration-white hover:text-white transition duration-200 ease-in-out'
