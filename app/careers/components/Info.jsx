@@ -21,57 +21,56 @@ export default function Gip() {
             <article className='relative pt-10 md:pt-0 pb-10 md:pb-0 z-10 px-4 sm:px-6 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
               <div className='lg:py-24 px-4 sm:px-16 grid grid-cols-1'>
                 <ul className='text-white font-[Satoshi]'>
-                  <li className='flex flex-row text-xl'>
-                    <Image
-                      src='/svg/verified.svg'
-                      alt='Verified'
-                      width={25}
-                      height={25}
-                      className='mr-3 select-none'
-                    />
-                    We always use our own tools to create.
-                  </li>
-                  <li className='flex flex-row pt-4 text-xl'>
+                  <li className='flex flex-row text-lg'>
                     <Image
                       src='/svg/verified.svg'
                       alt='Verified'
                       width={26}
                       height={26}
-                      className='mr-3 select-none'
+                      className='mr-4 select-none'
+                    />
+                    We always use our own tools to create.
+                  </li>
+                  <li className='flex flex-row pt-4 text-lg'>
+                    <Image
+                      src='/svg/verified.svg'
+                      alt='Verified'
+                      width={26}
+                      height={26}
+                      className='mr-4 select-none'
                     />
                     We prosper and grow always together.
                   </li>
-                  <li className='flex flex-row pt-4 text-xl'>
+                  <li className='flex flex-row pt-4 text-lg'>
                     <Image
                       src='/svg/verified.svg'
                       alt='Verified'
-                      width={25}
-                      height={25}
-                      className='mr-3 select-none'
+                      width={26}
+                      height={26}
+                      className='mr-4 select-none'
                     />
                     We are always learning and improving.
                   </li>
-                  <li className='flex flex-row pt-4 text-xl'>
+                  <li className='flex flex-row pt-4 text-lg'>
                     <Image
                       src='/svg/verified.svg'
                       alt='Verified'
-                      width={25}
-                      height={25}
-                      className='mr-3 select-none'
+                      width={26}
+                      height={26}
+                      className='mr-4 select-none'
                     />
-                    We believe in the capacity of each person to create and
-                    learn.
+                    Our ability to create and learn together
                   </li>
-                  <li className='flex flex-row pt-4 text-xl'>
+                  <li className='flex flex-row pt-4 text-lg'>
                     <Image
                       src='/svg/verified.svg'
                       alt='Verified'
-                      width={28}
-                      height={28}
-                      className='mr-3 select-none'
+                      width={26}
+                      height={26}
+                      className='mr-4 select-none'
                     />
-                    Always committed to meeting our objectives and those of the
-                    client.
+                    Committed to objectives, client satisfaction always
+                    prioritized.
                   </li>
                 </ul>
               </div>
