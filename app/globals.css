@@ -50,12 +50,129 @@ html {
     @apply bg-white text-black hover:bg-gray-500/50 transition-colors ease-in duration-75 font-[PoppinsBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
 }
 
+.btn-open-positions {
+	background: #ffffff;
+  border: none;
+  border-radius: 25px;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.25em;
+  letter-spacing: 0.1em;
+  outline: none;
+  padding: 0.75em 2em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-open-positions:hover {
+  -webkit-animation: glow 0.2s ease-in infinite;
+          animation: glow 0.2s ease-in infinite;
+}
+.btn-open-positions::before {
+  -webkit-animation: glow 0.2s ease-in infinite;
+          animation: glow 0.2s ease-in infinite;
+  background: #ffffff;
+  border-radius: inherit;
+  content: "";
+  filter: blur(10px);
+  opacity: 0.75;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.btn-open-positions:hover::before {
+  filter: blur(20px);
+  opacity: 1;
+}
+
+.btn-learn-more {
+	background: #000;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.25em;
+  letter-spacing: 0.1em;
+  outline: none;
+  padding: 0.75em 2em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+
+.btn-learn-more::before {
+  -webkit-animation: glow2 0.2s ease-in infinite;
+          animation: glow2 0.2s ease-in infinite;
+  background: #000;
+  border-radius: inherit;
+  content: "";
+  filter: blur(10px);
+  opacity: 0.75;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.btn-learn-more:hover::before {
+  filter: blur(20px);
+  opacity: 1;
+}
+
+@-webkit-keyframes glow {
+  0% {
+    background: #ffffff;
+  }
+  25% {
+    background: #fff;
+  }
+  100% {
+    background: #ffffff;
+  }
+}
+
+@keyframes glow {
+  0% {
+    background: #ffffff;
+  }
+  25% {
+    background: #fff;
+  }
+  100% {
+    background: #ffffff;
+  }
+}
+
+@keyframes glow2 {
+  0% {
+    background: #666666;
+  }
+  25% {
+    background: #666666;
+  }
+  100% {
+    background: #666666;
+  }
+}
+
 .primary-title{
-    background: linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: unset;
+	background: linear-gradient(to right bottom,#fff 30%,hsla(0, 0%, 50%, 0.8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: unset;
+}
+
+.primary-title-hero {
+	-webkit-text-stroke: 0.4px #ffffff80;
+	-webkit-text-fill-color: transparent;
+	text-shadow: -1px -1px 0 hsla(0,0%,100%,.2), 1px 1px 0 rgba(0,0,0,.1);
 }
 
 .get-improve {
