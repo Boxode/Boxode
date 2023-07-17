@@ -38,7 +38,7 @@ export default function Services() {
               <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[PoppinsBold] leading-relaxed'>
                 Software Development
               </h3>
-              <p className='text-white/80 font-[Satoshi] text-md lg:text-xl px-6 lg:px-0'>
+              <p className='text-white/80 font-[Satoshi] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>
                 We develop scalable solutions for multidisciplinary platforms
                 with the newest technological trends.
               </p>
