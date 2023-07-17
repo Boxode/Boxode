@@ -19,7 +19,7 @@ export default function FooterOSS() {
         </div>
         <div>
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
-            Help Center
+            Connect with us
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4 font-[Satoshi]'>
@@ -163,7 +163,7 @@ export default function FooterOSS() {
             Sefety & Eco
           </Link>
           <span className='text-[11px] text-gray-100/80 sm:text-center'>
-            © Boxode <span id='year'>2023</span>
+            © Boxode, Ltd. <span id='year'>2023</span>
           </span>
         </div>
       </div>

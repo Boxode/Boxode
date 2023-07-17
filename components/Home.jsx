@@ -8,7 +8,7 @@ export default function Home() {
           <div className='lg:flex lg:justify-center lg:items-center lg:flex-col mx-auto lg:gap-16 justify-center'>
             <div className='relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:flex col-span-6'>
               <div className='lg:py-16'>
-                <p className='text-4xl lg:text-9xl lg:px-10 h-full font-[PoppinsBold] tracking-tight font-black primary-title text-center'>
+                <p className='text-4xl lg:text-9xl lg:px-10 h-full font-[PoppinsBold] tracking-tight font-black primary-title primary-title-hero text-center'>
                   A better way to build software.
                 </p>
                 <p className='mt-10 md:mt-3 font-[Satoshi] text-center text-base sm:text-2xl text-neutral-200/70'>

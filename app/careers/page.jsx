@@ -1,14 +1,16 @@
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-import Info from './components/Info'
+import Commitment from './components/Commitment'
 import Principal from './components/Prinicipal'
+import Positions from './components/Positions'
 
 export default function CareersPage() {
   return (
     <>
       <Header />
       <Principal />
-      <Info />
+      <Commitment />
+      <Positions />
       <Footer />
     </>
   )
