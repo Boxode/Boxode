@@ -1,6 +1,6 @@
 <div align="center">
 	<img height="250em" src="https://raw.githubusercontent.com/Boxode/Boxode/main/public/Boxode-circle-logo.png" alt="Boxode" />
-	<h3>Stop talking and start innovating</h3>
+	<h3>A better way to build software</h3>
 	<a href="https://boxode.org/templates">Templates</a> ◻ <a href="https://boxode.org/oss">Open Source</a>
 </div>
 
