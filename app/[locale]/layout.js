@@ -1,13 +1,23 @@
 import './globals.css'
 import { Analytics } from '@vercel/analytics/react'
-import { useLocale } from 'next-intl'
+import { NextIntlClientProvider } from 'next-intl'
 import { notFound } from 'next/navigation'
 
-export default function RootLayout({ children, params }) {
-  const locale = useLocale()
+export function generateStaticParams() {
+  return [
+    { locale: 'en' },
+    { locale: 'de' },
+    { locale: 'es' },
+    { locale: 'fr' },
+    { locale: 'pt' }
+  ]
+}
 
-  // Show a 404 error if the user requests an unknown locale
-  if (params.locale !== locale) {
+export default async function RootLayout({ children, params: { locale } }) {
+  let language
+  try {
+    language = (await import(`../../languages/${locale}.json`)).default
+  } catch (error) {
     notFound()
   }
   return (
@@ -79,7 +89,9 @@ export default function RootLayout({ children, params }) {
         />
       </head>
       <body>
-        {children}
+        <NextIntlClientProvider locale={locale} messages={language}>
+          {children}
+        </NextIntlClientProvider>
         <Analytics />
       </body>
     </html>

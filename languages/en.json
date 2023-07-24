@@ -45,5 +45,22 @@
     "contact-info1": "In case you have any problem with sending your email through the form, you can send them directly to the following addresses:",
     "contact-info2": "for any query about the service you wish to purchase."
   },
-  "Footer": {}
+  "Footer": {
+    "title1": "What's New?",
+    "title2": "Contact with us",
+    "title3": "Develop and IT",
+    "title4": "Company",
+    "title5": "System",
+    "OSS": "Open Source Software",
+    "OSSC": "Contribution",
+    "OSSCO": "Code of Conduct",
+    "Careers": "Careers",
+    "AboutBoxode": "About Boxode",
+    "PrivacyAB": "Privacy at Boxode",
+    "ContactB": "Contact Boxode",
+    "Sitemap": "Sitemap",
+    "PrivacyS": "Privacy Statement",
+    "Trademarks": "Trademarks",
+    "SYE": "Safety & Eco"
+  }
 }

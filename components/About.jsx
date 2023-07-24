@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 export default function About() {
+  const t = useTranslations('About')
   return (
     <section id='about' className='pt-10'>
       <div>
@@ -13,10 +15,10 @@ export default function About() {
             height={100}
           />
           <h2 className='about text-6xl lg:text-8xl font-[PoppinsBold] tracking-normal p-4 opacity-90 select-none'>
-            About Us
+            {t('title')}
           </h2>
           <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
-            We leave you some relevant information about our mission and vision.
+            {t('subtitle')}
           </p>
         </div>
         <div className='pt-10 pb-8 overflow-hidden z-10'>
@@ -25,14 +27,10 @@ export default function About() {
               <div className='relative z-10 px-4 sm:px-6 sm:text-center lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
                 <div className='lg:py-24'>
                   <p className='mt-3 font-[PoppinsBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-4xl lg:text-6xl text-neutral-200 sm:mt-5'>
-                    Mission
+                    {t('mission')}
                   </p>
                   <p className='mt-3 font-[Satoshi] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
-                    To provide high-quality and innovative software solutions to
-                    our clients, improving their business processes and helping
-                    them achieve their business goals efficiently and
-                    profitably. We are committed to creating an excellent user
-                    experience and providing unmatched customer service.
+                    {t('mission-description')}
                   </p>
                 </div>
               </div>
@@ -60,15 +58,10 @@ export default function About() {
               <div className='relative z-10 px-4 sm:px-6 sm:text-center lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
                 <div className='lg:py-24'>
                   <p className='mt-3 font-[PoppinsBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-4xl lg:text-6xl text-neutral-200 sm:mt-5'>
-                    Vision
+                    {t('vision')}
                   </p>
                   <p className='mt-3 font-[Satoshi] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
-                    To be the company preferred by clients in the development of
-                    software and web solutions, offering high quality products
-                    and services and advanced technology. We strive to be a
-                    source of innovation and excellence in the marketplace, and
-                    to build long-lasting, trusted relationships with our
-                    customers.
+                    {t('vision-description')}
                   </p>
                 </div>
               </div>

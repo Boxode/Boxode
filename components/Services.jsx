@@ -1,11 +1,13 @@
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 export default function Services() {
+  const t = useTranslations('Services')
   return (
     <section className='min-h-screen -z-20' id='services'>
       <div className='flex items-center justify-center flex-col mt-32 lg:mt-72'>
         <span className='text-[#606060] mb-32 font-[Satoshi] font-bold lg:text-2xl border-2 py-5 px-5 rounded-sm border-[#606060] opacity-80'>
-          Explore the Boxode way
+          {t('square')}
         </span>
         <Image
           src='/1.webp'
@@ -15,11 +17,10 @@ export default function Services() {
           height={100}
         />
         <h2 className='services text-6xl lg:text-8xl font-[PoppinsBold] tracking-normal p-4 opacity-90 select-none'>
-          Services
+          {t('title')}
         </h2>
         <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
-          At Boxode our main objective is to develop quality products and above
-          all that adapt to your needs.
+          {t('subtitle')}
         </p>
       </div>
       <div className='lg:px-44'>
@@ -36,11 +37,10 @@ export default function Services() {
                 height={100}
               />
               <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[PoppinsBold] leading-relaxed'>
-                Software Development
+                {t('sd')}
               </h3>
               <p className='text-white/80 font-[Satoshi] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>
-                We develop scalable solutions for multidisciplinary platforms
-                with the newest technological trends.
+                {t('sd-description')}
               </p>
             </div>
           </article>
@@ -58,11 +58,10 @@ export default function Services() {
                 height={100}
               />
               <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[PoppinsBold] leading-relaxed'>
-                Web Development
+                {t('wd')}
               </h3>
               <p className='text-white/80 font-[Satoshi] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>
-                We plan, design and program custom web applications using
-                current development trends.
+                {t('wd-description')}
               </p>
             </div>
           </article>
@@ -80,11 +79,10 @@ export default function Services() {
                 className='w-16 h-16 mb-5 drop-shadow-md'
               />
               <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[PoppinsBold] leading-relaxed'>
-                UI/UX Design
+                {t('ui')}
               </h3>
               <p className='text-white/80 font-[Satoshi] text-md lg:text-xl text-center lg:text-left px-6 lg:px-0'>
-                We create intuitive and attractive digital interfaces that
-                improve the user experience when interacting with the site.
+                {t('ui-description')}
               </p>
             </div>
           </article>
@@ -96,12 +94,10 @@ export default function Services() {
             <div className='relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
               <div className='lg:py-24'>
                 <p className='mt-3 font-[PoppinsBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-lg lg:text-4xl text-neutral-200 sm:mt-5'>
-                  We work with the most innovative technologies to create
-                  quality products.
+                  {t('work')}
                 </p>
                 <p className='mt-3 font-[Satoshi] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
-                  We use from the most basic to the most advanced to create
-                  solutions that adapt to the needs of our clients.
+                  {t('work-description')}
                 </p>
               </div>
             </div>

@@ -5,8 +5,10 @@ import emailjs from '@emailjs/browser'
 import toast, { Toaster } from 'react-hot-toast'
 import Image from 'next/image'
 import ReCAPTCHA from 'react-google-recaptcha'
+import { useTranslations } from 'next-intl'
 
 export const Contact = () => {
+  const t = useTranslations('Contact')
   const form = useRef()
   const captchaRef = useRef(null)
   const [captcha, setCaptcha] = useState(null)
@@ -61,14 +63,13 @@ export const Contact = () => {
             height={100}
           />
           <h2 className='contact text-6xl lg:text-8xl font-[PoppinsBold] tracking-normal p-4 opacity-90 select-none'>
-            Contact
+            {t('title')}
           </h2>
           <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
-            Are you interested in any of our services?
+            {t('csubtitle1')}
           </p>
           <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
-            Fantastic! You can fill out the following form and we will contact
-            you.
+            {t('csubtitle2')}
           </p>
         </div>
         <form ref={form} onSubmit={sendEmail}>
@@ -80,7 +81,7 @@ export const Contact = () => {
                     forhtml='name'
                     className='leading-7 text-[20px] text-white font-[Satoshi]'
                   >
-                    Name
+                    {t('form.name')}
                   </label>
                   <input
                     required
@@ -96,7 +97,7 @@ export const Contact = () => {
                     forhtml='email'
                     className='leading-7 text-[20px] text-white font-[Satoshi]'
                   >
-                    Email
+                    {t('form.email')}
                   </label>
                   <input
                     required
@@ -112,7 +113,7 @@ export const Contact = () => {
                     forhtml='message'
                     className='leading-7 text-[20px] text-white font-[Satoshi]'
                   >
-                    Message
+                    {t('form.message')}
                   </label>
                   <textarea
                     required
@@ -140,7 +141,7 @@ export const Contact = () => {
                   value='Send'
                   className='flex mx-auto btn-contact'
                 >
-                  Send Message
+                  {t('form.send')}
                 </button>
               </div>
             </div>
@@ -148,8 +149,7 @@ export const Contact = () => {
         </form>
         <div className='mt-5'>
           <p className='text-gray-100/40 text-lg px-6 text-center font-[Satoshi] my-4'>
-            In case you have any problem with sending your email through the
-            form, you can send them directly to the following addresses: <br />{' '}
+            {t('contact-info1')} <br />{' '}
             <span>
               <a
                 href='mailto:contact@boxode.org'
@@ -165,7 +165,7 @@ export const Contact = () => {
                 boxodehq@gmail.com
               </a>
             </span>
-            &nbsp; for any query about the service you wish to purchase.
+            &nbsp; {t('contact-info2')}
           </p>
         </div>
       </div>
