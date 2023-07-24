@@ -41,7 +41,7 @@ export default function Header() {
               </label>
               <div className='peer-checked:translate-x-0 fixed inset-0 w-[calc(100%-4.5rem)] translate-x-[-100%] bg-black lg:bg-transparent shadow-x transition duration-300 lg:shadow-none lg:border-l-0 lg:w-auto lg:static lg:translate-x-0'>
                 <div className='flex flex-col h-full lg:flex-row jusfify-between lg:items-center'>
-                  <ul className='px-6 pt-32 text-white font-[Satoshi] font-semibold space-y-8 lg:space-y-0 md:px-12 lg:flex lg:space-x-12 lg:pt-0 font-xl'>
+                  <ul className='px-6 pt-32 text-white font-[Satoshi] font-semibold space-y-8 lg:space-y-0 md:px-12 lg:flex lg:space-x-12 lg:pt-0 font-xl shrink'>
                     <li>
                       <Link
                         href='#home'
