@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <section className='min-h-screen -z-20' id='services'>
       <div className='flex items-center justify-center flex-col mt-32 lg:mt-72'>
-        <span className='text-white/30 mb-32 font-[Satoshi] lg:text-2xl border-2 py-5 px-5 rounded-sm border-gray-100/20'>
+        <span className='text-[#606060] mb-32 font-[Satoshi] font-bold lg:text-2xl border-2 py-5 px-5 rounded-sm border-[#606060] opacity-80'>
           Explore the Boxode way
         </span>
         <Image

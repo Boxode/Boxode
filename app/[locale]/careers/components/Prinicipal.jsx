@@ -28,7 +28,11 @@ export default function Principal() {
           >
             Open Positions
           </button>
-          <button type='submit' onClick={learnmore} className='btn-learn-more font-[PoppinsBold]'>
+          <button
+            type='submit'
+            onClick={learnmore}
+            className='btn-learn-more font-[PoppinsBold]'
+          >
             Learn More
           </button>
         </div>
@@ -41,6 +45,7 @@ export default function Principal() {
           width={1200}
           height={1200}
           className='absolute -z-20 md:mt-80 opacity-40 md:opacity-25 grayscale'
+          loading='lazy'
         />
       </div>
     </section>
