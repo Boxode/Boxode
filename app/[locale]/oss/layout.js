@@ -1,7 +1,25 @@
 import '../globals.css'
 import { Analytics } from '@vercel/analytics/react'
+import { NextIntlClientProvider } from 'next-intl'
+import { notFound } from 'next/navigation'
 
-export default function RootLayout({ children }) {
+export function generateStaticParams() {
+  return [
+    { locale: 'en' },
+    { locale: 'es' }
+    // { locale: 'de' },
+    // { locale: 'fr' },
+    // { locale: 'pt' }
+  ]
+}
+
+export default async function RootLayout({ children, params: { locale } }) {
+  let language
+  try {
+    language = (await import(`../../../languages/${locale}.json`)).default
+  } catch (error) {
+    notFound()
+  }
   return (
     <html lang='en'>
       <head>
@@ -74,7 +92,9 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        {children}
+        <NextIntlClientProvider locale={locale} messages={language}>
+          {children}
+        </NextIntlClientProvider>
         <Analytics />
       </body>
     </html>
