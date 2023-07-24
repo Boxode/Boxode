@@ -1,3 +1,5 @@
+'use client'
+
 import styles from './Home.module.css'
 import { useTranslations } from 'next-intl'
 
