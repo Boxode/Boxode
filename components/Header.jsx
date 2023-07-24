@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 export default function Header() {
+  const t = useTranslations('Header')
   return (
     <header>
       <div className='fixed w-full z-20 border-b border-white/5 bg-black lg:bg-black/70 lg:backdrop-blur-md'>
@@ -48,7 +50,7 @@ export default function Header() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Home
+                          {t('home')}
                         </span>
                       </Link>
                     </li>
@@ -58,7 +60,7 @@ export default function Header() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Services
+                          {t('services')}
                         </span>
                       </Link>
                     </li>
@@ -68,7 +70,7 @@ export default function Header() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Customers
+                          {t('customers')}
                         </span>
                       </Link>
                     </li>
@@ -78,7 +80,7 @@ export default function Header() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          About us
+                          {t('about')}
                         </span>
                       </Link>
                     </li>
@@ -88,7 +90,7 @@ export default function Header() {
                         className='group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-gray-500 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100'
                       >
                         <span className='relative ease-in duration-200'>
-                          Contact
+                          {t('contact')}
                         </span>
                       </Link>
                     </li>
