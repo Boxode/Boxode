@@ -5,8 +5,10 @@ import Link from 'next/link'
 import DropdownLang from './Dropdown-lang'
 import { useState, useEffect } from 'react'
 import { Sun, Moon, System } from './Icons'
+import { useTranslations } from 'next-intl'
 
 export default function FooterOSS() {
+  const t = useTranslations('Footer')
   const [theme, setTheme] = useState(
     localStorage.getItem('theme') ? localStorage.getItem('theme') : 'system'
   )
@@ -70,7 +72,7 @@ export default function FooterOSS() {
       <div className='grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-5'>
         <div>
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
-            What's new?
+            {t('title1')}
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4'>
@@ -82,7 +84,7 @@ export default function FooterOSS() {
         </div>
         <div>
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
-            Connect with us
+            {t('title2')}
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4 font-[Satoshi]'>
@@ -128,22 +130,22 @@ export default function FooterOSS() {
         </div>
         <div>
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
-            Develop and IT
+            {t('title3')}
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4 font-[Satoshi]'>
               <Link href='/oss' className='hover:underline'>
-                Open Source Software
+                {t('OSS')}
               </Link>
             </li>
             <li className='mb-4 font-[Satoshi]'>
               <Link href='/oss/contributing' className='hover:underline'>
-                Contribution
+                {t('OSSC')}
               </Link>
             </li>
             <li className='mb-4 font-[Satoshi]'>
               <Link href='oss/coc' className='hover:underline'>
-                Code of Conduct
+                {t('OSSCO')}
               </Link>
             </li>
             <li className='mb-4 font-[Satoshi]'>
@@ -160,12 +162,12 @@ export default function FooterOSS() {
         </div>
         <div>
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
-            Company
+            {t('title4')}
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4 font-[Satoshi]'>
               <Link href='/careers' className='hover:underline'>
-                Careers
+                {t('Careers')}
               </Link>
             </li>
             <li className='mb-4 font-[Satoshi]'>
@@ -175,22 +177,25 @@ export default function FooterOSS() {
             </li>
             <li className='mb-4 font-[Satoshi]'>
               <Link href='/about' className='hover:underline'>
-                About Boxode
+                {t('AboutBoxode')}
               </Link>
             </li>
             <li className='mb-4 font-[Satoshi]'>
               <Link href='/privacy' className='hover:underline'>
-                Privacy at Boxode
+                {t('PrivacyAB')}
               </Link>
             </li>
           </ul>
         </div>
         <div>
-          <ul className='text-gray-100/80 text-[11px]'>
-            <li className='mb-24 font-[Satoshi] text-left'>
+          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
+            {t('title5')}
+          </h2>
+          <ul className='text-gray-100/80 text-[11px] inline-flex flex-col items-center justify-center'>
+            <li className='mb-16 font-[Satoshi] text-left'>
               <DropdownLang />
             </li>
-            <li className='mb-4 font-[Satoshi] pl-12'>
+            <li className='mb-4 font-[Satoshi]'>
               <div className='relative inline-flex items-center justify-end p-0.5 mb-2 mr-2 overflow-hidden rounded-full group bg-gradient-to-br from-[#b8b8b8e1] to-[#3b3b3bcc] focus:ring-4 focus:outline-none'>
                 <div
                   className='bg-black rounded-full flex items-center justify-center gap-4 border border-gray-100/40 px-3 py-2 select-none'
@@ -231,31 +236,31 @@ export default function FooterOSS() {
             href='/contactus'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Contact Boxode
+            {t('ContactB')}
           </Link>
           <Link
             href='/sitemap'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Sitemap
+            {t('Sitemap')}
           </Link>
           <Link
             href='/privacystatement'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Privacy Statement
+            {t('PrivacyS')}
           </Link>
           <Link
             href='/trademarks'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Trademarks
+            {t('Trademarks')}
           </Link>
           <Link
             href='/security-and-eco'
             className='text-[11px] text-gray-100/80 hover:underline'
           >
-            Sefety & Eco
+            {t('SYE')}
           </Link>
           <span className='text-[11px] text-gray-100/80 sm:text-center'>
             © Boxode, Ltd. <span id='year'>2023</span>
