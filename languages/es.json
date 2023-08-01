@@ -9,41 +9,41 @@
   "Index": {
     "title": "Un mejor camino para construir software",
     "subtitle1": "Deja que tus ideas fluyan.",
-    "subtitle2": "Nosotros las hacemos realidad."
-  },
-  "Services": {
-    "square": "Explora el camino de Boxode",
-    "title": "Servicios",
-    "subtitle": "En Boxode nuestro principal objetivo es desarrollar productos de calidad y sobre todo que se adapten a sus necesidades.",
-    "sd": "Desarrollo de Software",
-    "sd-description": "Desarrollamos soluciones escalables para plataformas multidisciplinares con las últimas tendencias tecnológicas.",
-    "wd": "Desarrollo Web",
-    "wd-description": "Planificamos, diseñamos y programamos aplicaciones web a medida utilizando las tendencias de desarrollo actuales.",
-    "ui": "Diseño UI/UX",
-    "ui-description": "Creamos interfaces digitales intuitivas y atractivas que mejoran la experiencia del usuario al interactuar con el sitio..",
-    "work": "Trabajamos con las tecnologías más innovadoras para crear productos de calidad.",
-    "work-description": "Utilizamos desde lo más básico a lo más avanzado para crear soluciones que se adapten a las necesidades de nuestros clientes."
-  },
-  "About": {
-    "title": "Nosotros",
-    "subtitle": "Te dejamos información relevante sobre nuestra misión y visión.",
-    "mission": "Misión",
-    "mission-description": "Proporcionar soluciones de software innovadoras y de alta calidad a nuestros clientes, mejorando sus procesos empresariales y ayudándoles a alcanzar sus objetivos empresariales de forma eficaz y rentable. Nos comprometemos a crear una experiencia de usuario excelente y a ofrecer un servicio de atención al cliente inigualable.",
-    "vision": "Visión",
-    "vision-description": "Ser la empresa preferida por los clientes en el desarrollo de software y soluciones web, ofreciendo productos y servicios de alta calidad y tecnología avanzada. Nos esforzamos por ser una fuente de innovación y excelencia en el mercado, y por establecer relaciones duraderas y de confianza con nuestros clientes."
-  },
-  "Contact": {
-    "title": "Contacto",
-    "csubtitle1": "¿Estás interesado en alguno de nuestros servicios?",
-    "csubtitle2": "¡Fantastico! Puede rellenar el siguiente formulario y nos pondremos en contacto con usted.",
-    "form": {
-      "name": "Nombre",
-      "email": "Correo Electrónico",
-      "message": "Mensaje",
-      "send": "Enviar Mensaje"
+    "subtitle2": "Nosotros las hacemos realidad.",
+    "Services": {
+      "square": "Explora el camino de Boxode",
+      "title": "Servicios",
+      "subtitle": "En Boxode nuestro principal objetivo es desarrollar productos de calidad y sobre todo que se adapten a sus necesidades.",
+      "sd": "Desarrollo de Software",
+      "sd-description": "Desarrollamos soluciones escalables para plataformas multidisciplinares con las últimas tendencias tecnológicas.",
+      "wd": "Desarrollo Web",
+      "wd-description": "Planificamos, diseñamos y programamos aplicaciones web a medida utilizando las tendencias de desarrollo actuales.",
+      "ui": "Diseño UI/UX",
+      "ui-description": "Creamos interfaces digitales intuitivas y atractivas que mejoran la experiencia del usuario al interactuar con el sitio..",
+      "work": "Trabajamos con las tecnologías más innovadoras para crear productos de calidad.",
+      "work-description": "Utilizamos desde lo más básico a lo más avanzado para crear soluciones que se adapten a las necesidades de nuestros clientes."
     },
-    "contact-info1": "En caso de que tenga algún problema para enviar su correo electrónico a través del formulario, puede enviarlos directamente a las siguientes direcciones de correo:",
-    "contact-info2": "para cualquier consulta sobre el servicio que desea adquirir."
+    "About": {
+      "title": "Nosotros",
+      "subtitle": "Te dejamos información relevante sobre nuestra misión y visión.",
+      "mission": "Misión",
+      "mission-description": "Proporcionar soluciones de software innovadoras y de alta calidad a nuestros clientes, mejorando sus procesos empresariales y ayudándoles a alcanzar sus objetivos empresariales de forma eficaz y rentable. Nos comprometemos a crear una experiencia de usuario excelente y a ofrecer un servicio de atención al cliente inigualable.",
+      "vision": "Visión",
+      "vision-description": "Ser la empresa preferida por los clientes en el desarrollo de software y soluciones web, ofreciendo productos y servicios de alta calidad y tecnología avanzada. Nos esforzamos por ser una fuente de innovación y excelencia en el mercado, y por establecer relaciones duraderas y de confianza con nuestros clientes."
+    },
+    "Contact": {
+      "title": "Contacto",
+      "csubtitle1": "¿Estás interesado en alguno de nuestros servicios?",
+      "csubtitle2": "¡Fantastico! Puede rellenar el siguiente formulario y nos pondremos en contacto con usted.",
+      "form": {
+        "name": "Nombre",
+        "email": "Correo Electrónico",
+        "message": "Mensaje",
+        "send": "Enviar Mensaje"
+      },
+      "contact-info1": "En caso de que tenga algún problema para enviar su correo electrónico a través del formulario, puede enviarlos directamente a las siguientes direcciones de correo:",
+      "contact-info2": "para cualquier consulta sobre el servicio que desea adquirir."
+    }
   },
   "Footer": {
     "title1": "Novedades",
@@ -62,5 +62,34 @@
     "PrivacyS": "Privacidad",
     "Trademarks": "Marcas registradas",
     "SYE": "Seguridad y Eco"
+  },
+  "OSS": {
+    "title": "Software de código abierto",
+    "subtitle": "Nuestro compromiso de mantener una comunidad creativa y apasionada en el mundo del software de código abierto sigue siendo uno de nuestros principales objetivos, porque la mayoría de nosotros nos debemos a nuestros productos de código abierto.",
+    "Projects": {
+      "title": "Proyectos",
+      "subtitle1": "Gracias por interesarte en saber cuáles son nuestros proyectos actuales, pero seguimos trabajando para tenerlos en esta sección :)",
+      "subtitle2": "Poco a poco los iremos colocando, ¡así que permanezcan atentos!"
+    },
+    "BoxodeCommunity": {
+      "header": "Comunidad Boxode",
+      "title": "Involucrarse",
+      "description": "Juntos estamos construyendo cosas increíbles y damos la bienvenida a todo el mundo para que pueda participar en proyectos de OSS. Es un momento apasionante para utilizar la tecnología con el fin de crear nuevas herramientas de desarrollo que faciliten el trabajo, las aplicaciones, los servicios, etc.",
+      "button1": "Lo que pasa ahora",
+      "button2": "Proyectos Destacados",
+      "button3": "Contribuir"
+    },
+    "LMA": {
+      "header": "Más información sobre",
+      "title": "Nuestro programa de OSS",
+      "description": "Hemos estado trabajando duro para contar con un sólido programa de OSS que facilite el trabajo de muchos programadores de todo el mundo y que les anime a participar contribuyendo, lanzando nuevos proyectos de código abierto, etc.",
+      "button1": "Nuestro programa",
+      "button2": "Ecosistema",
+      "button3": "Los proyectos que apoyamos"
+    },
+    "Verified": {
+      "title": "Entidades verificadas",
+      "description": "Las entidades verificadas son aquellas que destacan por su trabajo y se han dado a conocer por sus contribuciones al OSS*"
+    }
   }
 }

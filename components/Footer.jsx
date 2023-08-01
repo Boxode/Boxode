@@ -6,6 +6,7 @@ import DropdownLang from './Dropdown-lang'
 import { useState } from 'react'
 import { Sun, Moon, System } from './Icons'
 import { useTranslations } from 'next-intl'
+import { Tooltip } from '@nextui-org/react'
 
 export default function FooterOSS() {
   const t = useTranslations('Footer')
@@ -172,7 +173,11 @@ export default function FooterOSS() {
                       role='radio'
                       type='button'
                     >
-                      <span>{opt.icon}</span>
+                      <span>
+                        <Tooltip content='🛠 Working in the dark/light mode.'>
+                          {opt.icon}
+                        </Tooltip>
+                      </span>
                     </button>
                   ))}
                 </div>

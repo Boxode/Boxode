@@ -9,41 +9,41 @@
   "Index": {
     "title": "A better way to build software.",
     "subtitle1": "Let your ideas flow.",
-    "subtitle2": "We make them come true."
-  },
-  "Services": {
-    "square": "Explore the Boxode way",
-    "title": "Services",
-    "subtitle": "At Boxode our main objective is to develop quality products and above all that adapt to your needs.",
-    "sd": "Software Development",
-    "sd-description": "We develop scalable solutions for multidisciplinary platforms with the newest technological trends.",
-    "wd": "Web Development",
-    "wd-description": "We plan, design and program custom web applications using current development trends.",
-    "ui": "UI/UX Design",
-    "ui-description": "We create intuitive and attractive digital interfaces that improve the user experience when interacting with the site.",
-    "work": "We work with the most innovative technologies to create quality products.",
-    "work-description": "We use from the most basic to the most advanced to create solutions that adapt to the needs of our clients."
-  },
-  "About": {
-    "title": "About us",
-    "subtitle": "We leave you some relevant information about our mission and vision.",
-    "mission": "Mission",
-    "mission-description": "To provide high-quality and innovative software solutions to our clients, improving their business processes and helping them achieve their business goals efficiently and profitably. We are committed to creating an excellent user experience and providing unmatched customer service.",
-    "vision": "Vision",
-    "vision-description": "To be the company preferred by clients in the development of software and web solutions, offering high quality products and services and advanced technology. We strive to be a source of innovation and excellence in the marketplace, and to build long-lasting, trusted relationships with our customers."
-  },
-  "Contact": {
-    "title": "Contact",
-    "csubtitle1": "Are you interested in any of our services?",
-    "csubtitle2": "Fantastic! You can fill out the following form and we will contact you.",
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "send": "Send Message"
+    "subtitle2": "We make them come true.",
+    "Services": {
+      "square": "Explore the Boxode way",
+      "title": "Services",
+      "subtitle": "At Boxode our main objective is to develop quality products and above all that adapt to your needs.",
+      "sd": "Software Development",
+      "sd-description": "We develop scalable solutions for multidisciplinary platforms with the newest technological trends.",
+      "wd": "Web Development",
+      "wd-description": "We plan, design and program custom web applications using current development trends.",
+      "ui": "UI/UX Design",
+      "ui-description": "We create intuitive and attractive digital interfaces that improve the user experience when interacting with the site.",
+      "work": "We work with the most innovative technologies to create quality products.",
+      "work-description": "We use from the most basic to the most advanced to create solutions that adapt to the needs of our clients."
     },
-    "contact-info1": "In case you have any problem with sending your email through the form, you can send them directly to the following addresses:",
-    "contact-info2": "for any query about the service you wish to purchase."
+    "About": {
+      "title": "About us",
+      "subtitle": "We leave you some relevant information about our mission and vision.",
+      "mission": "Mission",
+      "mission-description": "To provide high-quality and innovative software solutions to our clients, improving their business processes and helping them achieve their business goals efficiently and profitably. We are committed to creating an excellent user experience and providing unmatched customer service.",
+      "vision": "Vision",
+      "vision-description": "To be the company preferred by clients in the development of software and web solutions, offering high quality products and services and advanced technology. We strive to be a source of innovation and excellence in the marketplace, and to build long-lasting, trusted relationships with our customers."
+    },
+    "Contact": {
+      "title": "Contact",
+      "csubtitle1": "Are you interested in any of our services?",
+      "csubtitle2": "Fantastic! You can fill out the following form and we will contact you.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send Message"
+      },
+      "contact-info1": "In case you have any problem with sending your email through the form, you can send them directly to the following addresses:",
+      "contact-info2": "for any query about the service you wish to purchase."
+    }
   },
   "Footer": {
     "title1": "What's New?",
@@ -62,5 +62,34 @@
     "PrivacyS": "Privacy Statement",
     "Trademarks": "Trademarks",
     "SYE": "Safety & Eco"
+  },
+  "OSS": {
+    "title": "Open Source Software",
+    "subtitle": "Our commitment to maintain a creative and passionate community in the world of Open Source Software continues to be one of our main goals, because most of us are due our open source source products.",
+    "Projects": {
+      "title": "Projects",
+      "subtitle1": "Thanks for being interested in knowing what our current projects are, but we are still working to have them in this section :)",
+      "subtitle2": "Little by little we will be placing them, so stay tuned!"
+    },
+    "BoxodeCommunity": {
+      "header": "Boxode Community",
+      "title": "Get Involved",
+      "description": "Together we are building amazing things and we welcome everyone to be able to participate in OSS projects. It is an exciting time to use technology to create new development tools that facilitate work, applications, services, etc.",
+      "button1": "Happening Now",
+      "button2": "Featured Projects",
+      "button3": "Contributing"
+    },
+    "LMA": {
+      "header": "Learn more about",
+      "title": "Our OSS program",
+      "description": "We have been working hard to have a solid OSS program in order to facilitate the work of many programmers around the world and that they have the encouragement to participate in contributing, launching new open source projects, etc.",
+      "button1": "Our Program",
+      "button2": "Ecosystem",
+      "button3": "The projects we support"
+    },
+    "Verified": {
+      "title": "Verified Entities",
+      "description": "verified entities are those that are known for their outstanding work and have become known for their contributions to OSS*"
+    }
   }
 }

@@ -1,0 +1,95 @@
+{
+  "Header": {
+    "home": "Início",
+    "services": "Serviços",
+    "customers": "Clientes",
+    "about": "Sobre nós",
+    "contact": "Contato"
+  },
+  "Index": {
+    "title": "Uma maneira melhor de criar software.",
+    "subtitle1": "Deixe suas ideias fluírem.",
+    "subtitle2": "Nós os tornamos realidade.",
+    "Services": {
+      "square": "Explore o caminho de Boxode",
+      "title": "Serviços",
+      "subtitle": "Na Boxode, nosso principal objetivo é desenvolver produtos de qualidade e, acima de tudo, que se adaptem às suas necessidades.",
+      "sd": "Desenvolvimento de software",
+      "sd-description": "Desenvolvemos soluções escalonáveis para plataformas multidisciplinares com as mais novas tendências tecnológicas.",
+      "wd": "Desenvolvimento Web",
+      "wd-description": "Planejamos, projetamos e programamos aplicativos da Web personalizados usando as tendências atuais de desenvolvimento.",
+      "ui": "Design de UI/UX",
+      "ui-description": "Criamos interfaces digitais intuitivas e atraentes que melhoram a experiência do usuário ao interagir com o site.",
+      "work": "Trabalhamos com as tecnologias mais inovadoras para criar produtos de qualidade.",
+      "work-description": "Usamos desde o mais básico até o mais avançado para criar soluções que se adaptam às necessidades de nossos clientes."
+    },
+    "About": {
+      "title": "Sobre nós",
+      "subtitle": "Deixamos para você algumas informações relevantes sobre nossa missão e visão.",
+      "mission": "Missão",
+      "mission-description": "Fornecer soluções de software inovadoras e de alta qualidade aos nossos clientes, aprimorando seus processos de negócios e ajudando-os a atingir suas metas comerciais de forma eficiente e lucrativa. Temos o compromisso de criar uma excelente experiência para o usuário e oferecer um atendimento inigualável ao cliente.",
+      "vision": "Visão",
+      "vision-description": "Ser a empresa preferida pelos clientes no desenvolvimento de soluções de software e web, oferecendo produtos e serviços de alta qualidade e tecnologia avançada. Nós nos esforçamos para ser uma fonte de inovação e excelência no mercado e para construir relacionamentos duradouros e confiáveis com nossos clientes."
+    },
+    "Contact": {
+      "title": "Contato",
+      "csubtitle1": "Está interessado em algum de nossos serviços?",
+      "csubtitle2": "Fantástico! Preencha o formulário a seguir e entraremos em contato com você.",
+      "form": {
+        "name": "Nome",
+        "email": "E-mail",
+        "message": "Mensagem",
+        "send": "Enviar mensagem"
+      },
+      "contact-info1": "Caso tenha algum problema ao enviar seu e-mail pelo formulário, você pode enviá-lo diretamente para os seguintes endereços:",
+      "contact-info2": "para qualquer dúvida sobre o serviço que você deseja adquirir."
+    }
+  },
+  "Footer": {
+    "title1": "O que há de novo?",
+    "title2": "Entre em contato conosco",
+    "title3": "Desenvolvimento e TI",
+    "title4": "Empresa",
+    "title5": "Sistema",
+    "OSS": "Software de código aberto",
+    "OSSC": "Contribuição",
+    "OSSCO": "Código de Conduta",
+    "Careers": "Carreiras",
+    "AboutBoxode": "Sobre o Boxode",
+    "PrivacyAB": "Privacidade na Boxode",
+    "ContactB": "Contato Boxode",
+    "Sitemap": "Mapa do site",
+    "PrivacyS": "Declaração de privacidade",
+    "Trademarks": "Marcas registradas",
+    "SYE": "Segurança e ecologia"
+  },
+  "OSS": {
+    "title": "Open Source Software",
+    "subtitle": "Our commitment to maintain a creative and passionate community in the world of Open Source Software continues to be one of our main goals, because most of us are due our open source source products.",
+    "Projects": {
+      "title": "Projects",
+      "subtitle1": "Thanks for being interested in knowing what our current projects are, but we are still working to have them in this section :)",
+      "subtitle2": "Little by little we will be placing them, so stay tuned!"
+    },
+    "BoxodeCommunity": {
+      "header": "Boxode Community",
+      "title": "Get Involved",
+      "description": "Together we are building amazing things and we welcome everyone to be able to participate in OSS projects. It is an exciting time to use technology to create new development tools that facilitate work, applications, services, etc.",
+      "button1": "Happening Now",
+      "button2": "Featured Projects",
+      "button3": "Contributing"
+    },
+    "LMA": {
+      "header": "Learn more about",
+      "title": "Our OSS program",
+      "description": "We have been working hard to have a solid OSS program in order to facilitate the work of many programmers around the world and that they have the encouragement to participate in contributing, launching new open source projects, etc.",
+      "button1": "Our Program",
+      "button2": "Ecosystem",
+      "button3": "The projects we support"
+    },
+    "Verified": {
+      "title": "Verified Entities",
+      "description": "verified entities are those that are known for their outstanding work and have become known for their contributions to OSS*"
+    }
+  }
+}
