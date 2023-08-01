@@ -5,10 +5,10 @@ import { notFound } from 'next/navigation'
 export function generateStaticParams() {
   return [
     { locale: 'en' },
-    { locale: 'es' }
+    { locale: 'es' },
     // { locale: 'de' },
     // { locale: 'fr' },
-    // { locale: 'pt' }
+    { locale: 'pt' }
   ]
 }
 
