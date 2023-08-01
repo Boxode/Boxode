@@ -4,12 +4,12 @@ import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 
 export default function Services() {
-  const t = useTranslations('Services')
+  const t = useTranslations('Index')
   return (
     <section className='min-h-screen -z-20' id='services'>
       <div className='flex items-center justify-center flex-col mt-32 lg:mt-72'>
         <span className='text-[#606060] mb-32 font-[Satoshi] font-bold lg:text-2xl border-2 py-5 px-5 rounded-sm border-[#606060] opacity-80'>
-          {t('square')}
+          {t('Services.square')}
         </span>
         <Image
           src='/1.webp'
@@ -19,10 +19,10 @@ export default function Services() {
           height={100}
         />
         <h2 className='services text-6xl lg:text-8xl font-[PoppinsBold] tracking-normal p-4 opacity-90 select-none'>
-          {t('title')}
+          {t('Services.title')}
         </h2>
         <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
-          {t('subtitle')}
+          {t('Services.subtitle')}
         </p>
       </div>
       <div className='lg:px-44'>
@@ -39,10 +39,10 @@ export default function Services() {
                 height={100}
               />
               <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[PoppinsBold] leading-relaxed'>
-                {t('sd')}
+                {t('Services.sd')}
               </h3>
               <p className='text-white/80 font-[Satoshi] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>
-                {t('sd-description')}
+                {t('Services.sd-description')}
               </p>
             </div>
           </article>
@@ -60,10 +60,10 @@ export default function Services() {
                 height={100}
               />
               <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[PoppinsBold] leading-relaxed'>
-                {t('wd')}
+                {t('Services.wd')}
               </h3>
               <p className='text-white/80 font-[Satoshi] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>
-                {t('wd-description')}
+                {t('Services.wd-description')}
               </p>
             </div>
           </article>
@@ -81,10 +81,10 @@ export default function Services() {
                 className='w-16 h-16 mb-5 drop-shadow-md'
               />
               <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[PoppinsBold] leading-relaxed'>
-                {t('ui')}
+                {t('Services.ui')}
               </h3>
               <p className='text-white/80 font-[Satoshi] text-md lg:text-xl text-center lg:text-left px-6 lg:px-0'>
-                {t('ui-description')}
+                {t('Services.ui-description')}
               </p>
             </div>
           </article>
@@ -96,10 +96,10 @@ export default function Services() {
             <div className='relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
               <div className='lg:py-24'>
                 <p className='mt-3 font-[PoppinsBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-lg lg:text-4xl text-neutral-200 sm:mt-5'>
-                  {t('work')}
+                  {t('Services.work')}
                 </p>
                 <p className='mt-3 font-[Satoshi] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
-                  {t('work-description')}
+                  {t('Services.work-description')}
                 </p>
               </div>
             </div>

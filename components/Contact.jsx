@@ -8,7 +8,7 @@ import ReCAPTCHA from 'react-google-recaptcha'
 import { useTranslations } from 'next-intl'
 
 export const Contact = () => {
-  const t = useTranslations('Contact')
+  const t = useTranslations('Index')
   const form = useRef()
   const captchaRef = useRef(null)
   const [captcha, setCaptcha] = useState(null)
@@ -63,13 +63,13 @@ export const Contact = () => {
             height={100}
           />
           <h2 className='contact text-6xl lg:text-8xl font-[PoppinsBold] tracking-normal p-4 opacity-90 select-none'>
-            {t('title')}
+            {t('Contact.title')}
           </h2>
           <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
-            {t('csubtitle1')}
+            {t('Contact.csubtitle1')}
           </p>
           <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
-            {t('csubtitle2')}
+            {t('Contact.csubtitle2')}
           </p>
         </div>
         <form ref={form} onSubmit={sendEmail}>
@@ -81,7 +81,7 @@ export const Contact = () => {
                     forhtml='name'
                     className='leading-7 text-[20px] text-white font-[Satoshi]'
                   >
-                    {t('form.name')}
+                    {t('Contact.form.name')}
                   </label>
                   <input
                     required
@@ -97,7 +97,7 @@ export const Contact = () => {
                     forhtml='email'
                     className='leading-7 text-[20px] text-white font-[Satoshi]'
                   >
-                    {t('form.email')}
+                    {t('Contact.form.email')}
                   </label>
                   <input
                     required
@@ -113,7 +113,7 @@ export const Contact = () => {
                     forhtml='message'
                     className='leading-7 text-[20px] text-white font-[Satoshi]'
                   >
-                    {t('form.message')}
+                    {t('Contact.form.message')}
                   </label>
                   <textarea
                     required
@@ -141,7 +141,7 @@ export const Contact = () => {
                   value='Send'
                   className='flex mx-auto btn-contact'
                 >
-                  {t('form.send')}
+                  {t('Contact.form.send')}
                 </button>
               </div>
             </div>
@@ -149,7 +149,7 @@ export const Contact = () => {
         </form>
         <div className='mt-5'>
           <p className='text-gray-100/40 text-lg px-6 text-center font-[Satoshi] my-4'>
-            {t('contact-info1')} <br />{' '}
+            {t('Contact.contact-info1')} <br />{' '}
             <span>
               <a
                 href='mailto:contact@boxode.org'
@@ -165,7 +165,7 @@ export const Contact = () => {
                 boxodehq@gmail.com
               </a>
             </span>
-            &nbsp; {t('contact-info2')}
+            &nbsp; {t('Contact.contact-info2')}
           </p>
         </div>
       </div>
