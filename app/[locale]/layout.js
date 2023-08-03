@@ -85,7 +85,7 @@ export default async function RootLayout({ children, params: { locale } }) {
         />
         <meta
           name='twitter:image'
-          content='https://res.cloudinary.com/dvjzjasfg/image/upload/v1683098548/twitter_large_image_principal_tidcmp.png'
+          content='https://res.cloudinary.com/dvjzjasfg/image/upload/v1691027399/Boxode_twitter_card_nxe9iu.png'
         />
       </head>
       <body>
