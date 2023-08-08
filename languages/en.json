@@ -91,5 +91,35 @@
       "title": "Verified Entities",
       "description": "verified entities are those that are known for their outstanding work and have become known for their contributions to OSS*"
     }
+  },
+  "Careers": {
+    "title": "Join our team",
+    "subtitle": "and help us build the future of software development.",
+    "button": {
+      "OP": "Open Positions",
+      "LM": "Learn More"
+    },
+    "Commitment": {
+      "header": "Our Commitment",
+      "description": "Our work is based on the principles of learning, collaboration, passion and transparency with all our work teams.",
+      "checkmark": {
+        "create": "We always use our own tools to create.",
+        "grow": "We prosper and grow always together.",
+        "improving": "We are always learning and improving.",
+        "learn": "Our ability to create and learn together.",
+        "satisfaction": "Commitment to objectives, client satisfaction always prioritized."
+      },
+      "OpenP": {
+        "title": "Open Positions",
+        "subtitle": "We are always looking for new talent to join our team.",
+        "NL": {
+          "description1": "Thank you for being interested in working with us, but there are currently no vacancies available.",
+          "description2": "You can subscribe to the newsletter to receive notifications of new vacancies available.",
+          "description3": "All spam free.",
+          "po": "Enter your email",
+          "button": "Subscribe"
+        }
+      }
+    }
   }
 }
