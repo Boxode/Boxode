@@ -57,7 +57,7 @@ export default function FooterOSS() {
             </li>
             <li className='mb-4 font-[Satoshi]'>
               <Link
-                href='https://twitter.com/BoxodeHQ'
+                href='https://boxode.org/tw'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'
@@ -67,7 +67,7 @@ export default function FooterOSS() {
             </li>
             <li className='mb-4 font-[Satoshi]'>
               <Link
-                href='https://www.facebook.com/BoxodeHQ'
+                href='https://boxode.org/fb'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'
@@ -77,7 +77,7 @@ export default function FooterOSS() {
             </li>
             <li className='mb-4 font-[Satoshi]'>
               <Link
-                href='https://www.instagram.com/BoxodeHQ'
+                href='https://boxode.org/ig'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'
@@ -103,13 +103,13 @@ export default function FooterOSS() {
               </Link>
             </li>
             <li className='mb-4 font-[Satoshi]'>
-              <Link href='oss/coc' className='hover:underline'>
+              <Link href='/oss/coc' className='hover:underline'>
                 {t('OSSCO')}
               </Link>
             </li>
             <li className='mb-4 font-[Satoshi]'>
               <Link
-                href='https://github.com/Boxode'
+                href='https://boxode.org/gh'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'
