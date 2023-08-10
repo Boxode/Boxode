@@ -1,20 +1,44 @@
-'use client'
+import React from 'react'
+import {
+  Dropdown,
+  DropdownTrigger,
+  DropdownMenu,
+  DropdownItem,
+  Button
+} from '@nextui-org/react'
 import Link from 'next-intl/link'
 import Image from 'next/image'
-import { Dropdown } from '@nextui-org/react'
 
 export default function DropdownLang() {
+  const [selectedKeys, setSelectedKeys] = React.useState(
+    new Set(['Change Language'])
+  )
+
+  const selectedValue = React.useMemo(
+    () => Array.from(selectedKeys).join(', ').replaceAll('_', ' '),
+    [selectedKeys]
+  )
   return (
     <Dropdown>
-      <Dropdown.Button
-        solid
-        color='light'
-        className='text-white font-[Satoshi] font-semibold'
+      <DropdownTrigger>
+        <Button
+          color='default'
+          variant='bordered'
+          className='capitalize text-current'
+        >
+          {selectedValue}
+        </Button>
+      </DropdownTrigger>
+      <DropdownMenu
+        aria-label='Single selection actions'
+        variant='flat'
+        disallowEmptySelection
+        selectionMode='single'
+        selectedKeys={selectedKeys}
+        onSelectionChange={setSelectedKeys}
       >
-        Change Language
-      </Dropdown.Button>
-      <Dropdown.Menu aria-label='Static Actions'>
-        <Dropdown.Item key='en'>
+        <DropdownItem key='EN'>
+          {' '}
           <Link href='/' locale='en' className='flex items-center'>
             <Image
               src='/svg/Flag_of_the_USA.svg'
@@ -25,8 +49,8 @@ export default function DropdownLang() {
             />
             EN
           </Link>
-        </Dropdown.Item>
-        <Dropdown.Item key='es'>
+        </DropdownItem>
+        <DropdownItem key='ES'>
           <Link href='/' locale='es' className='flex items-center'>
             <Image
               src='/svg/Flag_of_Mexico.svg'
@@ -37,8 +61,8 @@ export default function DropdownLang() {
             />
             ES
           </Link>
-        </Dropdown.Item>
-        <Dropdown.Item key='de'>
+        </DropdownItem>
+        <DropdownItem key='DE'>
           <Link href='/' locale='de' className='flex items-center'>
             <Image
               src='/svg/Flag_of_Germany.svg'
@@ -49,8 +73,8 @@ export default function DropdownLang() {
             />
             DE
           </Link>
-        </Dropdown.Item>
-        <Dropdown.Item key='pt'>
+        </DropdownItem>
+        <DropdownItem key='PT'>
           <Link href='/' locale='pt' className='flex items-center'>
             <Image
               src='/svg/Flag_of_Brazil.svg'
@@ -61,8 +85,8 @@ export default function DropdownLang() {
             />
             PT
           </Link>
-        </Dropdown.Item>
-        <Dropdown.Item key='fr'>
+        </DropdownItem>
+        <DropdownItem key='FR'>
           <Link href='/' locale='fr' className='flex items-center'>
             <Image
               src='/svg/Flag_of_France.svg'
@@ -73,8 +97,8 @@ export default function DropdownLang() {
             />
             FR
           </Link>
-        </Dropdown.Item>
-      </Dropdown.Menu>
+        </DropdownItem>
+      </DropdownMenu>
     </Dropdown>
   )
 }
