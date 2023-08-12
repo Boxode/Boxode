@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image'
+import { Image } from '@nextui-org/react'
 import { useTranslations } from 'next-intl'
 
 export default function Services() {
@@ -107,6 +107,7 @@ export default function Services() {
               <div className=' relative md:absolute -z-20'>
                 <div className='flex image-tech min-w justify-center items-center relative flex-col pt-4 pb-8 sm:py-10 px-6 sm:px-12 lg:w-[700px] select-none sm:w-64 z-20 md:hidden lg:block'>
                   <Image
+                    isBlurred
                     src='/svg/tech.svg'
                     alt='Tech'
                     width={500}
