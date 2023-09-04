@@ -17,6 +17,7 @@
     "@nextui-org/react": "^2.0.7",
     "@vercel/analytics": "^1.0.1",
     "animejs": "^3.2.1",
+    "clsx": "^2.0.0",
     "cobe": "^0.6.3",
     "eslint": "8.46.0",
     "eslint-config-next": "^13.4.13",

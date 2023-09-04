@@ -5,9 +5,11 @@ export default function Coc() {
   return (
     <main>
       <Header />
-      <h1 className='text-white text-6xl text-center pt-32 font-[PoppinsBold]'>
-        Code of Conduct
-      </h1>
+      <div>
+        <h1 className='text-white text-6xl text-center pt-32 font-[PoppinsBold]  primary-title primary-title-hero'>
+          Code of Conduct
+        </h1>
+      </div>
       <Footer />
     </main>
   )
