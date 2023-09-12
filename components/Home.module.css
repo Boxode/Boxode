@@ -9,7 +9,7 @@
 
 .stars {
 	background-image: url(/nebulous.webp);
-	background-color: #000;
+	background-color: transparent;
 	position: relative;
 	width: 100%;
 	background-repeat: no-repeat;
