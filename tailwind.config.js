@@ -20,7 +20,9 @@ module.exports = {
         PoppinsBold: ['PoppinsBold', 'sans-serif']
       },
       animation: {
-        blob: 'blob 7s infinite'
+        blob: 'blob 7s infinite',
+        meteor: 'meteor 5s linear infinite',
+        'text-gradient': 'text-gradient 1.5s linear infinite'
       },
       keyframes: {
         blob: {
@@ -28,6 +30,14 @@ module.exports = {
           '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
           '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
           '100%': { transform: 'translate(0px, 0px) scale(1)' }
+        },
+        meteor: {
+          '0%': { transform: 'rotate(215deg) translateX(0)', opacity: 1 },
+          '70%': { opacity: 1 },
+          '100%': {
+            transform: 'rotate(215deg) translateX(-500px)',
+            opacity: 0
+          }
         }
       }
     }
