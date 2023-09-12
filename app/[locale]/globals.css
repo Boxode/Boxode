@@ -162,7 +162,7 @@ html {
 }
 
 .primary-title{
-	background: linear-gradient(to right bottom,#fff 30%,rgba(128, 128, 128, 0.8));
+	background: linear-gradient(to right bottom,#fff 30%,rgba(128, 128, 128, 1));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
