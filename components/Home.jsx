@@ -2,11 +2,13 @@
 
 import styles from './Home.module.css'
 import { useTranslations } from 'next-intl'
+import { Meteors } from './Meteor'
 
 export default function Home() {
   const t = useTranslations('Index')
   return (
     <section className={styles.stars} id='home'>
+      <Meteors />
       <div className='pt-24 pb-8 overflow-hidden z-20'>
         <div className='mx-auto max-w-7xl px-4 sm:px-6'>
           <div className='lg:flex lg:justify-center lg:items-center lg:flex-col mx-auto lg:gap-16 justify-center'>
