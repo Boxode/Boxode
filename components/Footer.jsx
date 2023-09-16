@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import Link from 'next/link'
 import DropdownLang from './Dropdown-lang'
 import { useState } from 'react'
@@ -33,7 +32,7 @@ export default function FooterOSS() {
             {t('title1')}
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
-            <li className='mb-4'>
+            <li className='mb-4 flex flex-row items-center gap-1'>
               <Link
                 href='https://windui.org'
                 className=' hover:underline'
@@ -41,6 +40,9 @@ export default function FooterOSS() {
               >
                 windUI
               </Link>
+              <span class='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[Satoshi] font-semibold no-underline'>
+                new
+              </span>
             </li>
           </ul>
         </div>
@@ -191,13 +193,22 @@ export default function FooterOSS() {
         </div>
       </div>
       <div className='px-5 md:px-6 py-6 bg-black md:flex md:items-center md:justify-between'>
-        <Image
-          src='/svg/Boxode_white.svg'
-          alt='Boxode'
-          className='w-24'
-          width={100}
-          height={100}
-        />
+        <picture>
+          <source
+            media='(prefers-color-scheme: dark)'
+            srcset='/svg/boxode-dark-logo.svg'
+          />
+          <source
+            media='(prefers-color-scheme: light)'
+            srcset='/svg/boxode-light-logo.svg'
+          />
+          <img
+            alt='Tailwind CSS'
+            src='/svg/boxode-dark-logo.svg'
+            width='100'
+            height='50'
+          />
+        </picture>
         <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-[Satoshi]'>
           <Link
             href='/contactus'
