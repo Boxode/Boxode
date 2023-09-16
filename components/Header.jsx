@@ -22,7 +22,7 @@ export default function Header() {
                     srcset='/svg/boxode-light-logo.svg'
                   />
                   <img
-                    alt='Tailwind CSS'
+                    alt='windUI'
                     src='/svg/boxode-dark-logo.svg'
                     width='170'
                     height='70'
