@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 
@@ -13,13 +12,22 @@ export default function Header() {
           <div className='flex items-center justify-between'>
             <div className='relative z-20'>
               <Link href='/' className='flex items-center'>
-                <Image
-                  src='/svg/Boxode_white.svg'
-                  alt='Boxode logo'
-                  className='w-40 md:w-44 mr-3'
-                  width={100}
-                  height={100}
-                />
+                <picture>
+                  <source
+                    media='(prefers-color-scheme: dark)'
+                    srcset='/svg/boxode-dark-logo.svg'
+                  />
+                  <source
+                    media='(prefers-color-scheme: light)'
+                    srcset='/svg/boxode-light-logo.svg'
+                  />
+                  <img
+                    alt='Tailwind CSS'
+                    src='/svg/boxode-dark-logo.svg'
+                    width='170'
+                    height='70'
+                  />
+                </picture>
               </Link>
             </div>
             <div className='flex items-center justify-end lg:border-l-0'>
