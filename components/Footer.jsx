@@ -134,8 +134,8 @@ export default function FooterOSS() {
                 {t('Careers')}
               </Link>
               <span class='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[Satoshi] font-semibold no-underline'>
-								new
-							</span>
+                new
+              </span>
             </li>
             <li className='mb-4 font-[Satoshi]'>
               <Link href='/ceo' className='hover:underline'>
@@ -156,9 +156,9 @@ export default function FooterOSS() {
               <Link href='/brand' className='hover:underline'>
                 Brand
               </Link>
-							<span class='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[Satoshi] font-semibold no-underline'>
-								new
-							</span>
+              <span class='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[Satoshi] font-semibold no-underline'>
+                new
+              </span>
             </li>
           </ul>
         </div>
@@ -209,7 +209,7 @@ export default function FooterOSS() {
             srcset='/svg/boxode-light-logo.svg'
           />
           <img
-            alt='Tailwind CSS'
+            alt='windUI'
             src='/svg/boxode-dark-logo.svg'
             width='100'
             height='50'
