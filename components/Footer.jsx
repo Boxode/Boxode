@@ -34,8 +34,12 @@ export default function FooterOSS() {
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
             <li className='mb-4'>
-              <Link href='/design' className=' hover:underline'>
-                Boxode Design
+              <Link
+                href='https://windui.org'
+                className=' hover:underline'
+                target='_blank'
+              >
+                windUI
               </Link>
             </li>
           </ul>
@@ -141,6 +145,11 @@ export default function FooterOSS() {
             <li className='mb-4 font-[Satoshi]'>
               <Link href='/privacy' className='hover:underline'>
                 {t('PrivacyAB')}
+              </Link>
+            </li>
+            <li className='mb-4 font-[Satoshi]'>
+              <Link href='/brand' className='hover:underline'>
+                Brand
               </Link>
             </li>
           </ul>
