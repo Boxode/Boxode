@@ -129,10 +129,13 @@ export default function FooterOSS() {
             {t('title4')}
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[Satoshi] flex flex-row items-center gap-1'>
               <Link href='/careers' className='hover:underline'>
                 {t('Careers')}
               </Link>
+              <span class='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[Satoshi] font-semibold no-underline'>
+								new
+							</span>
             </li>
             <li className='mb-4 font-[Satoshi]'>
               <Link href='/ceo' className='hover:underline'>
@@ -149,10 +152,13 @@ export default function FooterOSS() {
                 {t('PrivacyAB')}
               </Link>
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[Satoshi] flex flex-row items-center gap-1'>
               <Link href='/brand' className='hover:underline'>
                 Brand
               </Link>
+							<span class='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[Satoshi] font-semibold no-underline'>
+								new
+							</span>
             </li>
           </ul>
         </div>
