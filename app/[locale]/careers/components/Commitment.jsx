@@ -8,10 +8,10 @@ export default function Gip() {
           <div className='lg:grid lg:grid-cols-12 mx-auto justify-center'>
             <article className='relative z-10 px-4 sm:px-6 sm pb-10 md:pb-0 pt-10 md:pt-0 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
               <div className='lg:py-24 px-4 sm:px-16'>
-                <h6 className='text-[burlywood] lg:text-left font-[PoppinsBold] tracking-wide text-lg'>
+                <h6 className='text-[burlywood] lg:text-left font-[GilroyBold] tracking-wide text-lg'>
                   Our Commitment
                 </h6>
-                <p className='mt-3 font-[Satoshi] sm:mx-auto lg:mx-0 max-w-lg lg:text-left text-xl sm:text-4xl text-white font-bold sm:mt-5'>
+                <p className='mt-3 font-[GilroyRegular] sm:mx-auto lg:mx-0 max-w-lg lg:text-left text-xl sm:text-4xl text-white font-bold sm:mt-5'>
                   Our work is based on the principles of learning,
                   collaboration, passion and transparency with all our work
                   teams.
@@ -20,7 +20,7 @@ export default function Gip() {
             </article>
             <article className='relative pt-10 md:pt-0 pb-10 md:pb-0 z-10 px-4 sm:px-6 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
               <div className='lg:py-24 px-4 sm:px-16 grid grid-cols-1'>
-                <ul className='text-white font-[Satoshi]'>
+                <ul className='text-white font-[GilroyRegular]'>
                   <li className='flex items-center'>
                     <div className='flex flex-row items-center text-xl'>
                       <span className='leading-none'>

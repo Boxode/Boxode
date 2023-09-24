@@ -28,7 +28,7 @@ export default function FooterOSS() {
     <footer className='bg-black border-t border-gray-100/10'>
       <div className='grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-5'>
         <div>
-          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
+          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[GilroyBold]'>
             {t('title1')}
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
@@ -40,18 +40,18 @@ export default function FooterOSS() {
               >
                 windUI
               </Link>
-              <span class='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[Satoshi] font-semibold no-underline'>
+              <span className='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[GilroyRegular] font-semibold no-underline'>
                 new
               </span>
             </li>
           </ul>
         </div>
         <div>
-          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
+          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[GilroyBold]'>
             {t('title2')}
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link
                 href='https://discord.gg/gdRmAa5xHU'
                 target='_blank'
@@ -60,7 +60,7 @@ export default function FooterOSS() {
                 Discord Server
               </Link>
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link
                 href='https://t.me/BoxodeHQ'
                 target='_blank'
@@ -70,7 +70,7 @@ export default function FooterOSS() {
                 Twitter
               </Link>
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link
                 href='https://facebook.com/BoxodeHQ'
                 target='_blank'
@@ -80,7 +80,7 @@ export default function FooterOSS() {
                 Facebook
               </Link>
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link
                 href='https://instagram.com/boxodehq'
                 target='_blank'
@@ -93,26 +93,26 @@ export default function FooterOSS() {
           </ul>
         </div>
         <div>
-          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
+          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[GilroyBold]'>
             {t('title3')}
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link href='/oss' className='hover:underline'>
                 {t('OSS')}
               </Link>
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link href='/oss/contributing' className='hover:underline'>
                 {t('OSSC')}
               </Link>
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link href='/oss/coc' className='hover:underline'>
                 {t('OSSCO')}
               </Link>
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link
                 href='https://boxode.org/gh'
                 target='_blank'
@@ -125,52 +125,52 @@ export default function FooterOSS() {
           </ul>
         </div>
         <div>
-          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
+          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[GilroyBold]'>
             {t('title4')}
           </h2>
           <ul className='text-gray-100/80 text-[11px]'>
-            <li className='mb-4 font-[Satoshi] flex flex-row items-center gap-1'>
+            <li className='mb-4 font-[GilroyRegular] flex flex-row items-center gap-1'>
               <Link href='/careers' className='hover:underline'>
                 {t('Careers')}
               </Link>
-              <span class='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[Satoshi] font-semibold no-underline'>
+              <span className='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[GilroyRegular] font-semibold no-underline'>
                 new
               </span>
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link href='/ceo' className='hover:underline'>
                 CEO
               </Link>
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link href='/about' className='hover:underline'>
                 {t('AboutBoxode')}
               </Link>
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <Link href='/privacy' className='hover:underline'>
                 {t('PrivacyAB')}
               </Link>
             </li>
-            <li className='mb-4 font-[Satoshi] flex flex-row items-center gap-1'>
+            <li className='mb-4 font-[GilroyRegular] flex flex-row items-center gap-1'>
               <Link href='/brand' className='hover:underline'>
                 Brand
               </Link>
-              <span class='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[Satoshi] font-semibold no-underline'>
+              <span className='flex bg-slate-100/20 px-3 py-[2px] rounded-full text-orange-300 font-[GilroyRegular] font-semibold no-underline'>
                 new
               </span>
             </li>
           </ul>
         </div>
         <div>
-          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[PoppinsBold]'>
+          <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[GilroyBold]'>
             {t('title5')}
           </h2>
           <ul className='text-gray-100/80 text-[11px] inline-flex flex-col items-center justify-center'>
-            <li className='mb-16 font-[Satoshi] text-left'>
+            <li className='mb-16 font-[GilroyRegular] text-left'>
               <DropdownLang />
             </li>
-            <li className='mb-4 font-[Satoshi]'>
+            <li className='mb-4 font-[GilroyRegular]'>
               <div className='relative inline-flex items-center justify-end p-0.5 mb-2 mr-2 overflow-hidden rounded-full group bg-gradient-to-br from-[#b8b8b8e1] to-[#3b3b3bcc] focus:ring-4 focus:outline-none'>
                 <div
                   className='bg-black rounded-full flex items-center justify-center gap-4 border border-gray-100/40 px-3 py-2 select-none'
@@ -202,11 +202,11 @@ export default function FooterOSS() {
         <picture>
           <source
             media='(prefers-color-scheme: dark)'
-            srcset='/svg/boxode-dark-logo.svg'
+            srcSet='/svg/boxode-dark-logo.svg'
           />
           <source
             media='(prefers-color-scheme: light)'
-            srcset='/svg/boxode-light-logo.svg'
+            srcSet='/svg/boxode-light-logo.svg'
           />
           <img
             alt='windUI'
@@ -215,7 +215,7 @@ export default function FooterOSS() {
             height='50'
           />
         </picture>
-        <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-[Satoshi]'>
+        <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-[GilroyRegular]'>
           <Link
             href='/contactus'
             className='text-[11px] text-gray-100/80 hover:underline'

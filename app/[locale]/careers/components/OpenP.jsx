@@ -2,15 +2,15 @@ export default function OpenP() {
   return (
     <section>
       <div className='text-white pt-10 md:pt-24'>
-        <p className='font-[Satoshi] pt-4 px-4 md:px-0 text-lg md:text-xl text-center'>
+        <p className='font-[GilroyRegular] pt-4 px-4 md:px-0 text-lg md:text-xl text-center'>
           Thank you for being interested in working with us, but there are
           currently no vacancies available.
         </p>
-        <p className='font-[Satoshi] pt-4 px-4 md:px-0 text-lg md:text-xl text-center'>
+        <p className='font-[GilroyRegular] pt-4 px-4 md:px-0 text-lg md:text-xl text-center'>
           You can subscribe to the newsletter to receive notifications of new
           vacancies available.
         </p>
-        <p className='font-[Satoshi] pt-4 px-4 md:px-0 text-lg md:text-xl text-center'>
+        <p className='font-[GilroyRegular] pt-4 px-4 md:px-0 text-lg md:text-xl text-center'>
           All spam free.
         </p>
         <div class='mx-auto max-w-screen-md sm:text-center pt-10 pb-16 md:pb-32'>
@@ -35,7 +35,7 @@ export default function OpenP() {
                   </svg>
                 </div>
                 <input
-                  class='block p-3 pl-10 w-full text-sm text-black font-[Satoshi] bg-gray-50 border rounded-lg sm:rounded-none sm:rounded-l-lg'
+                  class='block p-3 pl-10 w-full text-sm text-black font-[GilroyRegular] bg-gray-50 border rounded-lg sm:rounded-none sm:rounded-l-lg'
                   placeholder='Enter your email'
                   type='email'
                   id='email'
@@ -45,7 +45,7 @@ export default function OpenP() {
               <div>
                 <button
                   type='submit'
-                  class='py-3 px-5 w-full text-sm font-[PoppinsBold] hover:transition-colors ease-in-out duration-200 text-center text-white rounded-lg border cursor-pointer bg-primary-700 border-primary-600 sm:rounded-none sm:rounded-r-lg hover:bg-gray-500 focus:ring-4'
+                  class='py-3 px-5 w-full text-sm font-[GilroyBold] hover:transition-colors ease-in-out duration-200 text-center text-white rounded-lg border cursor-pointer bg-primary-700 border-primary-600 sm:rounded-none sm:rounded-r-lg hover:bg-gray-500 focus:ring-4'
                 >
                   Subscribe
                 </button>

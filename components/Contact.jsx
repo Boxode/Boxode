@@ -62,13 +62,13 @@ export const Contact = () => {
             width={100}
             height={100}
           />
-          <h2 className='contact text-6xl lg:text-8xl font-[PoppinsBold] tracking-normal p-4 opacity-90 select-none'>
+          <h2 className='contact text-6xl lg:text-8xl font-[GilroyBold] tracking-normal p-4 opacity-90 select-none'>
             {t('Contact.title')}
           </h2>
-          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
+          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[GilroyRegular]'>
             {t('Contact.csubtitle1')}
           </p>
-          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
+          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[GilroyRegular]'>
             {t('Contact.csubtitle2')}
           </p>
         </div>
@@ -79,7 +79,7 @@ export const Contact = () => {
                 <div className='relative'>
                   <label
                     forhtml='name'
-                    className='leading-7 text-[20px] text-white font-[Satoshi]'
+                    className='leading-7 text-[20px] text-white font-[GilroyRegular]'
                   >
                     {t('Contact.form.name')}
                   </label>
@@ -87,7 +87,7 @@ export const Contact = () => {
                     required
                     type='text'
                     name='user_name'
-                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg font-[Satoshi] outline-none text-black py-2 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg font-[GilroyRegular] outline-none text-black py-2 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   />
                 </div>
               </div>
@@ -95,7 +95,7 @@ export const Contact = () => {
                 <div className='relative'>
                   <label
                     forhtml='email'
-                    className='leading-7 text-[20px] text-white font-[Satoshi]'
+                    className='leading-7 text-[20px] text-white font-[GilroyRegular]'
                   >
                     {t('Contact.form.email')}
                   </label>
@@ -103,7 +103,7 @@ export const Contact = () => {
                     required
                     type='email'
                     name='user_email'
-                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg outline-none text-black font-[Satoshi] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg outline-none text-black font-[GilroyRegular] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   />
                 </div>
               </div>
@@ -111,14 +111,14 @@ export const Contact = () => {
                 <div className='relative'>
                   <label
                     forhtml='message'
-                    className='leading-7 text-[20px] text-white font-[Satoshi]'
+                    className='leading-7 text-[20px] text-white font-[GilroyRegular]'
                   >
                     {t('Contact.form.message')}
                   </label>
                   <textarea
                     required
                     name='message'
-                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 h-32 text-xl outline-none text-black py-2 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out font-[Satoshi]'
+                    className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 h-32 text-xl outline-none text-black py-2 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out font-[GilroyRegular]'
                   />
                 </div>
               </div>
@@ -130,7 +130,7 @@ export const Contact = () => {
                   ref={captchaRef}
                 />
                 {captcha === false && (
-                  <p className='text-red-500 font-[Satoshi] mt-2'>
+                  <p className='text-red-500 font-[GilroyRegular] mt-2'>
                     CAPTCHA verification failed. Please try again.
                   </p>
                 )}
@@ -148,7 +148,7 @@ export const Contact = () => {
           </div>
         </form>
         <div className='mt-5'>
-          <p className='text-gray-100/40 text-lg px-6 text-center font-[Satoshi] my-4'>
+          <p className='text-gray-100/40 text-lg px-6 text-center font-[GilroyRegular] my-4'>
             {t('Contact.contact-info1')} <br />{' '}
             <span>
               <a

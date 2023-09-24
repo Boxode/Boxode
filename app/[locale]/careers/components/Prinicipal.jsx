@@ -14,24 +14,24 @@ export default function Principal() {
   return (
     <section className={style.Careers}>
       <div className='flex justify-center items-center flex-col'>
-        <h1 className='text-white text-center pt-6 md:pt-0 text-8xl md:text-9xl md:mt-40 select-none font-[PoppinsBold] primary-title primary-title-hero'>
+        <h1 className='text-white text-center pt-6 md:pt-0 text-8xl md:text-9xl md:mt-40 select-none font-[GilroyBold] primary-title primary-title-hero'>
           Join our team
         </h1>
-        <p className='text-gray-300 text-lg md:text-2xl font-[Satoshi] drop-shadow-md mb-8 text-center mt-2'>
+        <p className='text-gray-300 text-lg md:text-2xl font-[GilroyRegular] drop-shadow-md mb-8 text-center mt-2'>
           and help us build the future of software development.
         </p>
         <div className='flex flex-col md:flex-row gap-10 md:gap-6'>
           <button
             type='submit'
             onClick={positions}
-            className='btn-open-positions font-[PoppinsBold]'
+            className='btn-open-positions font-[GilroyBold]'
           >
             Open Positions
           </button>
           <button
             type='submit'
             onClick={learnmore}
-            className='btn-learn-more font-[PoppinsBold]'
+            className='btn-learn-more font-[GilroyBold]'
           >
             Learn More
           </button>

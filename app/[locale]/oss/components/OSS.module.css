@@ -20,5 +20,5 @@
 	justify-content: center;
 	user-select: none;
 	align-items: center;
-	@apply h-60 font-[PoppinsBold] text-7xl text-center md:text-8xl opacity-100
+	@apply h-60 font-[GilroyBold] text-7xl text-center md:text-8xl opacity-100
 }

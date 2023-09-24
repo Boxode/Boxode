@@ -2,13 +2,14 @@
 
 import { Image } from '@nextui-org/react'
 import { useTranslations } from 'next-intl'
+import Balancer from 'react-wrap-balancer'
 
 export default function Services() {
   const t = useTranslations('Index')
   return (
     <section className='min-h-screen -z-20' id='services'>
       <div className='flex items-center justify-center flex-col mt-32 lg:mt-72'>
-        <span className='text-[#606060] mb-32 font-[Satoshi] font-bold lg:text-2xl border-2 py-5 px-5 rounded-sm border-[#606060] opacity-80'>
+        <span className='text-[#606060] mb-32 font-[GilroyRegular] font-bold lg:text-2xl border-2 py-5 px-5 rounded-sm border-[#606060] opacity-80'>
           {t('Services.square')}
         </span>
         <Image
@@ -18,10 +19,10 @@ export default function Services() {
           width={100}
           height={100}
         />
-        <h2 className='services text-6xl lg:text-8xl font-[PoppinsBold] tracking-normal p-4 opacity-90 select-none'>
+        <h2 className='services text-6xl lg:text-8xl font-[GilroyBold] tracking-normal p-4 opacity-90 select-none'>
           {t('Services.title')}
         </h2>
-        <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
+        <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[GilroyRegular]'>
           {t('Services.subtitle')}
         </p>
       </div>
@@ -38,12 +39,12 @@ export default function Services() {
                 width={100}
                 height={100}
               />
-              <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[PoppinsBold] leading-relaxed'>
+              <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[GilroyBold] leading-relaxed'>
                 {t('Services.sd')}
               </h3>
-              <p className='text-white/80 font-[Satoshi] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>
+              <Balancer className='text-white/80 font-[GilroyRegular] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>
                 {t('Services.sd-description')}
-              </p>
+              </Balancer>
             </div>
           </article>
         </div>
@@ -59,12 +60,12 @@ export default function Services() {
                 width={100}
                 height={100}
               />
-              <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[PoppinsBold] leading-relaxed'>
+              <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[GilroyBold] leading-relaxed'>
                 {t('Services.wd')}
               </h3>
-              <p className='text-white/80 font-[Satoshi] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>
+              <Balancer className='text-white/80 font-[GilroyRegular] text-md lg:text-xl text-center lg:text-right px-6 lg:px-0'>
                 {t('Services.wd-description')}
-              </p>
+              </Balancer>
             </div>
           </article>
         </div>
@@ -80,12 +81,12 @@ export default function Services() {
                 alt=''
                 className='w-16 h-16 mb-5 drop-shadow-md'
               />
-              <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[PoppinsBold] leading-relaxed'>
+              <h3 className='text-white text-2xl pb-4 lg:text-4xl font-[GilroyBold] leading-relaxed'>
                 {t('Services.ui')}
               </h3>
-              <p className='text-white/80 font-[Satoshi] text-md lg:text-xl text-center lg:text-left px-6 lg:px-0'>
+              <Balancer className='text-white/80 font-[GilroyRegular] text-md lg:text-xl text-center lg:text-left px-6 lg:px-0'>
                 {t('Services.ui-description')}
-              </p>
+              </Balancer>
             </div>
           </article>
         </div>
@@ -95,10 +96,10 @@ export default function Services() {
           <div className='lg:grid lg:grid-cols-12 mx-auto lg:gap-16 justify-center'>
             <div className='relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
               <div className='lg:py-24'>
-                <p className='mt-3 font-[PoppinsBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-lg lg:text-4xl text-neutral-200 sm:mt-5'>
+                <p className='mt-3 font-[GilroyBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-lg lg:text-4xl text-neutral-200 sm:mt-5'>
                   {t('Services.work')}
                 </p>
-                <p className='mt-3 font-[Satoshi] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
+                <p className='mt-3 font-[GilroyRegular] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
                   {t('Services.work-description')}
                 </p>
               </div>

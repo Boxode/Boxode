@@ -9,10 +9,10 @@ export default function Verified() {
   const t = useTranslations('OSS')
   return (
     <section className='min-h-[200px]'>
-      <h2 className='text-white font-[PoppinsBold] px-10 text-3xl text-center md:text-left'>
+      <h2 className='text-white font-[GilroyBold] px-10 text-3xl text-center md:text-left'>
         {t('Verified.title')}
       </h2>
-      <p className='text-white font-[Satoshi] opacity-40 text-xs md:text-base text-center md:text-left px-10 mt-2'>
+      <p className='text-white font-[GilroyRegular] opacity-40 text-xs md:text-base text-center md:text-left px-10 mt-2'>
         {t('Verified.description')}
       </p>
       <div className='flex md:justify-around flex-col md:flex-row select-none'>
@@ -29,7 +29,7 @@ export default function Verified() {
             height={80}
           />
           <div className='flex ml-4 flex-col'>
-            <h4 className='text-white flex font-[PoppinsBold]'>
+            <h4 className='text-white flex font-[GilroyBold]'>
               Boxode Corporation{' '}
               <Tooltip content='Verified Entity'>
                 <Image
@@ -41,7 +41,7 @@ export default function Verified() {
                 />
               </Tooltip>
             </h4>
-            <p className='text-gray-400 text-sm font-[Satoshi]'>
+            <p className='text-gray-400 text-sm font-[GilroyRegular]'>
               github.com/boxode
             </p>
           </div>
@@ -59,7 +59,7 @@ export default function Verified() {
             height={80}
           />
           <div className='flex ml-4 flex-col z-20'>
-            <h4 className='text-white flex font-[PoppinsBold]'>
+            <h4 className='text-white flex font-[GilroyBold]'>
               Fabian Herrera{' '}
               <Tooltip content='Verified Entity'>
                 <Image
@@ -71,7 +71,7 @@ export default function Verified() {
                 />
               </Tooltip>
             </h4>
-            <p className='text-gray-400 text-sm font-[Satoshi]'>
+            <p className='text-gray-400 text-sm font-[GilroyRegular]'>
               Founder & CEO
             </p>
           </div>

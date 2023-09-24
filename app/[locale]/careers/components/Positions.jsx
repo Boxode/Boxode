@@ -4,11 +4,11 @@ export default function Positions() {
   return (
     <section className=' border-t-2 border-gray-900' id='positions'>
       <div>
-        <h2 className='text-white font-[PoppinsBold] text-4xl text-center pt-16 md:pt-32'>
+        <h2 className='text-white font-[GilroyBold] text-4xl text-center pt-16 md:pt-32'>
           Open Positions
         </h2>
         <span>
-          <p className='text-white font-[Satoshi] text-center pt-4 px-6 md:px-0'>
+          <p className='text-white font-[GilroyRegular] text-center pt-4 px-6 md:px-0'>
             We are always looking for new talent to join our team.
           </p>
         </span>

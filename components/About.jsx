@@ -16,10 +16,10 @@ export default function About() {
             width={100}
             height={100}
           />
-          <h2 className='about text-6xl lg:text-8xl font-[PoppinsBold] tracking-normal p-4 opacity-90 select-none'>
+          <h2 className='about text-6xl lg:text-8xl font-[GilroyBold] tracking-normal p-4 opacity-90 select-none'>
             {t('About.title')}
           </h2>
-          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[Satoshi]'>
+          <p className='text-gray-100/50 text-md px-6 text-center lg:text-xl font-[GilroyRegular]'>
             {t('About.subtitle')}
           </p>
         </div>
@@ -28,10 +28,10 @@ export default function About() {
             <div className='lg:grid lg:grid-cols-12 mx-auto lg:gap-16 justify-center'>
               <div className='relative z-10 px-4 sm:px-6 sm:text-center lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
                 <div className='lg:py-24'>
-                  <p className='mt-3 font-[PoppinsBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-4xl lg:text-6xl text-neutral-200 sm:mt-5'>
+                  <p className='mt-3 font-[GilroyBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-4xl lg:text-6xl text-neutral-200 sm:mt-5'>
                     {t('About.mission')}
                   </p>
-                  <p className='mt-3 font-[Satoshi] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
+                  <p className='mt-3 font-[GilroyRegular] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
                     {t('About.mission-description')}
                   </p>
                 </div>
@@ -60,10 +60,10 @@ export default function About() {
             <div className='lg:grid lg:grid-cols-12 mx-auto lg:gap-16 justify-center'>
               <div className='relative z-10 px-4 sm:px-6 sm:text-center lg:mb-0 lg:px-0 lg:text-left lg:flex col-span-6'>
                 <div className='lg:py-24'>
-                  <p className='mt-3 font-[PoppinsBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-4xl lg:text-6xl text-neutral-200 sm:mt-5'>
+                  <p className='mt-3 font-[GilroyBold] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-4xl lg:text-6xl text-neutral-200 sm:mt-5'>
                     {t('About.vision')}
                   </p>
-                  <p className='mt-3 font-[Satoshi] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
+                  <p className='mt-3 font-[GilroyRegular] sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left text-base sm:text-xl text-neutral-200/40 sm:mt-5'>
                     {t('About.vision-description')}
                   </p>
                 </div>
