@@ -25,15 +25,19 @@ html {
 }
 
 @layer base {
-
 	@font-face {
-		font-family: PoppinsBold;
-		src: url(/Fonts/Poppins-Bold.woff2) format("woff2");
+		font-family: GilroyRegular;
+		src: url(/fonts/Gilroy-Regular.woff2) format("woff2");
+	}
+
+  @font-face {
+		font-family: GilroySemiBold;
+		src: url(/fonts/Gilroy-SemiBold.woff2) format("woff2");
 	}
 
 	@font-face {
-		font-family: Satoshi;
-		src: url(/Fonts/Satoshi-Regular.woff2) format("woff2");
+		font-family: GilroyBold;
+		src: url(/fonts/Gilroy-Bold.woff2) format("woff2");
 	}
 }
 
@@ -47,7 +51,7 @@ html {
 }
 
 .btn-contact {
-    @apply bg-white text-black hover:bg-gray-500/50 transition-colors ease-in duration-75 font-[PoppinsBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
+    @apply bg-white text-black hover:bg-gray-500/50 transition-colors ease-in duration-75 font-[GilroyBold] font-black tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
 }
 
 .btn-open-positions {
