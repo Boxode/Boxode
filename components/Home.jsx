@@ -14,7 +14,7 @@ export default function Home() {
           <div className='lg:flex lg:justify-center lg:items-center lg:flex-col mx-auto lg:gap-16 justify-center'>
             <div className='relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:flex col-span-6'>
               <div className='lg:py-16'>
-                <h1 className='text-4xl lg:text-9xl lg:px-10 h-[95%] font-[GilroyBold] tracking-tight font-black primary-title primary-title-hero text-center'>
+                <h1 className='text-4xl lg:text-9xl lg:px-10 h-full font-[GilroyBold] tracking-tight font-black primary-title primary-title-hero text-center'>
                   {t('title')}
                 </h1>
                 <p className='mt-10 md:mt-3 font-[GilroyRegular] text-center text-base sm:text-2xl text-neutral-200/70'>
