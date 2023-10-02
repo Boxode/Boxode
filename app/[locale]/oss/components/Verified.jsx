@@ -76,6 +76,66 @@ export default function Verified() {
             </p>
           </div>
         </Link>
+        <Link
+          href='https://github.com/Ferdlcz'
+          target='_blank'
+          className='flex md:items-center md:justify-center ml-4 md:ml-0 mt-3 md:mt-0'
+        >
+          <Image
+            className='rounded-full border border-gray-900 grayscale bg-[#141414]'
+            src='/fdlcz-logo.png'
+            alt='Boxode'
+            width={80}
+            height={80}
+          />
+          <div className='flex ml-4 flex-col z-20'>
+            <h4 className='text-white flex font-[GilroyBold]'>
+              Fernando de la Cruz{' '}
+              <Tooltip content='Verified Entity'>
+                <Image
+                  className='ml-2 hover:scale-105 transition'
+                  src='/svg/verified-entity.svg'
+                  alt='Verified Entity'
+                  width={25}
+                  height={25}
+                />
+              </Tooltip>
+            </h4>
+            <p className='text-gray-400 text-sm font-[GilroyRegular]'>
+              Backend Developer
+            </p>
+          </div>
+        </Link>
+        <Link
+          href='https://github.com/Spartan2502'
+          target='_blank'
+          className='flex md:items-center md:justify-center ml-4 md:ml-0 mt-3 md:mt-0'
+        >
+          <Image
+            className='rounded-full border border-gray-900 grayscale'
+            src='/spartan-logo.png'
+            alt='Boxode'
+            width={80}
+            height={80}
+          />
+          <div className='flex ml-4 flex-col z-20'>
+            <h4 className='text-white flex font-[GilroyBold]'>
+              Spartan2502{' '}
+              <Tooltip content='Verified Entity'>
+                <Image
+                  className='ml-2 hover:scale-105 transition'
+                  src='/svg/verified-entity.svg'
+                  alt='Verified Entity'
+                  width={25}
+                  height={25}
+                />
+              </Tooltip>
+            </h4>
+            <p className='text-gray-400 text-sm font-[GilroyRegular]'>
+              Fullstack Developer
+            </p>
+          </div>
+        </Link>
       </div>
     </section>
   )
