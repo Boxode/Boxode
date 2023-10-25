@@ -15,16 +15,16 @@ export default function Header() {
                 <picture>
                   <source
                     media='(prefers-color-scheme: dark)'
-                    srcSet='/svg/boxode-dark-logo.svg'
+                    srcSet='/svg/boxode-light-dotd.svg'
                   />
                   <source
                     media='(prefers-color-scheme: light)'
-                    srcSet='/svg/boxode-light-logo.svg'
+                    srcSet='/svg/boxode-dark-dotd.svg'
                   />
                   <img
-                    alt='windUI'
-                    src='/svg/boxode-dark-logo.svg'
-                    width='170'
+                    alt='Boxode Logo'
+                    src='/svg/boxode-light-dotd.svg'
+                    width='200'
                     height='70'
                   />
                 </picture>
