@@ -63,13 +63,23 @@ export default async function RootLayout({ children, params: { locale } }) {
           color='#5bbad5'
         />
         <meta name='msapplication-TileColor' content='#ffffff' />
+        <meta name='robots' content='index, follow' />
         <meta name='theme-color' content='#ffffff' />
         <link rel='canonical' href='https://boxode.org/' />
+        <link rel='alternate' href='https://boxode.org/es' hrefLang='es-MX' />
+        <link rel='alternate' href='https://boxode.org/pt' hrefLang='pt-BR' />
+        <link rel='alternate' href='https://boxode.org/de' hrefLang='de-DE' />
+        <link rel='alternate' href='https://boxode.org/fr' hrefLang='fr-FR' />
+        <link rel='alternate' href='https://boxode.org' hrefLang='x-default' />
         <meta name='apple-mobile-web-app-title' content='Boxode' />
         <meta name='application-name' content='Boxode' />
         <meta property='og:url' content='https://boxode.org/' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Boxode' />
+        <meta
+          property='og:image'
+          content='https://res.cloudinary.com/dvjzjasfg/image/upload/v1691027399/Boxode_twitter_card_nxe9iu.png'
+        />
         <meta
           property='og:description'
           content='Creating customized IT solutions and commercial products for small, medium and large companies.'
@@ -78,6 +88,8 @@ export default async function RootLayout({ children, params: { locale } }) {
         <meta property='og:site_name' content='Boxode' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@BoxodeHQ' />
+        <meta property='twitter:domain' content='boxode.org' />
+        <meta property='twitter:url' content='https://boxode.org' />
         <meta name='twitter:title' content='Boxode' />
         <meta
           name='twitter:description'
