@@ -202,16 +202,16 @@ export default function FooterOSS() {
         <picture>
           <source
             media='(prefers-color-scheme: dark)'
-            srcSet='/svg/Boxode-light-dotd.svg'
+            srcSet='/svg/Boxode-dark-logo.svg'
           />
           <source
             media='(prefers-color-scheme: light)'
-            srcSet='/svg/Boxode-dark-dotd.svg'
+            srcSet='/svg/Boxode-light-logo.svg'
           />
           <img
             alt='Boxode Logo'
-            src='/svg/Boxode-light-dotd.svg'
-            width='150'
+            src='/svg/Boxode-dark-logo.svg'
+            width='100'
             height='70'
           />
         </picture>
