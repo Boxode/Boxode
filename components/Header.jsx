@@ -15,15 +15,15 @@ export default function Header() {
                 <picture>
                   <source
                     media='(prefers-color-scheme: dark)'
-                    srcSet='/svg/Boxode-dark-logo.svg'
+                    srcSet='/svg/boxode-dark-logo.svg'
                   />
                   <source
                     media='(prefers-color-scheme: light)'
-                    srcSet='/svg/Boxode-light-logo.svg'
+                    srcSet='/svg/boxode-light-logo.svg'
                   />
                   <img
                     alt='Boxode Logo'
-                    src='/svg/Boxode-dark-logo.svg'
+                    src='/svg/boxode-dark-logo.svg'
                     width='200'
                     height='70'
                   />
