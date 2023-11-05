@@ -16,8 +16,9 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
       },
       fontFamily: {
-        Satoshi: ['Satoshi', 'sans-serif'],
-        PoppinsBold: ['PoppinsBold', 'sans-serif']
+        GilroyRegular: ['GilroyRegular', 'sans-serif'],
+        GilroyBold: ['GilroyBold', 'sans-serif'],
+        GilroySemibold: ['GilroySemibold', 'sans-serif']
       },
       animation: {
         blob: 'blob 7s infinite',
