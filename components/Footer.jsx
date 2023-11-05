@@ -62,7 +62,7 @@ export default function FooterOSS() {
             </li>
             <li className='mb-4 font-[GilroyRegular]'>
               <Link
-                href='https://t.me/BoxodeHQ'
+                href='https://twitter.com/BoxodeHQ'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'
@@ -114,7 +114,7 @@ export default function FooterOSS() {
             </li>
             <li className='mb-4 font-[GilroyRegular]'>
               <Link
-                href='https://boxode.org/gh'
+                href='https://github.com/Boxode'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'
