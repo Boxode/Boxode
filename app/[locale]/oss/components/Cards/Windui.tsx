@@ -8,7 +8,7 @@ export default function Windui() {
   return (
     <div className='max-w-xs grayscale hover:grayscale-0 transition-all duration-200 border hover:bg-gradient-to-tl from-white/[0.08] to-black border-gray-800 rounded-xl shadow hover:border-gray-300'>
       <span className='bg-[url(/svg/pattern.svg)] bg-no-repeat bg-cover select-none flex items-center justify-center h-32 ease-in-out border-b border-gray-800 rounded-t-lg'>
-        <img className='rounded-t-lg w-52' src='/oss/windui.svg' alt='windUI' />
+        <img className='rounded-t-lg w-52' src='/oss/windUI.svg' alt='windUI' />
       </span>
       <div className='p-5'>
         <h5 className='mb-2 text-2xl font-GilroyBold tracking-tight text-white'>
