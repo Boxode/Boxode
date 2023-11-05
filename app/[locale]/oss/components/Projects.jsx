@@ -1,5 +1,6 @@
 'use client'
 
+import OSSProjects from './OSSProjects'
 import { useTranslations } from 'next-intl'
 
 export default function Projects() {
@@ -9,13 +10,12 @@ export default function Projects() {
       <h2 className='text-white font-[GilroyBold] text-center text-5xl'>
         {t('Projects.title')}
       </h2>
+      <p className='text-gray-400 text-lg font-GilroyRegular text-center pt-4 pb-20'>
+        Many of the tools and environments most loved by developers globally
+        have their foundations in vibrant open source communities.
+      </p>
       <div>
-        <p className='text-gray-500 text-center font-[GilroyRegular] mt-6 text-lg'>
-          {t('Projects.subtitle1')}
-        </p>
-        <p className='text-gray-500 text-center font-[GilroyRegular] mt-2 text-lg'>
-          {t('Projects.subtitle2')}
-        </p>
+        <OSSProjects />
       </div>
     </section>
   )
