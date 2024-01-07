@@ -247,7 +247,7 @@ export default function FooterOSS() {
             {t('SYE')}
           </Link>
           <span className='text-[11px] text-gray-100/80 sm:text-center'>
-            © Boxode, Ltd. <span id='year'>2023</span>
+            © Boxode, Ltd. <span id='year'>2024</span>
           </span>
         </div>
       </div>
