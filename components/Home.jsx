@@ -1,7 +1,7 @@
 'use client'
 
-import styles from './Home.module.css'
 import { useTranslations } from 'next-intl'
+import styles from './Home.module.css'
 import { Meteors } from './Meteor'
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <section className={styles.stars} id='home'>
       <Meteors />
-      <div className='pt-20 pb-8 overflow-hidden z-20'>
+			<div className='pt-32 pb-8 overflow-hidden z-20'>
         <div className='mx-auto max-w-7xl px-4 sm:px-6'>
           <div className='lg:flex lg:justify-center lg:items-center lg:flex-col mx-auto lg:gap-16 justify-center'>
             <div className='relative z-10 px-4 mb-8 sm:px-6 sm:text-center sm:mb-16 lg:mb-0 lg:px-0 lg:flex col-span-6'>
