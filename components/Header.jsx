@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-indent */
+/* eslint-disable no-tabs */
 'use client'
 
 import { useTranslations } from 'next-intl'

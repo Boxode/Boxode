@@ -1,3 +1,5 @@
+/* eslint-disable no-tabs */
+/* eslint-disable react/jsx-indent */
 'use client'
 
 import { useTranslations } from 'next-intl'
@@ -28,7 +30,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.wave} />
-      </div>
+			</div>
     </section>
   )
 }
