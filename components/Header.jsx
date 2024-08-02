@@ -1,13 +1,16 @@
 'use client'
 
-import Link from 'next/link'
 import { useTranslations } from 'next-intl'
+import Link from 'next/link'
 
 export default function Header() {
   const t = useTranslations('Header')
   return (
     <header>
       <div className='fixed w-full z-20 border-b border-white/5 bg-black lg:bg-black/70 lg:backdrop-blur-md'>
+				<div className='w-full h-20 flex justify-center items-center bg-buttonGradient'>
+					<p className='text-white text-xl font-GilroySemibold text-center'>⚠ Boxode's website will have several modifications in the coming weeks from new design to functionality. <br />Stay tuned.</p>
+				</div>
         <div className='px-6 md:px-12 lg:px-6 lg:py-4'>
           <div className='flex items-center justify-between'>
             <div className='relative z-20'>
