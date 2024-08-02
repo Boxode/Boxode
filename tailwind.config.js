@@ -13,7 +13,8 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
+					'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+				buttonGradient: 'linear-gradient(90deg, #0F1B27 0%, #0B1521 35%, #050713 85%)'
       },
       fontFamily: {
         GilroyRegular: ['GilroyRegular', 'sans-serif'],
