@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: ASRegular;
+		src: url(/fonts/AlbertSans-Regular.woff2) format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: GilroySemibold;
+		src: url(/fonts/Gilroy-SemiBold.woff2) format('woff2');
+		font-weight: 600;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: GilroyBold;
+		src: url(/fonts/Gilroy-Bold.woff2) format('woff2');
+		font-weight: bold;
+		font-style: normal;
+		font-display: swap;
+	}
+}
+
+.bg-linear-to-b {
+	background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+body {
+	background-color: #000;
+}
+
+::selection {
+	background-color: #1c4d70;
+	color: #fff;
+}

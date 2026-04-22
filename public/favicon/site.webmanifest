@@ -1,29 +1,21 @@
 {
-  "name": "BoxodeHQ",
+  "name": "Boxode",
   "short_name": "Boxode",
   "icons": [
     {
-      "src": "./android-chrome-192x192.png",
+      "src": "/favicon/web-app-manifest-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
-      "src": "./android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "./maskable_icon_x512.png",
+      "src": "/favicon/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     }
   ],
-  "id": "?source=pwa",
-  "start_url": "/",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone",
-  "scope": "/",
-  "prefer_related_applications": true
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone"
 }

@@ -1,31 +1,36 @@
-<div align="center">
-	<img height="250em" src="https://raw.githubusercontent.com/Boxode/Boxode/main/public/Boxode_circle_logo.png" alt="Boxode" />
-	<h3>A better way to build software</h3>
-	<a href="https://boxode.org/templates">Templates</a> ◻ <a href="https://boxode.org/oss">Open Source</a> ◻ <a href="https://boxode.org/careers">Careers</a>
-</div>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Boxode ◻ 
+## Getting Started
 
-Our company is dedicated to creating innovative digital solutions for various business problems. We strive to provide effective, efficient and agile solutions that allow to achieve the objectives and improve the productivity of small, medium and large companies.
+First, run the development server:
 
-Our development process is based on a deep understanding of the challenges our customers face. We take the time to research and understand your needs, then design custom solutions that meet your requirements.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-We work with the latest technologies and tools that ensure that our solutions are of high quality and that they meet current standards. In addition, we encourage collaboration and open communication from our team to ensure that everyone is aligned and working together towards the success of the project.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-In short, our company is dedicated to creating innovative digital solutions that help our clients solve their challenges and improve their productivity in an agile, efficient and effective way.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Contributing
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Learn More
 
-## Shortcuts
+To learn more about Next.js, take a look at the following resources:
 
-- boxode.org[**/fb**](https://boxode.org/fb) - Facebook
-- boxode.org[**/tw**](https://boxode.org/tw) - Twitter
-- boxode.org[**/ig**](https://boxode.org/ig) - Instagram
-- boxode.org[**/gh**](https://boxode.org/gh) - GitHub
-- boxode.org[**/li**](https://boxode.org/li) - LinkedIn
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Reference
-- <a href="https://github.com/Boxode/.github/blob/main/CODE_OF_CONDUCT_EN.md">Code of Conduct</a>
-- <a href="">Contributing Guidelines</a>
-- <a href="https://github.com/Boxode/Boxode/blob/main/LICENSE">Apache 2.0 License</a>
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
