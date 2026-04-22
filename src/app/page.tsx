@@ -4,6 +4,7 @@ import Solutions from '@/modules/home/sections/Solutions'
 import Prefooter from '@/modules/home/sections/Prefooter'
 import Roadmap from '@/modules/home/sections/Roadmap'
 import FAQ from '@/modules/home/sections/FAQ'
+import './globals.css'
 
 export default function Home() {
 	return (
